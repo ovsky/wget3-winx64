@@ -1,8 +1,6 @@
----
 
-![gnu-wget3-icon](https://i.ibb.co/71qYrTP/wget-256.png)
+![gnu-wget3-icon](https://github.com/ovsky/wget3-winx64/blob/main/icon-256.png?raw=true)
 
----
 
 # GNU WGET3 for Windows (Modern Build)
 
@@ -11,6 +9,8 @@
 [](https://github.com/ovsky/wget3-winx64/releases)
 
 A modern Windows build and fork of GNU Wget, a free utility for non-interactive download of files from the web, supporting HTTP, HTTPS, and FTP protocols. This fork includes Windows-specific enhancements for improved performance and usability.
+
+By WGET3 x64 you gain acess to WGET, WinGet, Microsoft Store, Flatpak, custom selected online repositories (GNU, CentOS, Ubuntu, and more...), Android-based repos (F-Droid, Aurora, FOSS), FTP, sFTP, HTTP/HTTPS download, and much more in single command line, with amazing performance and stability!
 
 ## Key Features
 
@@ -27,6 +27,13 @@ A modern Windows build and fork of GNU Wget, a free utility for non-interactive 
 ## Installation
 
 You can install the latest version of Wget for Windows by downloading a pre-built binary from the [Releases](https://github.com/ovsky/wget3-winx64/releases) page or building it from source.
+
+## Usage
+
+1. Tartget downloadable package with proper URL / ID - and check if the download suceed:
+![enter image description here](https://github.com/ovsky/wget3-winx64/blob/main/wget-images/wget-img-1.png?raw=true)
+![enter image description here](https://github.com/ovsky/wget3-winx64/blob/main/wget-images/wget-img-3.png?raw=true)
+![enter image description here](https://github.com/ovsky/wget3-winx64/blob/main/wget-images/wget-img-2.png?raw=true)
 
 ### Using Pre-Built Binary
 
