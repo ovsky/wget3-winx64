@@ -20,9 +20,9 @@ By WGET3 x64 you gain acess to WGET, WinGet, Microsoft Store, Flatpak, custom se
 - **Recursive Retrieval**: Download websites and mirror servers, retaining directory structure.
 - **HTTP/2 and TLS Support**: Enhanced performance and security with support for modern HTTP/2 and TLS protocols.
 - **PowerShell & CMD Compatibility**: Seamlessly integrates with Windows Command Prompt and PowerShell.
-- \*\*Support for Winget repositories and instalator in the same command window.
-- \*\*REGET setup for fast and hassle-free file and website download.
-- \*\*Full rework using modern Windows APIs to maintain compatibility with latest Windows versions.
+- **Support for Winget repositories** and instalator in the same command window.
+- **REGET** setup for fast and hassle-free file and website download.
+- **Full rework** using modern Windows APIs to maintain compatibility with latest Windows versions.
 
 ## Installation
 
