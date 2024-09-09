@@ -1,0 +1,4476 @@
+# Slovak translations for GNU wget
+# Copyright (C) 1999, 2002, 2003, 2005, 2007, 2008, 2009, 2010, 2012, 2013, 2015, 2016, 2017, 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the wget2 package.
+# Miroslav Vasko <vasko@debian.cz>, 1999.
+# Marcel Telka <marcel@telka.sk>, 2002, 2003, 2005, 2007, 2008, 2009, 2010, 2012, 2013, 2015, 2016, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wget2 1.99.1\n"
+"Report-Msgid-Bugs-To: bug-wget2@gnu.org\n"
+"POT-Creation-Date: 2021-09-12 13:13+0200\n"
+"PO-Revision-Date: 2018-05-07 07:43+0200\n"
+"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=3; plural= (n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr "Neznáma systémová chyba"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Rodina adries pre hostiteľa nie je podporovaná"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Dočasné zlyhanie pri prevode názvu"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Zlá hodnota pre ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Nezotaviteľné zlyhanie pri prevode názvu"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "nepodporované ai_family"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Zlyhanie pri alokovaní pamäte"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Žiadna adresa nie je priradená k hostiteľovi"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Názov alebo služba neznáme"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Názov servera nie je podporovaný pre ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "nepodporované ai_socktype"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Systémová chyba"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Pamäť pre parameter je príliš malá"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Prebieha spracovanie požiadavky"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Požiadavka zrušená"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Požiadavka nie je zrušená"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Všetky požiadavky hotové"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Prerušenie signálom"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Reťazec parametra nie je správne zakódovaný"
+
+#: lib/gai_strerror.c:87 libwget/error.c:57
+msgid "Unknown error"
+msgstr "Neznáma chyba"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr ""
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr ""
+
+#: lib/os2-spawn.c:46
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle zlyhalo"
+
+#: lib/os2-spawn.c:83
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "nie je možné obnoviť fd %d: dup2 zlyhalo"
+
+#: lib/regcomp.c:135 libwget/error.c:44
+msgid "Success"
+msgstr "Úspech"
+
+#: lib/regcomp.c:138
+msgid "No match"
+msgstr "Bez zhody"
+
+#: lib/regcomp.c:141
+msgid "Invalid regular expression"
+msgstr "Neplatný regulárny výraz"
+
+#: lib/regcomp.c:144
+msgid "Invalid collation character"
+msgstr "Neplatný znak radenia"
+
+#: lib/regcomp.c:147
+msgid "Invalid character class name"
+msgstr "Neplatný názov triedy znaku"
+
+#: lib/regcomp.c:150
+msgid "Trailing backslash"
+msgstr "Koncová spätná lomka"
+
+#: lib/regcomp.c:153
+msgid "Invalid back reference"
+msgstr "Neplatný spätný odkaz"
+
+#: lib/regcomp.c:156
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Nepárové [, [^, [:, [.  alebo [="
+
+#: lib/regcomp.c:159
+msgid "Unmatched ( or \\("
+msgstr "Nepárové ( alebo \\("
+
+#: lib/regcomp.c:162
+msgid "Unmatched \\{"
+msgstr "Nepárové \\{"
+
+#: lib/regcomp.c:165
+msgid "Invalid content of \\{\\}"
+msgstr "Neplatný obsah \\{\\}"
+
+#: lib/regcomp.c:168
+msgid "Invalid range end"
+msgstr "Neplatný koniec rozsahu"
+
+#: lib/regcomp.c:171
+msgid "Memory exhausted"
+msgstr "Pamäť vyčerpaná"
+
+#: lib/regcomp.c:174
+msgid "Invalid preceding regular expression"
+msgstr "Neplatný predošlý regulárny výraz"
+
+#: lib/regcomp.c:177
+msgid "Premature end of regular expression"
+msgstr "Predčasný koniec regulárneho výrazu"
+
+#: lib/regcomp.c:180
+msgid "Regular expression too big"
+msgstr "Regulárny výraz príliš veľký"
+
+#: lib/regcomp.c:183
+msgid "Unmatched ) or \\)"
+msgstr "Nepárové ) alebo \\)"
+
+#: lib/regcomp.c:676
+msgid "No previous regular expression"
+msgstr "Bez predchádzajúceho regulárneho výraz"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221 lib/spawn-pipe.c:460
+#: lib/spawn-pipe.c:463
+#, c-format
+msgid "cannot create pipe"
+msgstr "nepodarilo sa vytvoriť dátovod"
+
+#: lib/spawn-pipe.c:598 lib/wait-process.c:290 lib/wait-process.c:364
+#, c-format
+msgid "%s subprocess failed"
+msgstr "podproces %s zlyhal"
+
+#: lib/wait-process.c:231 lib/wait-process.c:263 lib/wait-process.c:325
+#, c-format
+msgid "%s subprocess"
+msgstr "podproces %s"
+
+#: lib/wait-process.c:282 lib/wait-process.c:354
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "podproces %s dostal závažný signál %d"
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "pamäť vyčerpaná"
+
+#: libwget/cookie.c:408
+#, fuzzy, c-format
+msgid "Incomplete cookie entry: %s\n"
+msgstr "Nepodarilo sa získať koláčik pre %s\n"
+
+#: libwget/cookie.c:440
+#, fuzzy
+msgid "Failed to read cookies\n"
+msgstr "Nepodarilo sa získať koláčik pre %s\n"
+
+#: libwget/cookie.c:499
+#, fuzzy, c-format
+msgid "Failed to write cookie file '%s'\n"
+msgstr "Nepodarilo sa získať koláčik pre %s\n"
+
+#: libwget/cookie_parse.c:363
+msgid "Cookie without name or assignment ignored\n"
+msgstr ""
+
+#: libwget/css.c:152
+#, c-format
+msgid "Unknown token after @charset: %d\n"
+msgstr ""
+
+#: libwget/css.c:194 libwget/io.c:326 libwget/xml.c:627
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Zlyhalo otvorenie %s\n"
+
+#: libwget/css_url.c:102
+#, fuzzy, c-format
+msgid "Cannot resolve relative URI '%s'\n"
+msgstr "%s: Nie je možné rozložiť neúplný odkaz %s.\n"
+
+#: libwget/decompressor.c:120
+#, fuzzy
+msgid "Failed to init gzip decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:159
+#, c-format
+msgid "Failed to uncompress gzip stream (%d)\n"
+msgstr ""
+
+#: libwget/decompressor.c:168
+#, fuzzy, c-format
+msgid "Failed to close gzip stream (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/decompressor.c:177
+#, fuzzy
+msgid "Failed to init deflate decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:192
+#, fuzzy
+msgid "Failed to init LZMA decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:231
+#, c-format
+msgid "Failed to uncompress LZMA stream (%d)\n"
+msgstr ""
+
+#: libwget/decompressor.c:245
+#, fuzzy
+msgid "Failed to init Brotli decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:288
+#, fuzzy, c-format
+msgid "Failed to uncompress Brotli stream (%u): %s\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: libwget/decompressor.c:303
+#, fuzzy
+msgid "Failed to create Zstandard decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:309
+#, fuzzy, c-format
+msgid "Failed to init Zstandard decompression: %s\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:340
+#, fuzzy, c-format
+msgid "Failed to uncompress Zstandard stream: %s\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: libwget/decompressor.c:361
+#, fuzzy
+msgid "Failed to create lzip decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:368
+#, fuzzy, c-format
+msgid "Failed to create lzip decompression: %d %s\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:389
+#, fuzzy, c-format
+msgid "Failed to uncompress lzip stream: %d %s\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: libwget/decompressor.c:444
+#, fuzzy
+msgid "Failed to init bzip2 decompression\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/decompressor.c:483
+#, c-format
+msgid "Failed to uncompress bzip2 stream (%d)\n"
+msgstr ""
+
+#: libwget/dns.c:261
+#, fuzzy, c-format
+msgid "Failed to resolve %s:%d: %s\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/dns.c:344
+#, fuzzy, c-format
+msgid "Failed to resolve %s (%s)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/encoding.c:112
+#, fuzzy, c-format
+msgid "Failed to transcode '%s' string into '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/encoding.c:124
+#, c-format
+msgid "Failed to prepare transcoding '%s' into '%s' (%d)\n"
+msgstr ""
+
+#: libwget/encoding.c:261
+#, c-format
+msgid "toASCII(%s) failed (%d): %s\n"
+msgstr "toASCII(%s) zlyhalo (%d): %s\n"
+
+#: libwget/encoding.c:280
+#, c-format
+msgid "toASCII failed (%d): %s\n"
+msgstr "toASCII zlyhalo (%d): %s\n"
+
+#: libwget/encoding.c:283
+#, c-format
+msgid "Invalid UTF-8 sequence not converted: '%s'\n"
+msgstr "Nekonvertovaná neplatná sekvencia UTF-8: '%s'\n"
+
+#: libwget/encoding.c:287
+#, c-format
+msgid "toASCII not available: '%s'\n"
+msgstr "Nedostupné toASCII: '%s'\n"
+
+#: libwget/error.c:45
+msgid "General error"
+msgstr ""
+
+#: libwget/error.c:46
+msgid "No memory"
+msgstr ""
+
+#: libwget/error.c:47
+#, fuzzy
+msgid "Invalid value"
+msgstr "%s: %s: Neplatná hodnota %s.\n"
+
+#: libwget/error.c:48
+msgid "Timeout"
+msgstr ""
+
+#: libwget/error.c:49
+#, fuzzy
+msgid "Connect error"
+msgstr "Bez chyby"
+
+#: libwget/error.c:50
+msgid "Handshake error"
+msgstr ""
+
+#: libwget/error.c:51
+#, fuzzy
+msgid "Certificate error"
+msgstr "Certifikát musí byť X.509\n"
+
+#: libwget/error.c:52
+msgid "libwget has been built without TLS support"
+msgstr ""
+
+#: libwget/error.c:53
+#, fuzzy
+msgid "Failed to parse XML"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: libwget/error.c:54
+#, fuzzy
+msgid "Failed to open file"
+msgstr "Zlyhalo otvorenie %s\n"
+
+#: libwget/error.c:55
+#, fuzzy
+msgid "I/O error"
+msgstr "Bez chyby"
+
+#: libwget/error.c:56
+#, fuzzy
+msgid "Unsupported function"
+msgstr "Nepodporovaná kvalita ochrany '%s'.\n"
+
+#: libwget/hash_printf.c:74
+#, c-format
+msgid "Failed to hash (%d)\n"
+msgstr ""
+
+#: libwget/hashfile.c:92
+#, fuzzy, c-format
+msgid "Unknown hash type '%s'\n"
+msgstr "Neznámy hostiteľ"
+
+#: libwget/hashfile.c:808
+#, c-format
+msgid "%s: Hash init failed for type '%s': %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:814
+#, c-format
+msgid "%s: Hash update failed: %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:825
+#, c-format
+msgid "%s: Hash finalization failed: %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:830
+#, c-format
+msgid "%s: Failed to read %llu bytes\n"
+msgstr "%s: Zlyhalo čítanie %llu bajtov\n"
+
+#: libwget/hpkp_db.c:306
+#, c-format
+msgid "HPKP: could not parse host line '%s'\n"
+msgstr ""
+
+#: libwget/hpkp_db.c:312
+#, c-format
+msgid "HPKP: could not parse pin line '%s'\n"
+msgstr ""
+
+#: libwget/hpkp_db.c:355
+msgid "Failed to read HPKP data\n"
+msgstr "Zlyhalo čítanie dát HPKP\n"
+
+#: libwget/hpkp_db.c:439
+#, c-format
+msgid "Failed to write HPKP file '%s'\n"
+msgstr "Zlyhal zápis súboru HPKP '%s'\n"
+
+#: libwget/hsts.c:412 libwget/tls_session.c:332
+#, c-format
+msgid "Failed to parse HSTS line: '%s'\n"
+msgstr "Zlyhala analýza riadka HSTS '%s'\n"
+
+#: libwget/hsts.c:452
+msgid "Failed to read HSTS data\n"
+msgstr "Zlyhalo čítanie dát HSTS\n"
+
+#: libwget/hsts.c:512
+#, c-format
+msgid "Failed to write HSTS file '%s'\n"
+msgstr "Zlyhal zápis súboru HSTS '%s'\n"
+
+#: libwget/http.c:178 libwget/http.c:188 libwget/http.c:197 libwget/http.c:206
+#, c-format
+msgid "%s: Unknown key %d (or value must not be an integer)\n"
+msgstr "%s: Neznámy kľúč %d (alebo hodnota nemôže byť celé číslo)\n"
+
+#: libwget/http.c:303
+#, c-format
+msgid "Unsupported quality of protection '%s'.\n"
+msgstr "Nepodporovaná kvalita ochrany '%s'.\n"
+
+#: libwget/http.c:314
+#, c-format
+msgid "Unsupported algorithm '%s'.\n"
+msgstr "Nepodporovaný algoritmus '%s'.\n"
+
+#: libwget/http.c:409
+#, c-format
+msgid "Decompress failed [host: %s - resource: %s]\n"
+msgstr ""
+
+#: libwget/http.c:667
+msgid "Failed to create HTTP2 callbacks\n"
+msgstr ""
+
+#: libwget/http.c:677
+#, c-format
+msgid "Failed to create HTTP2 client session (%d)\n"
+msgstr ""
+
+#: libwget/http.c:689
+#, c-format
+msgid "Failed to submit HTTP2 client settings (%d)\n"
+msgstr ""
+
+#: libwget/http.c:724
+#, fuzzy, c-format
+msgid "Failed to terminate HTTP2 session (%d)\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/http.c:838
+#, fuzzy
+msgid "Failed to submit HTTP2 request\n"
+msgstr "Požiadavku HTTP nebolo možné odoslať: %s.\n"
+
+#: libwget/http.c:853
+msgid "Failed to create request buffer\n"
+msgstr ""
+
+#: libwget/http.c:1046 libwget/http.c:1140
+#, fuzzy, c-format
+msgid "Failed to allocate %zu bytes\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/http.c:1161
+#, fuzzy, c-format
+msgid "Failed to convert chunk size '%.31s'\n"
+msgstr "Nepodarilo sa získať koláčik pre %s\n"
+
+#: libwget/http.c:1197
+#, c-format
+msgid "Chunk size overflow: %zX\n"
+msgstr ""
+
+#: libwget/http.c:1237
+msgid "Expected end-of-chunk not found\n"
+msgstr ""
+
+#: libwget/http.c:1283
+#, c-format
+msgid "Failed to read %zd bytes (%d)\n"
+msgstr "Zlyhalo čítanie %zd bajtov (%d)\n"
+
+#: libwget/http.c:1286
+#, c-format
+msgid "Just got %zu of %zu bytes\n"
+msgstr ""
+
+#: libwget/http.c:1289
+#, c-format
+msgid "Body too large: %zu instead of %zu bytes\n"
+msgstr "Telo príliš veľké: %zu namiesto %zu bajtov\n"
+
+#: libwget/http_highlevel.c:45 libwget/http_highlevel.c:60
+#, fuzzy, c-format
+msgid "Failed to write %zu bytes of data (%d)\n"
+msgstr "Zlyhal zápis %zu bajtov dát (%d: %s)\n"
+
+#: libwget/http_highlevel.c:161
+#, c-format
+msgid "Unknown option %d\n"
+msgstr "Neznáma voľba %d\n"
+
+#: libwget/http_highlevel.c:171
+msgid "Error parsing URL\n"
+msgstr "Chyba pri analýze URL\n"
+
+#: libwget/http_highlevel.c:178
+msgid "Missing URL/URI\n"
+msgstr "Chýbajúce URL/URI\n"
+
+#: libwget/http_parse.c:863 libwget/http_parse.c:888
+#, c-format
+msgid "Failed to parse date '%s'\n"
+msgstr "Zlyhala analýza dátumu '%s'\n"
+
+#: libwget/http_parse.c:1271
+msgid "HTTP response header not found\n"
+msgstr ""
+
+#: libwget/init.c:136 src/options.c:3580
+#, fuzzy, c-format
+msgid "Failed to init DNS cache (%d)"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/init.c:171 libwget/init.c:245 libwget/init.c:270 libwget/init.c:285
+#, c-format
+msgid "%s: Unknown option %d"
+msgstr "%s: Neznáma voľba %d"
+
+#: libwget/init.c:190
+#, c-format
+msgid "%s: Failed to init networking (%d)"
+msgstr ""
+
+#: libwget/init.c:228
+#, fuzzy, c-format
+msgid "%s: Failed to deinit networking (%d)"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: libwget/io.c:126
+#, c-format
+msgid "%s: Failed to read, error %d\n"
+msgstr "%s: Čítanie zlyhalo, chyba %d\n"
+
+#: libwget/io.c:319
+#, c-format
+msgid ""
+"WARNING: Size of %s changed from %lld to %lld while reading. This may lead "
+"to unwanted results !\n"
+msgstr ""
+"UPOZORNENIE: Veľkosť %s sa počas čítania zmenila z %lld na %lld. To môže "
+"viesť k nechceným výsledkom !\n"
+
+#: libwget/io.c:322
+#, fuzzy, c-format
+msgid "Failed to fstat %s\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/io.c:410
+#, fuzzy, c-format
+msgid "Failed to create '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/io.c:418
+#, fuzzy, c-format
+msgid "Failed to lock '%s' (%d)\n"
+msgstr "CHYBA: Načítanie CRL súboru '%s' zlyhalo: (%d)\n"
+
+#: libwget/io.c:430
+#, fuzzy, c-format
+msgid "Failed to read open '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/io.c:453
+#, fuzzy, c-format
+msgid "Failed to open tmpfile '%s' (%d)\n"
+msgstr "CHYBA: Načítanie CRL súboru '%s' zlyhalo: (%d)\n"
+
+#: libwget/io.c:462
+#, fuzzy, c-format
+msgid "Failed to write open '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/io.c:478
+#, fuzzy, c-format
+msgid "Failed to write/close '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/io.c:485
+#, fuzzy, c-format
+msgid "Failed to rename '%s' to '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/io.c:486
+#, c-format
+msgid "Take manually care for '%s'\n"
+msgstr ""
+
+#: libwget/iri.c:680
+#, c-format
+msgid "Missing host/domain in URI '%s'\n"
+msgstr ""
+
+#: libwget/net.c:592 libwget/net.c:600
+#, fuzzy
+msgid "Failed to set socket to non-blocking\n"
+msgstr "Zlyhalo ioctl(). Soket nemohol byť nastavený ako blokujúci.\n"
+
+#: libwget/net.c:597
+#, fuzzy
+msgid "Failed to get socket flags\n"
+msgstr "Nepodarilo sa získať koláčik pre %s\n"
+
+#: libwget/net.c:609
+msgid "Failed to set socket option REUSEADDR\n"
+msgstr ""
+
+#: libwget/net.c:613
+msgid "Failed to set socket option NODELAY\n"
+msgstr ""
+
+#: libwget/net.c:618
+#, fuzzy
+msgid "Failed to set socket option BINDTODEVICE\n"
+msgstr "Zlyhalo ioctl(). Soket nemohol byť nastavený ako blokujúci.\n"
+
+#: libwget/net.c:623
+msgid "Unsupported socket option BINDTODEVICE\n"
+msgstr ""
+
+#: libwget/net.c:719
+#, fuzzy, c-format
+msgid "Failed to bind (%d)\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/net.c:755 libwget/net.c:925
+#, fuzzy, c-format
+msgid "Failed to connect (%d)\n"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: libwget/net.c:786
+#, fuzzy, c-format
+msgid "Failed to create socket (%d)\n"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: libwget/net.c:865
+#, fuzzy, c-format
+msgid "Failed to read %zu bytes (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/net.c:947
+#, fuzzy, c-format
+msgid "Failed to write %zu bytes (%d)\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: libwget/net.c:988
+#, c-format
+msgid "%s: internal error: length mismatch %zu != %zd\n"
+msgstr ""
+
+#: libwget/metalink.c:135
+#, fuzzy, c-format
+msgid "Mirror scheme not supported: '%s'\n"
+msgstr "IPv6 adresy nie sú podporované"
+
+#: libwget/metalink.c:288
+msgid "Error in parsing XML"
+msgstr ""
+
+#: libwget/ocsp.c:469
+#, fuzzy, c-format
+msgid "Failed to parse OCSP line: '%s'\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: libwget/ocsp.c:516
+#, fuzzy
+msgid "Failed to read OCSP hosts\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: libwget/ocsp.c:521
+msgid "Failed to read OCSP fingerprints\n"
+msgstr ""
+
+#: libwget/ocsp.c:603
+#, fuzzy, c-format
+msgid "Failed to write to OCSP hosts to '%s'\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: libwget/ocsp.c:608
+#, fuzzy, c-format
+msgid "Failed to write to OCSP fingerprints to '%s'\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/pipe.c:85
+#, fuzzy, c-format
+msgid "Failed to create pipe for STDIN on %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/pipe.c:89
+#, fuzzy, c-format
+msgid "Failed to create pipe for STDOUT on %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/pipe.c:97
+#, fuzzy, c-format
+msgid "Failed to create pipe for STDERR on %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/pipe.c:115 libwget/pipe.c:125 libwget/pipe.c:136
+#, c-format
+msgid "Failed to dup2(%d,%d) (%d)\n"
+msgstr "Zlyhalo dup2(%d,%d) (%d)\n"
+
+#: libwget/pipe.c:163
+#, fuzzy, c-format
+msgid "Failed to fork '%s'\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: libwget/ssl_gnutls.c:207 libwget/ssl_wolfssl.c:187
+#, c-format
+msgid "Unknown config key %d (or value must not be a string)\n"
+msgstr "Neznámy konfiguračný kľúč %d (alebo hodnota nesmie byť reťazec)\n"
+
+#: libwget/ssl_gnutls.c:241 libwget/ssl_wolfssl.c:221
+#, c-format
+msgid "Unknown config key %d (or value must not be an object)\n"
+msgstr "Neznámy konfiguračný kľúč %d (alebo hodnota nesmie byť objekt)\n"
+
+#: libwget/ssl_gnutls.c:294 libwget/ssl_wolfssl.c:267
+#, c-format
+msgid "Unknown config key %d (or value must not be an integer)\n"
+msgstr "Neznámy konfiguračný kľúč %d (alebo hodnota nesmie byť celé číslo)\n"
+
+#: libwget/ssl_gnutls.c:341
+#, c-format
+msgid "Certificate info [%u]:\n"
+msgstr "Informácie o certifikáte [%u]:\n"
+
+#: libwget/ssl_gnutls.c:344
+#, c-format
+msgid "  Valid since: %s"
+msgstr "  Platný od: %s"
+
+#: libwget/ssl_gnutls.c:347
+#, c-format
+msgid "  Expires: %s"
+msgstr "  Platnosť vyprší: %s"
+
+#: libwget/ssl_gnutls.c:354
+#, c-format
+msgid "  Fingerprint: %s\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:362
+#, c-format
+msgid "  Serial number: %s\n"
+msgstr "  Sériové číslo: %s\n"
+
+#: libwget/ssl_gnutls.c:367
+#, c-format
+msgid "  Public key: %s, %s (%u bits)\n"
+msgstr "  Verejný kľúč: %s, %s (%u bitov)\n"
+
+#: libwget/ssl_gnutls.c:372
+#, c-format
+msgid "  Version: #%d\n"
+msgstr "  Verzia: #%d\n"
+
+#: libwget/ssl_gnutls.c:376
+#, fuzzy, c-format
+msgid "  DN: %s\n"
+msgstr "  DN vydavateľa: %s\n"
+
+#: libwget/ssl_gnutls.c:380
+#, c-format
+msgid "  Issuer's DN: %s\n"
+msgstr "  DN vydavateľa: %s\n"
+
+#: libwget/ssl_gnutls.c:384
+#, c-format
+msgid "  Issuer's OID: %s\n"
+msgstr "  OID vydavateľa: %s\n"
+
+#: libwget/ssl_gnutls.c:388
+#, c-format
+msgid "  Issuer's UID: %s\n"
+msgstr "  UID vydataveľa: %s\n"
+
+#: libwget/ssl_gnutls.c:400
+#, c-format
+msgid "  Unknown certificate type %d\n"
+msgstr "  Neznámy typ certifikátu %d\n"
+
+#: libwget/ssl_gnutls.c:417 libwget/ssl_gnutls.c:489 libwget/ssl_gnutls.c:518
+msgid "----\n"
+msgstr "----\n"
+
+#: libwget/ssl_gnutls.c:425
+msgid "TLS/IA session\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:430
+#, c-format
+msgid "SRP session with username %s\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:438
+#, fuzzy, c-format
+msgid "PSK authentication. PSK hint '%s'\n"
+msgstr "Vybraná autentifikácia: %s\n"
+
+#: libwget/ssl_gnutls.c:443
+#, fuzzy, c-format
+msgid "PSK authentication. Connected as '%s'\n"
+msgstr "Vybraná autentifikácia: %s\n"
+
+#: libwget/ssl_gnutls.c:455
+#, fuzzy
+msgid "Anonymous authentication.\n"
+msgstr "Neznámy spôsob autentifikácie.\n"
+
+#: libwget/ssl_gnutls.c:483
+#, fuzzy
+msgid "Transport authentication failure\n"
+msgstr "Zlyhalo overenie používateľa/hesla.\n"
+
+#: libwget/ssl_gnutls.c:485
+#, fuzzy, c-format
+msgid "Unsupported credential type %d.\n"
+msgstr "Nepodporovaná schéma %s"
+
+#: libwget/ssl_gnutls.c:492
+#, c-format
+msgid "Ephemeral DH using prime of %d bits\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:495
+#, c-format
+msgid "Ephemeral ECDH using curve %s\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:500
+#, c-format
+msgid "Key Exchange: %s\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:504
+#, c-format
+msgid "Protocol: %s\n"
+msgstr "Protokol: %s\n"
+
+#: libwget/ssl_gnutls.c:508
+#, fuzzy, c-format
+msgid "Certificate Type: %s\n"
+msgstr "Certifikát musí byť X.509\n"
+
+#: libwget/ssl_gnutls.c:512
+#, fuzzy, c-format
+msgid "Cipher: %s\n"
+msgstr "zlyhalo: %s.\n"
+
+#: libwget/ssl_gnutls.c:516
+#, c-format
+msgid "MAC: %s\n"
+msgstr "MAC: %s\n"
+
+#: libwget/ssl_gnutls.c:866
+#, fuzzy, c-format
+msgid "Failed to import pubkey: %s\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: libwget/ssl_gnutls.c:874 libwget/ssl_gnutls.c:886 libwget/ssl_gnutls.c:894
+#, fuzzy, c-format
+msgid "Failed to export pubkey: %s\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: libwget/ssl_gnutls.c:934
+msgid "ERROR"
+msgstr "CHYBA"
+
+#: libwget/ssl_gnutls.c:934
+msgid "WARNING"
+msgstr "UPOZORNENIE"
+
+#: libwget/ssl_gnutls.c:953
+#, c-format
+msgid "%s: Certificate verification error\n"
+msgstr "%s: Chyba pri overení certifikátu\n"
+
+#: libwget/ssl_gnutls.c:993
+#, c-format
+msgid "%s: The certificate is not trusted.\n"
+msgstr "%s: Certifikát nie je dôveryhodný.\n"
+
+#: libwget/ssl_gnutls.c:995
+#, c-format
+msgid "%s: The certificate has been revoked.\n"
+msgstr "%s: Certifikát bol zrušený.\n"
+
+#: libwget/ssl_gnutls.c:997
+#, fuzzy, c-format
+msgid "%s: The certificate doesn't have a known issuer.\n"
+msgstr "%s: Certifikát nedostal známeho vydavateľa.\n"
+
+#: libwget/ssl_gnutls.c:999
+#, c-format
+msgid "%s: The certificate signer was not a CA.\n"
+msgstr "%s: Ten, kto podpísal certifikát, nebol CA.\n"
+
+#: libwget/ssl_gnutls.c:1001
+#, c-format
+msgid "%s: The certificate was signed using an insecure algorithm.\n"
+msgstr ""
+"%s: Certifikát bol podpísaný pomocou algoritmu, ktorý nie je bezpečný.\n"
+
+#: libwget/ssl_gnutls.c:1003
+#, c-format
+msgid "%s: The certificate is not yet activated.\n"
+msgstr "%s: Certifikát ešte nie je aktivovaný.\n"
+
+#: libwget/ssl_gnutls.c:1005
+#, c-format
+msgid "%s: The certificate has expired.\n"
+msgstr "%s: Certifikátu vypršala platnosť\n"
+
+#: libwget/ssl_gnutls.c:1008
+#, c-format
+msgid "%s: The certificate signature is invalid.\n"
+msgstr "%s: Podpis certifikátu je neplatný.\n"
+
+#: libwget/ssl_gnutls.c:1010
+#, c-format
+msgid "%s: The certificate's owner does not match hostname '%s'.\n"
+msgstr "%s: Majiteľ certifikátu sa nezhoduje s názvom hostiteľa '%s'.\n"
+
+#: libwget/ssl_gnutls.c:1022
+#, fuzzy, c-format
+msgid "%s: The certificate could not be verified (0x%X).\n"
+msgstr "%s: Certifikátu %s vypršala platnosť.\n"
+
+#: libwget/ssl_gnutls.c:1033
+#, fuzzy, c-format
+msgid "%s: Certificate must be X.509\n"
+msgstr "Certifikát musí byť X.509\n"
+
+#: libwget/ssl_gnutls.c:1038
+#, fuzzy, c-format
+msgid "%s: Error initializing X.509 certificate\n"
+msgstr "Chyba pri inicializácii certifikátu X509: %s\n"
+
+#: libwget/ssl_gnutls.c:1044
+#, fuzzy, c-format
+msgid "%s: No certificate was found!\n"
+msgstr "Certifikát nenájdený\n"
+
+#: libwget/ssl_gnutls.c:1049
+#, fuzzy, c-format
+msgid "%s: Failed to parse certificate: %s\n"
+msgstr "Chyba pri analýze certifikátu: %s\n"
+
+#: libwget/ssl_gnutls.c:1072
+msgid "WARNING: The certificate's (stapled) OCSP status is invalid\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1075
+msgid "WARNING: The certificate's (stapled) OCSP status has not been sent\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1087
+#, fuzzy, c-format
+msgid "%s: Failed to parse certificate[%u]: %s\n"
+msgstr "Chyba pri analýze certifikátu: %s\n"
+
+#: libwget/ssl_gnutls.c:1173
+#, c-format
+msgid "%s: Pubkey pinning mismatch!\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1229
+#, fuzzy
+msgid "GnuTLS requires the key and the cert to be of the same type.\n"
+msgstr "CHYBA: GnuTLS vyžaduje, aby kľúč a certifikát boli rovnakého typu.\n"
+
+#: libwget/ssl_gnutls.c:1233
+#, fuzzy
+msgid "No certificates or keys were found\n"
+msgstr "Certifikát nenájdený\n"
+
+#: libwget/ssl_gnutls.c:1238
+#, fuzzy, c-format
+msgid "No CAs were found in '%s'\n"
+msgstr "V %s neboli nájdené URL.\n"
+
+#: libwget/ssl_gnutls.c:1319
+#, fuzzy, c-format
+msgid "Failed to opendir %s\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: libwget/ssl_gnutls.c:1326
+#, fuzzy, c-format
+msgid "Failed to load CRL '%s': (%d)\n"
+msgstr "CHYBA: Načítanie CRL súboru '%s' zlyhalo: (%d)\n"
+
+#: libwget/ssl_gnutls.c:1368
+#, fuzzy, c-format
+msgid "GnuTLS: Unsupported priority string '%s': %s\n"
+msgstr "Nepodporovaný algoritmus '%s'.\n"
+
+#: libwget/ssl_gnutls.c:1372
+#, fuzzy, c-format
+msgid "GnuTLS: Unsupported default priority 'NULL': %s\n"
+msgstr "Nepodporovaný algoritmus '%s'.\n"
+
+#: libwget/ssl_gnutls.c:1612 libwget/ssl_gnutls.c:1618
+msgid ""
+"TLS False Start requested but libwget built with insufficient GnuTLS "
+"version\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1623
+#, fuzzy, c-format
+msgid "GnuTLS: Failed to set priorities: %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/ssl_gnutls.c:1653
+msgid "WARNING: OCSP is not available in this version of GnuTLS.\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1720
+#, fuzzy, c-format
+msgid "GnuTLS: Failed to set session data: %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/ssl_wolfssl.c:590
+msgid "Missing TLS method\n"
+msgstr ""
+
+#: libwget/ssl_wolfssl.c:596
+#, fuzzy
+msgid "Failed to create WOLFSSL_CTX\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: libwget/ssl_wolfssl.c:611
+#, fuzzy, c-format
+msgid "WolfSSL: Failed to set ciphers '%s'\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/ssl_wolfssl.c:619
+#, fuzzy, c-format
+msgid "Failed to load %s, please check the file.\n"
+msgstr "Sťahovanie %s zlyhalo. Preskočené metaurl.\n"
+
+#: libwget/ssl_wolfssl.c:859
+#, fuzzy
+msgid "Failed to create WolfSSL session\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/ssl_wolfssl.c:992
+#, fuzzy, c-format
+msgid "failed to connect TLS (%d): %s\n"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: libwget/ssl_openssl.c:231 libwget/ssl_openssl.c:271
+#: libwget/ssl_openssl.c:345
+#, fuzzy, c-format
+msgid ""
+"Unknown configuration key %d (maybe this config value should be of another "
+"type?)\n"
+msgstr "Neznámy konfiguračný kľúč %d (alebo hodnota nesmie byť objekt)\n"
+
+#: libwget/ssl_openssl.c:394
+msgid ""
+"OpenSSL: TLS 1.3 is not supported by your OpenSSL version. Will use TLS 1.2 "
+"instead.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:404
+#, fuzzy, c-format
+msgid "OpenSSL: Invalid priority string '%s'\n"
+msgstr "Nepodporovaný algoritmus '%s'.\n"
+
+#: libwget/ssl_openssl.c:466
+#, c-format
+msgid ""
+"OpenSSL: Could not load certificates from default paths. Falling back to "
+"'%s'."
+msgstr ""
+
+#: libwget/ssl_openssl.c:471
+#, c-format
+msgid "OpenSSL: No certificates could be loaded from directory '%s'\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:475
+#, c-format
+msgid "OpenSSL: Could not open directory '%s'. No certificates were loaded.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:581
+msgid "Got a stapled OCSP response, but could not parse it. Aborting.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:587
+msgid "Could not get server's cert stack\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:598
+msgid "Could not verify stapled OCSP response. Aborting.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:763
+msgid "Unsuccessful OCSP response\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:771
+#, fuzzy
+msgid "Could not verify OCSP certificate chain\n"
+msgstr "Načítaný CA certifikát '%s'\n"
+
+#: libwget/ssl_openssl.c:777
+#, fuzzy
+msgid "Could not parse OCSP single response\n"
+msgstr "Nie je možné analyzovať odpoveď na PASV.\n"
+
+#: libwget/ssl_openssl.c:783
+msgid "Could not obtain OCSP response status\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:788
+#, fuzzy
+msgid "Certificate revoked by OCSP\n"
+msgstr "%s: %s neprezentoval certifikát.\n"
+
+#: libwget/ssl_openssl.c:795
+msgid "Could not get 'thisUpd' from OCSP response. Cannot check time.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:802
+msgid "OCSP response is too old. Ignoring.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:850
+msgid "Could not obtain OCSP_BASICRESPONSE\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:855
+msgid "OCSP nonce does not match\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:974
+#, fuzzy, c-format
+msgid "Could not compute certificate fingerprint for cert %u\n"
+msgstr "Načítaný CA certifikát '%s'\n"
+
+#: libwget/ssl_openssl.c:1066
+msgid "Could not retrieve certificate store. Will skip HPKP checks.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1072
+msgid "Could not retrieve saved verification status flags.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1085
+msgid "Public key pinning mismatch.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1096
+#, fuzzy
+msgid "Certificate revoked by OCSP.\n"
+msgstr "%s: %s neprezentoval certifikát.\n"
+
+#: libwget/ssl_openssl.c:1117
+msgid "Certificate check disabled. Peer's certificate will NOT be checked.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1123
+msgid "OpenSSL: Could not obtain cert store\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1136
+#, fuzzy, c-format
+msgid "Could not load CRL from '%s' (%d)\n"
+msgstr "CHYBA: Načítanie CRL súboru '%s' zlyhalo: (%d)\n"
+
+#: libwget/ssl_openssl.c:1150
+#, fuzzy, c-format
+msgid "Could not load CA certificate from file '%s'\n"
+msgstr "Načítaný CA certifikát '%s'\n"
+
+#: libwget/ssl_openssl.c:1206
+#, fuzzy
+msgid "Could not initialize OpenSSL\n"
+msgstr "Nepodarilo sa inicializovať SSL.  Bude deaktivované."
+
+#: libwget/ssl_openssl.c:1257
+msgid "OpenSSL: Could not parse cached session data.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1265
+#, fuzzy
+msgid "OpenSSL: Could not set session data.\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/ssl_openssl.c:1491
+msgid ""
+"Host name check disabled. Server certificate's subject name will not be "
+"checked.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1500
+msgid "Could not set 'status_request' extension\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1506
+msgid "SNI could not be sent"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1510
+msgid "ALPN offering could not be sent"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1518
+#, fuzzy
+msgid "Could not get cached TLS session"
+msgstr "Nepodarilo sa získať veľkost stiahnutého súboru.\n"
+
+#: libwget/ssl_openssl.c:1540
+#, c-format
+msgid "Could not complete TLS handshake: %s\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1696
+#, fuzzy, c-format
+msgid "TLS read error: %s\n"
+msgstr "Chyba pri operácii \"bind\" (%s).\n"
+
+#: libwget/ssl_openssl.c:1731
+#, c-format
+msgid "TLS write error: %s\n"
+msgstr ""
+
+#: libwget/tls_session.c:355
+#, fuzzy
+msgid "Failed to read TLS session data\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: libwget/tls_session.c:403
+#, fuzzy, c-format
+msgid "Failed to write TLS session file '%s'\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: src/bar.c:95
+msgid "Cannot create progress bar thread. Disabling progress bar.\n"
+msgstr ""
+
+#: src/dl.c:41
+#, c-format
+msgid "Piling up error '%s' over error '%s'"
+msgstr ""
+
+#: src/gpgme.c:60
+msgid "GPGME Failure\n"
+msgstr ""
+
+#: src/gpgme.c:64
+#, fuzzy, c-format
+msgid "%s: Invalid signature\n"
+msgstr "%s: %s: Neplatná hodnota %s.\n"
+
+#: src/gpgme.c:67
+#, c-format
+msgid "%s: Key %s expired\n"
+msgstr ""
+
+#: src/gpgme.c:70
+#, c-format
+msgid "%s: Expired signature\n"
+msgstr ""
+
+#: src/gpgme.c:73
+#, fuzzy, c-format
+msgid "%s: Key %s missing\n"
+msgstr "%s: chýba URL\n"
+
+#: src/gpgme.c:76
+#, c-format
+msgid "%s: Unhandled failure\n"
+msgstr ""
+
+#: src/gpgme.c:117
+msgid "Invalid signature, signature file must have a sig extension\n"
+msgstr ""
+
+#: src/gpgme.c:156
+#, fuzzy
+msgid "Failed to init gpgme context\n"
+msgstr "Zlyhala inicializácia kanála c-ares\n"
+
+#: src/gpgme.c:171
+msgid "Couldn't specify gnupg homedir\n"
+msgstr ""
+
+#: src/gpgme.c:177
+#, c-format
+msgid "Couldn't canonicalize %s. (Does the path exist?)\n"
+msgstr ""
+
+#: src/gpgme.c:186
+#, fuzzy
+msgid "Error during verification\n"
+msgstr "Chyba pri analýze certifikátu: %s\n"
+
+#: src/gpgme.c:194
+#, fuzzy
+msgid "GPGME verify failed!\n"
+msgstr "GPGME op_verify: %s\n"
+
+#: src/gpgme.c:273
+#, fuzzy, c-format
+msgid "Unsupported protocol type for content: %s\n"
+msgstr "Nepodporovaná kvalita ochrany '%s'.\n"
+
+#: src/gpgme.c:281
+#, fuzzy
+msgid "Couldn't correct signature file!\n"
+msgstr "Nepodarilo sa otvoriť stiahnutý súbor.\n"
+
+#: src/gpgme.c:290
+#, fuzzy, c-format
+msgid "Failed to read file to verify sig: %s\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: src/host.c:391 src/wget.c:937
+#, c-format
+msgid "URL '%s' not followed (disallowed by robots.txt)\n"
+msgstr ""
+
+#: src/job.c:186
+#, c-format
+msgid ""
+"Failed to truncate %s\n"
+" from %llu to %llu bytes\n"
+msgstr ""
+
+#: src/job.c:205
+#, fuzzy, c-format
+msgid "Checksum OK for '%s'\n"
+msgstr "Počítanie kontrolného súčtu pre %s\n"
+
+#: src/job.c:212
+msgid "Failed to build checksum, assuming file to be OK\n"
+msgstr ""
+
+#: src/job.c:217
+#, fuzzy, c-format
+msgid "Bad checksum for '%s'\n"
+msgstr "Počítanie kontrolného súčtu pre %s\n"
+
+#: src/job.c:235
+#, c-format
+msgid "Piece %d/%d not OK - requeuing\n"
+msgstr ""
+
+#: src/options.c:287
+#, c-format
+msgid "Value out of range (0-65535): %s\n"
+msgstr ""
+
+#: src/options.c:351
+#, fuzzy, c-format
+msgid "Invalid byte specifier: %s\n"
+msgstr "Neplatná UTF-8 sekvencia: %s\n"
+
+#: src/options.c:423
+#, fuzzy, c-format
+msgid "Ignoring invalid header: %s\n"
+msgstr "%s: %s: Neplatná hlavička %s.\n"
+
+#: src/options.c:432
+#, c-format
+msgid "No value in header (ignoring): %s\n"
+msgstr ""
+
+#: src/options.c:674
+#, fuzzy, c-format
+msgid "Invalid boolean value '%s'\n"
+msgstr "%s: %s: Neplatná hodnota bajtu %s.\n"
+
+#: src/options.c:716
+#, fuzzy, c-format
+msgid "Invalid time specifier in '%s'\n"
+msgstr "%s: %s: Neplatný časový interval %s\n"
+
+#: src/options.c:746
+#, c-format
+msgid "Unknown cert type '%s'\n"
+msgstr ""
+
+#: src/options.c:763
+#, fuzzy, c-format
+msgid "Unsupported regex type '%s'\n"
+msgstr "Nepodporovaný algoritmus '%s'.\n"
+
+#: src/options.c:773
+#, fuzzy
+msgid "Empty progress type\n"
+msgstr "%s: %s: Neplatný typ postupu %s.\n"
+
+#: src/options.c:782
+#, fuzzy, c-format
+msgid "Unknown progress type '%s'\n"
+msgstr "%s: %s: Neplatný typ postupu %s.\n"
+
+#: src/options.c:807
+#, c-format
+msgid "Unknown restrict-file-name type '%s'\n"
+msgstr ""
+
+#: src/options.c:839
+#, fuzzy, c-format
+msgid "Unknown option '-n%c'\n"
+msgstr "%s: neznáma voľba '--%s'\n"
+
+#: src/options.c:859
+#, c-format
+msgid "Unknown address family '%s'\n"
+msgstr ""
+
+#: src/options.c:886
+#, c-format
+msgid "Unknown stats format '%s'\n"
+msgstr ""
+
+#: src/options.c:916 src/options.c:934
+#, c-format
+msgid "Plugin '%s' failed to load: %s\n"
+msgstr ""
+
+#: src/options.c:995 src/options.c:1015
+msgid "Missing required type specifier\n"
+msgstr ""
+
+#: src/options.c:999 src/options.c:1019
+#, fuzzy, c-format
+msgid "Invalid type specifier: %s\n"
+msgstr "Neplatná UTF-8 sekvencia: %s\n"
+
+#: src/options.c:1032
+msgid "no-verify-sig cannot take additional arguments\n"
+msgstr ""
+
+#: src/options.c:1042
+#, fuzzy, c-format
+msgid "Invalid option specifier: %s\n"
+msgstr "Neplatná UTF-8 sekvencia: %s\n"
+
+#: src/options.c:1086
+#, fuzzy, c-format
+msgid "Compression type %s not supported\n"
+msgstr "Konverzia z %s na %s nie je podporovaná\n"
+
+#: src/options.c:1089
+#, c-format
+msgid "Duplicate type %s"
+msgstr ""
+
+#: src/options.c:1119
+#, c-format
+msgid "Lib for type %s not built"
+msgstr ""
+
+#: src/options.c:1151
+#, c-format
+msgid "Disallowed Value for --no-download-attr: %s\n"
+msgstr ""
+
+#: src/options.c:1160
+#, c-format
+msgid "Invalid value for --download-attr: %s\n"
+msgstr ""
+
+#: src/options.c:2505 src/options.c:2540
+#, fuzzy, c-format
+msgid "Unknown option '%s'\n"
+msgstr "%s: neznáma voľba '%c%s'\n"
+
+#: src/options.c:2557
+#, fuzzy, c-format
+msgid "Option 'no-%s' doesn't allow an argument\n"
+msgstr "%s: voľba '--%s' nepodporuje parameter\n"
+
+#: src/options.c:2561
+#, fuzzy, c-format
+msgid "Option '%s' doesn't allow an argument\n"
+msgstr "%s: voľba '%c%s' nepodporuje parameter\n"
+
+#: src/options.c:2572
+#, fuzzy, c-format
+msgid "Missing argument for option '%s'\n"
+msgstr "Koniec z dôvodu chyby v %s\n"
+
+#: src/options.c:2638
+#, fuzzy, c-format
+msgid "Failed to parse: '%s'\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: src/options.c:2700
+#, c-format
+msgid "Config file recursion detected in %s\n"
+msgstr ""
+
+#: src/options.c:2727
+#, fuzzy, c-format
+msgid "Failed to open %s (%d): %s\n"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: src/options.c:2791
+#, fuzzy, c-format
+msgid "Failed to parse last line in '%s'\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: src/options.c:2871
+#, c-format
+msgid "Missing argument(s) for option '-%c'\n"
+msgstr ""
+
+#: src/options.c:2891
+#, fuzzy, c-format
+msgid "Unknown option '-%c'\n"
+msgstr "%s: neznáma voľba '--%s'\n"
+
+#: src/options.c:2922
+#, fuzzy, c-format
+msgid "Password for user \"%s\": "
+msgstr "Heslo pre používateľa %s: "
+
+#: src/options.c:2924
+msgid "Password: "
+msgstr "Heslo: "
+
+#: src/options.c:2945
+#, fuzzy
+msgid "Cannot create pipe"
+msgstr "Nepodarilo sa vytvoriť dátovod\n"
+
+#: src/options.c:2951
+#, fuzzy, c-format
+msgid "Error initializing spawn file actions for use-askpass: %d"
+msgstr ""
+"Chyba pri inicializácii spúšťacích súborových akcií pre use-askpass: %d\n"
+
+#: src/options.c:2962
+#, fuzzy, c-format
+msgid "Error setting spawn file actions for use-askpass: %d"
+msgstr ""
+"Chyba pri nastavovaní spúšťacích súborových akcií pre use-askpass: %d\n"
+
+#: src/options.c:2969
+#, fuzzy, c-format
+msgid "Error spawning %s: %d"
+msgstr "Chyba pri zatváraní %s: %s\n"
+
+#: src/options.c:2986
+#, c-format
+msgid "Error reading response from command \"%s %s\": %s\n"
+msgstr "Chyba pri čítaní odpovede príkazu \"%s %s\": %s\n"
+
+#: src/options.c:3051
+#, fuzzy, c-format
+msgid "Failed to open %s"
+msgstr "Zlyhalo otvorenie %s\n"
+
+#: src/options.c:3101
+#, c-format
+msgid "~/.wget2rc is deprecated. Please move it to %s/wget2rc\n"
+msgstr ""
+
+#: src/options.c:3419
+#, fuzzy, c-format
+msgid "Failed to set http proxies %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: src/options.c:3423
+#, fuzzy, c-format
+msgid "Failed to set https proxies %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: src/options.c:3427
+#, fuzzy, c-format
+msgid "Failed to set proxy exceptions %s\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: src/options.c:3453
+#, fuzzy, c-format
+msgid "Failed to load %s (%d)"
+msgstr "CHYBA: Načítanie CRL súboru '%s' zlyhalo: (%d)\n"
+
+#: src/options.c:3513
+#, fuzzy
+msgid ""
+"Specifying both --start-pos and --continue is not recommended; --continue "
+"will be disabled"
+msgstr ""
+"Zadanie --start-pos aj --continue je neodporúčané; --continue bude "
+"deaktivované.\n"
+
+#: src/options.c:3519
+#, fuzzy
+msgid "WARNING: timestamping does nothing in combination with -O"
+msgstr ""
+"UPOZORNENIE: označovanie časovými značkami nerobí nič, ak je kombinované s -"
+"O.\n"
+"Podrobnosti nájdete v návode.\n"
+
+#: src/options.c:3523
+#, fuzzy
+msgid "Can't timestamp and not clobber old files at the same time"
+msgstr "Nie je možné používať časové značky a nemazať pritom staré súbory.\n"
+
+#: src/options.c:3527
+#, fuzzy
+msgid "WARNING: timestamping does nothing in combination with spider"
+msgstr ""
+"UPOZORNENIE: označovanie časovými značkami nerobí nič, ak je kombinované s -"
+"O.\n"
+"Podrobnosti nájdete v návode.\n"
+
+#: src/options.c:3531
+msgid ""
+"WARNING: timestamping and chunk-size only work together without If-Modified-"
+"Since"
+msgstr ""
+
+#: src/options.c:3570
+#, c-format
+msgid "Failed to init networking (%d)"
+msgstr ""
+
+#: src/options.c:3575
+#, fuzzy, c-format
+msgid "Failed to init DNS (%d)"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: src/options.c:3593 src/options.c:3604 src/options.c:3615 src/options.c:3626
+#: src/options.c:3637
+#, fuzzy, c-format
+msgid "Failed to open '%s' (%d)"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: src/options.c:3884
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare())\n"
+msgstr ""
+
+#: src/options.c:3893
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare_config())\n"
+msgstr ""
+
+#: src/options.c:3903
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare())\n"
+msgstr ""
+
+#: src/options.c:3913 src/options.c:3937
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare_config())\n"
+msgstr ""
+
+#: src/options.c:3962
+#, c-format
+msgid "%s: Failed to parse bool short option #%zu (=%d)\n"
+msgstr ""
+
+#: src/options.c:3988 src/options.c:3994
+#, c-format
+msgid "%s: Failed to parse bool long option #%zu (%d)\n"
+msgstr ""
+
+#: src/options.c:4037
+#, c-format
+msgid "%s: Failed to parse timeout short option #%zu (=%d)\n"
+msgstr ""
+
+#: src/options.c:4068
+#, c-format
+msgid "%s: Failed to parse timeout long option #%zu (%d)\n"
+msgstr ""
+
+#: src/options.c:4103
+#, c-format
+msgid "%s: Extra headers found in option #%zu\n"
+msgstr ""
+
+#: src/options.c:4108
+#, fuzzy, c-format
+msgid "%s: Failed to parse header option #%zu\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: src/options.c:4131
+#, fuzzy, c-format
+msgid "%s: Accepted illegal header option #%zu\n"
+msgstr "%s: neprípustná voľba -- `-n%c'\n"
+
+#: src/options.c:4159 src/options.c:4178
+#, c-format
+msgid "%s: Failed to parse string short option #%zu (=%s)\n"
+msgstr ""
+
+#: src/plugin.c:397
+#, c-format
+msgid "Plugin '%s' failed to load: %s"
+msgstr ""
+
+#: src/plugin.c:505
+#, fuzzy, c-format
+msgid "Options for %s:\n"
+msgstr "Počítanie veľkosti pre %s\n"
+
+#: src/utils.c:50
+#, c-format
+msgid "Internal error: Unexpected relative path: '%s'\n"
+msgstr ""
+
+#: src/utils.c:74 src/utils.c:81
+#, fuzzy, c-format
+msgid "Failed to make directory '%s' (errno=%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: src/utils.c:79
+#, fuzzy, c-format
+msgid "Failed to rename '%s' (errno=%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: src/wget.c:592
+#, c-format
+msgid "HSTS in effect for %s:%hu\n"
+msgstr ""
+
+#: src/wget.c:610
+#, fuzzy, c-format
+msgid "Failed to parse URI '%s'\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: src/wget.c:628
+#, fuzzy, c-format
+msgid "URI scheme not supported: '%s'\n"
+msgstr "IPv6 adresy nie sú podporované"
+
+#: src/wget.c:771
+#, fuzzy, c-format
+msgid "Adding URL: %s\n"
+msgstr "Ukladá sa do: %s\n"
+
+#: src/wget.c:787 src/wget.c:1148
+#, fuzzy, c-format
+msgid "Cannot resolve URI '%s'\n"
+msgstr "Nie je možné otvoriť %s: %s"
+
+#: src/wget.c:809
+#, fuzzy, c-format
+msgid "URL '%s' not followed (unsupported scheme)\n"
+msgstr "Nepodporovaná schéma %s"
+
+#: src/wget.c:819
+#, c-format
+msgid "URL '%s' not followed (https-only requested)\n"
+msgstr ""
+
+#: src/wget.c:859
+msgid "missing ip/host/domain"
+msgstr ""
+
+#: src/wget.c:862
+msgid "no host-spanning requested"
+msgstr ""
+
+#: src/wget.c:864
+msgid "domain explicitly excluded"
+msgstr ""
+
+#: src/wget.c:868
+#, c-format
+msgid "URL '%s' not followed (%s)\n"
+msgstr ""
+
+#: src/wget.c:891
+#, c-format
+msgid "URL '%s' not followed (parent ascending not allowed)\n"
+msgstr ""
+
+#: src/wget.c:909
+#, c-format
+msgid "URL '%s' not requested (file already exists)\n"
+msgstr ""
+
+#: src/wget.c:944
+#, fuzzy, c-format
+msgid "Failed to get '%s' from hosts\n"
+msgstr "Nastavenie prístupových práv pre %s zlyhalo.\n"
+
+#: src/wget.c:1069 src/wget.c:1074 src/wget.c:1101 src/wget.c:1105
+#, c-format
+msgid "  %.*s -> %s\n"
+msgstr ""
+
+#: src/wget.c:1070 src/wget.c:1102
+#, fuzzy, c-format
+msgid "       -> %s\n"
+msgstr "Súbor       "
+
+#: src/wget.c:1125
+#, fuzzy, c-format
+msgid "convert %s %s %s\n"
+msgstr "Nie je možné previesť odkazy v %s: %s\n"
+
+#: src/wget.c:1128
+#, fuzzy, c-format
+msgid "%s not found (%d)\n"
+msgstr "%s: Nie je možné prečítať %s (%s).\n"
+
+#: src/wget.c:1173
+#, fuzzy, c-format
+msgid "Failed to rename %s to %s (%d)"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: src/wget.c:1177
+#, fuzzy, c-format
+msgid "Failed to write open %s (%d)"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: src/wget.c:1308 src/wget.c:1397
+#, fuzzy, c-format
+msgid "Failed to start downloader, error %d\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: src/wget.c:1331
+#, fuzzy, c-format
+msgid "Failed to open input file %s\n"
+msgstr "Zlyhala inicializácia libcares\n"
+
+#: src/wget.c:1336
+#, fuzzy
+msgid "Nothing to do - goodbye\n"
+msgstr "niet čo robiť.\n"
+
+#: src/wget.c:1354
+msgid "Wget2 built without thread support. Disabling progress report\n"
+msgstr ""
+
+#: src/wget.c:1404
+#, c-format
+msgid "Quota of %lld bytes reached - stopping.\n"
+msgstr ""
+
+#: src/wget.c:1424
+#, fuzzy, c-format
+msgid "Failed to wait for downloader #%d (%d %d)\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: src/wget.c:1429
+#, c-format
+msgid "Downloaded: %d files, %s bytes, %d redirects, %d errors\n"
+msgstr ""
+
+#: src/wget.c:1455
+#, fuzzy
+msgid ""
+"--convert-links and --convert-file-only cannot be used together, error\n"
+msgstr ""
+"--convert-links alebo --convert-file-only môžu byť použité spolu, len ak je "
+"výstup do bežného súboru.\n"
+
+#: src/wget.c:1551
+#, fuzzy, c-format
+msgid "Failed to connect: %s\n"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: src/wget.c:1775
+#, fuzzy
+msgid "The file is already fully retrieved; nothing to do.\n"
+msgstr ""
+"\n"
+"    Tento súbor je už kompletne prenesený; netreba nič robiť.\n"
+"\n"
+
+#: src/wget.c:1822
+#, fuzzy, c-format
+msgid "File '%s' not modified on server. Omitting download"
+msgstr ""
+"Súbor %s nezmenený na serveri.  Sťahovanie vynechané.\n"
+"\n"
+
+#: src/wget.c:1859
+#, c-format
+msgid "Not scanning '%s' (known ETag)\n"
+msgstr ""
+
+#: src/wget.c:1906
+#, fuzzy, c-format
+msgid "The sizes do not match (local %lld, remote %zu) -- retrieving"
+msgstr "Veľkosti se nezhodujú (miestny %s) -- prenáša sa.\n"
+
+#: src/wget.c:2049
+#, c-format
+msgid "File length %llu - remove job\n"
+msgstr ""
+
+#: src/wget.c:2051
+msgid "No download mirrors found - remove job\n"
+msgstr ""
+
+#: src/wget.c:2164
+#, fuzzy
+msgid "Couldn't determine base file to delete for failed verification\n"
+msgstr "Nepodarilo sa otvoriť stiahnutý súbor na overenie podpisu.\n"
+
+#: src/wget.c:2168
+#, c-format
+msgid "Signature for file %s successfully verified\n"
+msgstr ""
+
+#: src/wget.c:2184
+msgid "Should not have remaining extensions!\n"
+msgstr ""
+
+#: src/wget.c:2198
+msgid "File name for signature checking not assigned to job!\n"
+msgstr ""
+
+#: src/wget.c:2200
+#, fuzzy
+msgid "Cannot check the signature on a signature!\n"
+msgstr "Nepodarilo sa otvoriť stiahnutý súbor.\n"
+
+#: src/wget.c:2408
+#, fuzzy, c-format
+msgid "Unhandled action %d\n"
+msgstr "Nespracované errno %d\n"
+
+#: src/wget.c:2516
+#, c-format
+msgid "URL '%.*s' not followed (conversion failed)\n"
+msgstr ""
+
+#: src/wget.c:2524
+#, fuzzy, c-format
+msgid "Cannot resolve relative URI %.*s\n"
+msgstr "%s: Nie je možné rozložiť neúplný odkaz %s.\n"
+
+#: src/wget.c:2546
+msgid "set by user"
+msgstr ""
+
+#: src/wget.c:2551 src/wget.c:2559 src/wget.c:2567
+msgid "set by BOM"
+msgstr ""
+
+#: src/wget.c:2573
+msgid "set by server response"
+msgstr ""
+
+#: src/wget.c:2582
+#, c-format
+msgid "Convert non-ASCII encoding '%s' (%s) to UTF-8\n"
+msgstr ""
+
+#: src/wget.c:2586
+#, c-format
+msgid "Link conversion disabled for '%s'\n"
+msgstr ""
+
+#: src/wget.c:2589
+#, c-format
+msgid "Filename conversion disabled for '%s'\n"
+msgstr ""
+
+#: src/wget.c:2593
+#, c-format
+msgid "Failed to convert non-ASCII encoding '%s' (%s) to UTF-8, skip parsing\n"
+msgstr ""
+
+#: src/wget.c:2606
+msgid "set by document"
+msgstr ""
+
+#: src/wget.c:2609
+msgid "default, encoding not specified"
+msgstr ""
+
+#: src/wget.c:2613
+#, c-format
+msgid "URI content encoding = '%s' (%s)\n"
+msgstr ""
+
+#: src/wget.c:2621
+#, c-format
+msgid "BASE '%.*s' not usable (missing absolute base URI)\n"
+msgstr ""
+
+#: src/wget.c:2628
+#, c-format
+msgid "Cannot resolve BASE URI %.*s\n"
+msgstr ""
+
+#: src/wget.c:2640
+#, c-format
+msgid "URL '%.*s' not followed (action/formaction attribute)\n"
+msgstr ""
+
+#: src/wget.c:2654
+#, c-format
+msgid "URL '%.*s' not followed (page requisites + level)\n"
+msgstr ""
+
+#: src/wget.c:2665 src/wget.c:2997
+#, c-format
+msgid "URL '%.*s' not followed (missing base URI)\n"
+msgstr ""
+
+#: src/wget.c:2729 src/wget.c:2860
+#, c-format
+msgid "found %d url(s) (base=%s)\n"
+msgstr ""
+
+#: src/wget.c:2737 src/wget.c:2833 src/wget.c:2867
+#, c-format
+msgid "URL '%.*s' not followed (not matching sitemap location)\n"
+msgstr ""
+
+#: src/wget.c:2744 src/wget.c:2761 src/wget.c:2874
+#, c-format
+msgid "URL '%.*s' not followed (already known)\n"
+msgstr ""
+
+#: src/wget.c:2752
+#, c-format
+msgid "found %d sitemap url(s) (base=%s)\n"
+msgstr ""
+
+#: src/wget.c:2794
+#, c-format
+msgid "Can't scan '%s' because no libz support enabled at compile time\n"
+msgstr ""
+
+#: src/wget.c:2931
+#, c-format
+msgid "Invalid file length %llu\n"
+msgstr ""
+
+#: src/wget.c:2934
+msgid "No download mirrors found\n"
+msgstr ""
+
+#: src/wget.c:2983 src/wget.c:3011 src/wget.c:3030
+#, c-format
+msgid "URI content encoding = '%s'\n"
+msgstr ""
+
+#: src/wget.c:3103
+#, fuzzy, c-format
+msgid "Failed to set file date (%d)\n"
+msgstr "Zlyhala konverzia na malé: %d: %s\n"
+
+#: src/wget.c:3250
+#, c-format
+msgid "Failed to write to STDOUT (%zu, errno=%d)\n"
+msgstr ""
+
+#: src/wget.c:3349
+#, fuzzy, c-format
+msgid "Failed to rename %s to %s (errno=%d)\n"
+msgstr "CHYBA: Otvorenie certifikátu %s zlyhalo: (%d).\n"
+
+#: src/wget.c:3372 src/wget.c:3378
+#, fuzzy, c-format
+msgid "Failed to load partial content from '%s' (errno=%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: src/wget.c:3387
+#, fuzzy, c-format
+msgid "Failed to unlink '%s' (errno=%d)\n"
+msgstr "Zlyhalo otvorenie '%s' (errno=%d): %s\n"
+
+#: src/wget.c:3405
+#, c-format
+msgid "Saving ']8;;file://%s%s\\%s]8;;\\'\n"
+msgstr ""
+
+#: src/wget.c:3409
+#, c-format
+msgid "Saving '%s'\n"
+msgstr "Ukladá sa '%s'\n"
+
+#: src/wget.c:3414
+#, c-format
+msgid "Failed to write file %s (%zd, errno=%d)\n"
+msgstr ""
+
+#: src/wget.c:3422
+#, fuzzy, c-format
+msgid "File '%s' already there; not retrieving.\n"
+msgstr "Súbor `%s' je už tam, nebudem ho prenášať.\n"
+
+#: src/wget.c:3428
+#, c-format
+msgid "Directory / file name clash - not saving '%s'\n"
+msgstr ""
+
+#: src/wget.c:3430
+#, fuzzy, c-format
+msgid "Failed to open '%s' (%d)\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#: src/wget.c:3442
+#, fuzzy, c-format
+msgid "Failed to save extended attribute %s\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: src/wget.c:3628
+#, c-format
+msgid ""
+"# got header %zu bytes:\n"
+"%s\n"
+msgstr ""
+
+#: src/wget.c:3702
+#, fuzzy, c-format
+msgid "Failed to open .netrc file '%s' (%d): %s\n"
+msgstr "CHYBA: Načítanie CRL súboru '%s' zlyhalo: (%d)\n"
+
+#: src/wget.c:4034
+#, c-format
+msgid "Failed to fsync errno=%d\n"
+msgstr "Zlyhalo fsync errno=%d\n"
+
+#: src/wget.c:4342
+#, c-format
+msgid "Continuing in background, pid %lu.\n"
+msgstr "Pokračovanie v behu na pozadí, pid %lu.\n"
+
+#: src/wget.c:4344 src/wget.c:4410
+#, c-format
+msgid "Output will be written to %s.\n"
+msgstr "Výstup bude zapísaný do %s.\n"
+
+#: src/wget.c:4370
+msgid "fake_fork_child() failed\n"
+msgstr "zlyhalo fake_fork_child()\n"
+
+#: src/wget.c:4378
+msgid "fake_fork() failed\n"
+msgstr "zlyhalo fake_fork()\n"
+
+#: src/wget.c:4404
+#, fuzzy, c-format
+msgid "Failed to fork (%d)\n"
+msgstr "Zlyhala analýza IP adresy '%s'\n"
+
+#: src/wget.c:4408
+#, c-format
+msgid "Continuing in background, pid %d.\n"
+msgstr "Pokračovanie v behu na pozadí, pid %d.\n"
+
+#: src/wget.c:4418
+msgid "Failed to redirect stdin to /dev/null.\n"
+msgstr ""
+
+#: src/wget.c:4420
+msgid "Failed to redirect stdout to /dev/null.\n"
+msgstr ""
+
+#: src/wget.c:4422
+#, fuzzy
+msgid "Failed to redirect stderr to /dev/null.\n"
+msgstr "Zlyhalo nastavenie DNS server(ov) '%s' (%d)\n"
+
+#, fuzzy
+#~ msgid "GPG error"
+#~ msgstr "Bez chyby"
+
+#~ msgid "Failed to open '%s' (errno=%d): %s\n"
+#~ msgstr "Zlyhalo otvorenie '%s' (errno=%d): %s\n"
+
+#, fuzzy
+#~ msgid "Failed to fork (errno=%d): %s\n"
+#~ msgstr "Zlyhalo otvorenie '%s' (errno=%d): %s\n"
+
+#, fuzzy
+#~ msgid "%s stats saved in %s\n"
+#~ msgstr ""
+#~ "%s (%s) - %s uložený [%s]\n"
+#~ "\n"
+
+#, fuzzy
+#~ msgid "Adding URL: %s path=%s\n"
+#~ msgstr "Ukladá sa do: %s\n"
+
+#, fuzzy
+#~| msgid "Unable to get cookie for %s\n"
+#~ msgid "Fetched cookies from '%s'\n"
+#~ msgstr "Nepodarilo sa získať koláčik pre %s\n"
+
+#~ msgid "u8_tolower(%s) failed (%d)\n"
+#~ msgstr "u8_tolower(%s) zlyhalo (%d)\n"
+
+#~ msgid "Fetched HSTS data from '%s'\n"
+#~ msgstr "Získané dáta HSTS z '%s'\n"
+
+#, fuzzy
+#~| msgid "%s: The certificate of %s has been revoked.\n"
+#~ msgid "%s: Certificate[%u] of '%s' has been revoked (via OCSP)\n"
+#~ msgstr "%s: Certifikát %s bol zrušený.\n"
+
+#~ msgid "%s: option '%s' is ambiguous; possibilities:"
+#~ msgstr "%s: voľba '%s' je nejednoznačná, možnosti:"
+
+#~ msgid "%s: option '%s' is ambiguous\n"
+#~ msgstr "%s: voľba '%s' je nejednoznačná\n"
+
+#~ msgid "%s: option '--%s' requires an argument\n"
+#~ msgstr "%s: voľba '--%s' vyžaduje parameter\n"
+
+#~ msgid "%s: invalid option -- '%c'\n"
+#~ msgstr "%s: neplatná voľba -- '%c'\n"
+
+#~ msgid "%s: option requires an argument -- '%c'\n"
+#~ msgstr "%s: voľba vyžaduje parameter -- '%c'\n"
+
+#~ msgid "%s: option '-W %s' is ambiguous\n"
+#~ msgstr "%s: voľba '-W %s' je nejednoznačná\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: voľba '-W %s' nepodporuje parameter\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: voľba '-W %s' vyžaduje parameter\n"
+
+#~ msgid "`"
+#~ msgstr "„"
+
+#~ msgid "'"
+#~ msgstr "“"
+
+#~ msgid "%s: unable to resolve bind address %s; disabling bind.\n"
+#~ msgstr ""
+#~ "%s: nepodarilo sa previesť adresu zviazania %s; deaktivujem zviazanie.\n"
+
+#~ msgid "Connecting to %s|%s|:%d... "
+#~ msgstr "Pripájanie k %s|%s|:%d... "
+
+#~ msgid "Connecting to %s:%d... "
+#~ msgstr "Pripájanie k %s:%d... "
+
+#~ msgid "Connecting to [%s]:%d... "
+#~ msgstr "Pripájanie k [%s]:%d... "
+
+#~ msgid "setsockopt SO_RCVBUF failed: %s\n"
+#~ msgstr "zlyhalo setsockopt SO_RCVBUF: %s\n"
+
+#~ msgid "connected.\n"
+#~ msgstr "pripojené.\n"
+
+#~ msgid "%s: unable to resolve host address %s\n"
+#~ msgstr "%s: nepodarilo sa previesť adresu hostiteľa %s\n"
+
+#~ msgid "setsockopt SO_REUSEADDR failed: %s\n"
+#~ msgstr "zlyhalo setsockopt SO_REUSEADDR: %s\n"
+
+#~ msgid "Too many fds open.  Cannot use select on a fd >= %d\n"
+#~ msgstr ""
+#~ "Príliš veľa otvorených fd.  Nie je možné použiť select na fd >= %d\n"
+
+#~ msgid "Converted links in %d files in %s seconds.\n"
+#~ msgstr "Skonvertované odkazy v %d súboroch za %s sekúnd.\n"
+
+#~ msgid "Converting links in %s... "
+#~ msgstr "Konvertovanie odkazov v %s... "
+
+#~ msgid "Unable to delete %s: %s\n"
+#~ msgstr "Nepodarilo sa zmazať %s: %s\n"
+
+#~ msgid "Cannot back up %s as %s: %s\n"
+#~ msgstr "Nie je možné zálohovať %s ako %s: %s\n"
+
+#~ msgid "Syntax error in Set-Cookie: %s at position %d.\n"
+#~ msgstr "Chyba syntaxe v Set-Cookie: %s na pozícii %d.\n"
+
+#~ msgid "Cookie coming from %s attempted to set domain to "
+#~ msgstr "Koláčiky prichádzajúce z %s sa pokúsili nastaviť doménu na "
+
+#~ msgid "%s\n"
+#~ msgstr "%s\n"
+
+#~ msgid "Cannot open cookies file %s: %s\n"
+#~ msgstr "Nie je možné otvoriť súbor s koláčikmi %s: %s\n"
+
+#~ msgid "Error writing to %s: %s\n"
+#~ msgstr "Chyba pri zápise do %s: %s\n"
+
+#~ msgid "Unsupported listing type, trying Unix listing parser.\n"
+#~ msgstr "Nepodporovaný typ výpisu, skúša sa unixový parser.\n"
+
+#~ msgid "Index of /%s on %s:%d"
+#~ msgstr "Obsah /%s na %s:%d"
+
+#~ msgid "time unknown       "
+#~ msgstr "čas neznámy        "
+
+#~ msgid "Directory   "
+#~ msgstr "Adresár     "
+
+#~ msgid "Link        "
+#~ msgstr "Sym. odkaz  "
+
+#~ msgid "Not sure    "
+#~ msgstr "Nie je isté"
+
+#~ msgid " (%s bytes)"
+#~ msgstr " (%s bajtov)"
+
+#~ msgid "Length: %s"
+#~ msgstr "Dĺžka: %s"
+
+#~ msgid ", %s (%s) remaining"
+#~ msgstr ", ostáva %s (%s)"
+
+#~ msgid ", %s remaining"
+#~ msgstr ", ostáva %s"
+
+#~ msgid " (unauthoritative)\n"
+#~ msgstr " (nie je smerodajné)\n"
+
+#~ msgid "Logging in as %s ... "
+#~ msgstr "Prihlasovanie ako %s ... "
+
+#~ msgid "Error in server response, closing control connection.\n"
+#~ msgstr "Server odpovedal chybne, riadiace spojenie sa uzatvára.\n"
+
+#~ msgid "Error in server greeting.\n"
+#~ msgstr "Úvodná odpoveď servera je chybná.\n"
+
+#~ msgid "Write failed, closing control connection.\n"
+#~ msgstr "Zápis dát zlyhal, riadiace spojenie sa uzatvára.\n"
+
+#~ msgid "The server refuses login.\n"
+#~ msgstr "Server odmieta prihlásenie.\n"
+
+#~ msgid "Login incorrect.\n"
+#~ msgstr "Chyba pri prihlásení.\n"
+
+#~ msgid "Logged in!\n"
+#~ msgstr "Prihlásený!\n"
+
+#~ msgid "Server did not accept the 'PBSZ 0' command.\n"
+#~ msgstr "Server neakceptoval príkaz 'PBSZ 0'.\n"
+
+#~ msgid "Server did not accept the 'PROT %c' command.\n"
+#~ msgstr "Server neakceptoval príkaz 'PROT %c'.\n"
+
+#~ msgid "Server error, can't determine system type.\n"
+#~ msgstr "Chyba servera, nie je možné zistiť typ systému.\n"
+
+#~ msgid "done.    "
+#~ msgstr "hotovo.  "
+
+#~ msgid "done.\n"
+#~ msgstr "hotovo.\n"
+
+#~ msgid "Unknown type `%c', closing control connection.\n"
+#~ msgstr "Neznámy typ `%c', riadiace spojenie sa uzatvára.\n"
+
+#~ msgid "done.  "
+#~ msgstr "hotovo."
+
+#~ msgid "==> CWD not needed.\n"
+#~ msgstr "==> CWD nie je potrebné.\n"
+
+#~ msgid "Logically impossible section reached in getftp()"
+#~ msgstr "Dosiahnutá logicky nemožná časť v getftp()"
+
+#~ msgid ""
+#~ "cwd_count: %d\n"
+#~ "cwd_start: %d\n"
+#~ "cwd_end: %d\n"
+#~ msgstr ""
+#~ "cwd_count: %d\n"
+#~ "cwd_start: %d\n"
+#~ "cwd_end: %d\n"
+
+#~ msgid ""
+#~ "No such directory %s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Adresár %s neexistuje.\n"
+#~ "\n"
+
+#~ msgid "==> CWD not required.\n"
+#~ msgstr "==> CWD nie je potrebné.\n"
+
+#~ msgid "File has already been retrieved.\n"
+#~ msgstr "Súbor už bol prenesený.\n"
+
+#~ msgid "Cannot initiate PASV transfer.\n"
+#~ msgstr "Nie je možné iniciovať prenos príkazom PASV.\n"
+
+#~ msgid "couldn't connect to %s port %d: %s\n"
+#~ msgstr "nepodarilo sa pripojiť k %s port %d: %s\n"
+
+#~ msgid "Invalid PORT.\n"
+#~ msgstr "Neplatný PORT.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "REST failed, starting from scratch.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "REST zlyhal, začína sa odznova.\n"
+
+#~ msgid "File %s exists.\n"
+#~ msgstr "Súbor %s existuje.\n"
+
+#~ msgid "No such file %s.\n"
+#~ msgstr "Súbor %s neexistuje.\n"
+
+#~ msgid ""
+#~ "No such file %s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Súbor %s neexistuje.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "No such file or directory %s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Súbor alebo adresár %s neexistuje.\n"
+#~ "\n"
+
+#~ msgid "%s has sprung into existence.\n"
+#~ msgstr "%s bol odpružený do existencie.\n"
+
+#~ msgid "%s: %s, closing control connection.\n"
+#~ msgstr "%s: %s, riadiace spojenie sa uzatvára.\n"
+
+#~ msgid "%s (%s) - Data connection: %s; "
+#~ msgstr "%s (%s) - Dátové spojenie: %s; "
+
+#~ msgid "Control connection closed.\n"
+#~ msgstr "Riadiace spojenie uzatvorené.\n"
+
+#~ msgid "Data transfer aborted.\n"
+#~ msgstr "Prenos dát bol predčasne ukončený.\n"
+
+#~ msgid "File %s already there; not retrieving.\n"
+#~ msgstr "Súbor %s je už tam, nebude sa prenášať.\n"
+
+#~ msgid "(try:%2d)"
+#~ msgstr "(pokus:%2d)"
+
+#~ msgid ""
+#~ "%s (%s) - written to stdout %s[%s]\n"
+#~ "\n"
+#~ msgstr ""
+#~ "%s (%s) - zapísané na štandardný výstup %s[%s]\n"
+#~ "\n"
+
+#~ msgid "Removing %s.\n"
+#~ msgstr "Odstraňuje sa %s.\n"
+
+#~ msgid "Using %s as listing tmp file.\n"
+#~ msgstr "Použiť %s ako dočasný súbor zoznamu.\n"
+
+#~ msgid "Removed %s.\n"
+#~ msgstr "Odstránené %s.\n"
+
+#~ msgid "Recursion depth %d exceeded max. depth %d.\n"
+#~ msgstr "Hĺbka rekurzie %d prekročila maximálnu hĺbku %d.\n"
+
+#~ msgid "Remote file no newer than local file %s -- not retrieving.\n"
+#~ msgstr ""
+#~ "Vzdialený súbor nie je novší ako miestny súbor %s -- neprenáša sa.\n"
+
+#~ msgid ""
+#~ "Remote file is newer than local file %s -- retrieving.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Vzdialený súbor je novší ako miestny súbor %s -- prenáša sa.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "The sizes do not match (local %s) -- retrieving.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Veľkosti se nezhodujú (miestny %s) -- prenáša sa.\n"
+#~ "\n"
+
+#~ msgid "Invalid name of the symlink, skipping.\n"
+#~ msgstr "Neplatný názov symoblického odkazu, preskakuje sa.\n"
+
+#~ msgid ""
+#~ "Already have correct symlink %s -> %s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Korektný symbolický odkaz %s -> %s už existuje.\n"
+#~ "\n"
+
+#~ msgid "Creating symlink %s -> %s\n"
+#~ msgstr "Vytvára sa symbolický odkaz %s -> %s\n"
+
+#~ msgid "Symlinks not supported, skipping symlink %s.\n"
+#~ msgstr ""
+#~ "Symbolické odkazy nie sú podporované, preskakuje sa symbolický odkaz %s.\n"
+
+#~ msgid "Skipping directory %s.\n"
+#~ msgstr "Preskakuje sa adresár %s.\n"
+
+#~ msgid "%s: unknown/unsupported file type.\n"
+#~ msgstr "%s: neznámy/nepodporovaný typ súboru.\n"
+
+#~ msgid "%s: corrupt time-stamp.\n"
+#~ msgstr "%s: časové značka súboru je porušená.\n"
+
+#~ msgid "Will not retrieve dirs since depth is %d (max %d).\n"
+#~ msgstr "Nebudú sa prenášať adresáre, pretože hĺbka je %d (maximum je %d).\n"
+
+#~ msgid "Not descending to %s as it is excluded/not-included.\n"
+#~ msgstr "Nezostupuje sa do %s, pretože je vylúčený/nezačlenený.\n"
+
+#~ msgid "Rejecting %s.\n"
+#~ msgstr "Odmieta sa %s.\n"
+
+#~ msgid "Error matching %s against %s: %s\n"
+#~ msgstr "Chyba pri hľadaní zhody %s s %s: %s\n"
+
+#~ msgid "No matches on pattern %s.\n"
+#~ msgstr "Vzoru %s nič nezodpovedá.\n"
+
+#~ msgid "Wrote HTML-ized index to %s [%s].\n"
+#~ msgstr "Výpis adresára v HTML formáte bol zapísaný do %s [%s].\n"
+
+#~ msgid "Wrote HTML-ized index to %s.\n"
+#~ msgstr "Výpis adresára v HTML formáte bol zapísaný do %s.\n"
+
+#~ msgid "ERROR: Cannot open directory %s.\n"
+#~ msgstr "CHYBA: Nie je možné otvoriť adresár %s.\n"
+
+#~ msgid "Loaded CRL file '%s'\n"
+#~ msgstr "Načítaný CRL súbor '%s'\n"
+
+#~ msgid "GnuTLS: unimplemented 'secure-protocol' option value %d\n"
+#~ msgstr "GnuTLS: neimplementovaná hodnota %d voľby 'secure-protocol'\n"
+
+#~ msgid "Please report this issue to bug-wget@gnu.org\n"
+#~ msgstr "Oznámte, prosím, tento problém na bug-wget@gnu.org (iba anglicky)\n"
+
+#~ msgid "The certificate has not yet been activated\n"
+#~ msgstr "Certifikát ešte nebol aktivovaný\n"
+
+#~ msgid "The public key does not match pinned public key!\n"
+#~ msgstr "Verejný kľúč sa nezhoduje so zadaným verejným kľúčom!\n"
+
+#~ msgid "Error in handling the address list.\n"
+#~ msgstr "Chyba pri spracovaní zoznamu adries.\n"
+
+#~ msgid "Resolving %s... "
+#~ msgstr "Prevádza sa %s na IP adresu... "
+
+#~ msgid "failed: No IPv4/IPv6 addresses for host.\n"
+#~ msgstr "zlyhalo: Hostiteľ nemá IPv4/IPv6 adresy.\n"
+
+#~ msgid "failed: timed out.\n"
+#~ msgstr "zlyhalo: časový limit vypršal.\n"
+
+#~ msgid "%s: Invalid URL %s: %s\n"
+#~ msgstr "%s: Neplatné URL %s: %s\n"
+
+#~ msgid "No headers, assuming HTTP/0.9"
+#~ msgstr "Bez hlavičiek, predpokladá sa HTTP/0.9"
+
+#~ msgid ""
+#~ "File %s already there; not retrieving.\n"
+#~ "\n"
+#~ msgstr "Súbor %s je už tam, nebude sa prenášať.\n"
+
+#~ msgid "gmtime failed. This is probably a bug.\n"
+#~ msgstr "gmtime zlyhalo. Toto je pravdepodobne programátorská chyba.\n"
+
+#~ msgid ""
+#~ "Cannot convert timestamp to http format. Falling back to time 0 as last "
+#~ "modification time.\n"
+#~ msgstr ""
+#~ "Nemožno previesť časovú značku do formátu http. Použije sa čas 0 ako čas "
+#~ "poslednej zmeny.\n"
+
+#~ msgid "BODY data file %s missing: %s\n"
+#~ msgstr "Chýba BODY dátový súbor %s: %s\n"
+
+#~ msgid "Reusing existing connection to [%s]:%d.\n"
+#~ msgstr "Použije sa existujúce spojenie s [%s]:%d.\n"
+
+#~ msgid "Reusing existing connection to %s:%d.\n"
+#~ msgstr "Použije sa existujúce spojenie s %s:%d.\n"
+
+#~ msgid "Failed reading proxy response: %s\n"
+#~ msgstr "Zlyhalo čítanie odpovede z proxy: %s\n"
+
+#~ msgid "%s ERROR %d: %s.\n"
+#~ msgstr "%s CHYBA %d: %s.\n"
+
+#~ msgid "Malformed status line"
+#~ msgstr "Odpoveď servera má skomolený stavový riadok"
+
+#~ msgid "Proxy tunneling failed: %s"
+#~ msgstr "Tunelovanie proxy zlyhalo: %s"
+
+#~ msgid ""
+#~ "When downloading signature:\n"
+#~ "%s: %s.\n"
+#~ msgstr ""
+#~ "Pri sťahovaní podpisu:\n"
+#~ "%s: %s.\n"
+
+#~ msgid "Unable to read signature content from temporary file. Skipping.\n"
+#~ msgstr ""
+#~ "Nie je možné prečítať obsah podpisu z dočasného súboru.  Preskakuje sa.\n"
+
+#~ msgid "Could not create temporary file. Skipping signature download.\n"
+#~ msgstr ""
+#~ "Nepodarilo sa vytvoriť dočasný súbor.  Preskakuje sa sťahovanie podpisu.\n"
+
+#~ msgid "Invalid pri value. Assuming %d.\n"
+#~ msgstr "Neplatná hodnota pri. Predpoklá sa %d.\n"
+
+#~ msgid ""
+#~ "Could not find acceptable digest for Metalink resources.\n"
+#~ "Ignoring them.\n"
+#~ msgstr ""
+#~ "Nepodarilo sa nájsť prijateľný kontrolný súčet pre zdroje Metalink.\n"
+
+#~ msgid "Disabling SSL due to encountered errors.\n"
+#~ msgstr "Deaktivuje sa SSL z dôvodu výskytu chýb.\n"
+
+#~ msgid "%s request sent, awaiting response... "
+#~ msgstr "%s požiadavka odoslaná, čakám na odpoveď... "
+
+#~ msgid "No data received.\n"
+#~ msgstr "Neboli prijaté žiadne dáta.\n"
+
+#~ msgid "Read error (%s) in headers.\n"
+#~ msgstr "Chyba (%s) pri čítaní hlavičiek.\n"
+
+#~ msgid "(no description)"
+#~ msgstr "(bez popisu)"
+
+#~ msgid "Location: %s%s\n"
+#~ msgstr "Presmerované na: %s%s\n"
+
+#~ msgid "unspecified"
+#~ msgstr "neudané"
+
+#~ msgid " [following]"
+#~ msgstr " [nasledované]"
+
+#~ msgid ""
+#~ "Server ignored If-Modified-Since header for file %s.\n"
+#~ "You might want to add --no-if-modified-since option.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Server ignoroval hlavičku If-Modified-Since pre súbor %s.\n"
+#~ "Mohli by ste chcieť pridať voľbu --no-if-modified-since.\n"
+#~ "\n"
+
+#~ msgid "Length: "
+#~ msgstr "Dĺžka:  "
+
+#~ msgid "ignored"
+#~ msgstr "ignorované"
+
+#~ msgid "Warning: wildcards not supported in HTTP.\n"
+#~ msgstr "Upozornenie: HTTP nepodporuje žolíkové znaky.\n"
+
+#~ msgid "Spider mode enabled. Check if remote file exists.\n"
+#~ msgstr "Povolený režim pavúka. Skontrolujte, či vzdialený súbor existuje.\n"
+
+#~ msgid "Cannot write to %s (%s).\n"
+#~ msgstr "Nie je možné zapísať do %s (%s).\n"
+
+#~ msgid "Required attribute missing from Header received.\n"
+#~ msgstr "Prijatá hlavička neobsahuje povinný atribút.\n"
+
+#~ msgid "Cannot write to WARC file.\n"
+#~ msgstr "Nie je možné zapísať do súboru WARC.\n"
+
+#~ msgid "Cannot write to temporary WARC file.\n"
+#~ msgstr "Nie je možné zapísať do dočasného súboru WARC.\n"
+
+#~ msgid "Unable to establish SSL connection.\n"
+#~ msgstr "Nepodarilo sa nadviazať SSL spojenie.\n"
+
+#~ msgid "Cannot unlink %s (%s).\n"
+#~ msgstr "Nie je možné odstrániť %s (%s).\n"
+
+#~ msgid "ERROR: Redirection (%d) without location.\n"
+#~ msgstr "CHYBA: Presmerovanie (%d) bez udanej novej adresy.\n"
+
+#~ msgid ""
+#~ "Could not find Metalink data in HTTP response. Downloading file using "
+#~ "HTTP GET.\n"
+#~ msgstr ""
+#~ "Nepodarilo sa v HTTP odpovedi nájsť dáta Metalink. Súbor sa sťahuje "
+#~ "pomocou HTTP GET.\n"
+
+#~ msgid "Metalink headers found. Switching to Metalink mode.\n"
+#~ msgstr "Nájdené hlavičky Metalink. Prepnutie do režimu Metalink.\n"
+
+#~ msgid "Remote file does not exist -- broken link!!!\n"
+#~ msgstr "Vzdialený súbor neexistuje -- poškodený odkaz!!!\n"
+
+#~ msgid "Last-modified header missing -- time-stamps turned off.\n"
+#~ msgstr "Hlavička Last-modified chýba -- nebudú sa používať časové značky.\n"
+
+#~ msgid "Last-modified header invalid -- time-stamp ignored.\n"
+#~ msgstr "Hlavička Last-modified je neplatná -- časové značky ignorované.\n"
+
+#~ msgid ""
+#~ "Server file no newer than local file %s -- not retrieving.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Súbor na serveri nie je novší ako miestny súbor %s -- neprenáša sa.\n"
+#~ "\n"
+
+#~ msgid "Remote file is newer, retrieving.\n"
+#~ msgstr "Vzdialený súbor je novší, prenáša sa.\n"
+
+#~ msgid ""
+#~ "Remote file exists and could contain links to other resources -- "
+#~ "retrieving.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Vzdialený súbor existuje a mohol by obsahovať odkazy na iné zdroje -- "
+#~ "prenáša sa.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Remote file exists but does not contain any link -- not retrieving.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Vzdialený súbor, ale neobsahuje žiadne odkazy -- neprenáša sa.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Remote file exists and could contain further links,\n"
+#~ "but recursion is disabled -- not retrieving.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Vzdialený súbor existuje a mohol by obsahovať ďalšie odkazy,\n"
+#~ "ale rekurzia nie je povolená -- neprenáša sa.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Remote file exists.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Vzdialený súbor existuje.\n"
+#~ "\n"
+
+#~ msgid "%s URL: %s %2d %s\n"
+#~ msgstr "%s URL: %s %2d %s\n"
+
+#~ msgid ""
+#~ "%s (%s) - written to stdout %s[%s/%s]\n"
+#~ "\n"
+#~ msgstr ""
+#~ "%s (%s) - zapísané na štandardný výstup %s[%s/%s]\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "%s (%s) - %s saved [%s/%s]\n"
+#~ "\n"
+#~ msgstr ""
+#~ "%s (%s) - %s uložené [%s/%s]\n"
+#~ "\n"
+
+#~ msgid "%s (%s) - Connection closed at byte %s. "
+#~ msgstr "%s (%s) - Spojenie uzatvorené na bajte %s. "
+
+#~ msgid "%s (%s) - Read error at byte %s (%s)."
+#~ msgstr "%s (%s) - Chyba pri čítaní na bajte %s (%s)."
+
+#~ msgid "%s (%s) - Read error at byte %s/%s (%s). "
+#~ msgstr "%s (%s) - Chyba pri čítaní na bajte %s/%s (%s). "
+
+#~ msgid "%s: WGETRC points to %s, which doesn't exist.\n"
+#~ msgstr "%s: WGETRC ukazuje na %s a ten neexistuje.\n"
+
+#~ msgid "%s: Error in %s at line %d.\n"
+#~ msgstr "%s: Chyba v %s na riadku %d.\n"
+
+#~ msgid "%s: Syntax error in %s at line %d.\n"
+#~ msgstr "%s: Chyba syntaxe v %s na riadku %d.\n"
+
+#~ msgid "%s: Unknown command %s in %s at line %d.\n"
+#~ msgstr "%s: Neznámy príkaz %s v %s na riadku %d.\n"
+
+#~ msgid ""
+#~ "Parsing system wgetrc file (env SYSTEM_WGETRC) failed.  Please check\n"
+#~ "'%s',\n"
+#~ "or specify a different file using --config.\n"
+#~ msgstr ""
+#~ "Analýza systémového wgetrc súboru (premenná SYSTEM_WGETRC) zlyhala.\n"
+#~ "Prosím, skontrolujte '%s',\n"
+#~ "alebo zadajte iný súbor pomocou --config.\n"
+
+#~ msgid ""
+#~ "Parsing system wgetrc file failed.  Please check\n"
+#~ "'%s',\n"
+#~ "or specify a different file using --config.\n"
+#~ msgstr ""
+#~ "Analýza systémového wgetrc súboru zlyhala. Prosím, skontrolujte\n"
+#~ "'%s',\n"
+#~ "alebo zadajte iný súbor pomocou --config.\n"
+
+#~ msgid "%s: Warning: Both system and user wgetrc point to %s.\n"
+#~ msgstr ""
+#~ "%s: Upozornenie: Systémový aj používateľov súbor wgetrc úkazujú na %s.\n"
+
+#~ msgid "%s: Invalid --execute command %s\n"
+#~ msgstr "%s: Neplatný príkaz --execute %s\n"
+
+#~ msgid "%s: %s: Invalid boolean %s; use `on' or `off'.\n"
+#~ msgstr "%s: %s: Neplatná logická hodnota %s; použite `on' alebo `off'.\n"
+
+#~ msgid "%s: %s: Invalid %s; use `on', `off' or `quiet'.\n"
+#~ msgstr "%s: %s: Neplatné %s; použite `on', `off' alebo `quiet'.\n"
+
+#~ msgid "%s: %s must only be used once\n"
+#~ msgstr "%s: %s musí byť použité len raz\n"
+
+#~ msgid ""
+#~ "use-askpass requires a string or either environment variable WGET_ASKPASS "
+#~ "or SSH_ASKPASS to be set.\n"
+#~ msgstr ""
+#~ "use-askpass vyžaduje reťazec alebo nastavenú premennú prostredia "
+#~ "WGET_ASKPASS alebo SSH_ASKPASS.\n"
+
+#~ msgid "%s: %s: Invalid WARC header %s.\n"
+#~ msgstr "%s: %s: Neplatná WARC hlavička %s.\n"
+
+#~ msgid ""
+#~ "%s: %s: Invalid restriction %s,\n"
+#~ "    use [unix|vms|windows],[lowercase|uppercase],[nocontrol],[ascii].\n"
+#~ msgstr ""
+#~ "%s: %s: Neplatné obmedzenie %s,\n"
+#~ "    použite [unix|vms|windows],[lowercase|uppercase],[nocontrol],"
+#~ "[ascii].\n"
+
+#~ msgid "Encoding %s isn't valid\n"
+#~ msgstr "Kódovanie %s nie je platné\n"
+
+#~ msgid "Incomplete or invalid multibyte sequence encountered\n"
+#~ msgstr "Vyskytla sa nekompletná alebo neplatná viacbajtová postupnosť\n"
+
+#~ msgid "locale_to_utf8: locale is unset\n"
+#~ msgstr "locale_to_utf8: národné prostredie je nenastavené\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Redirecting output to %s.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Výstup sa presmerováva do %s.\n"
+
+#~ msgid "%s: %s; disabling logging.\n"
+#~ msgstr "%s: %s; protokolovaniei sa vypína.\n"
+
+#~ msgid "Usage: %s [OPTION]... [URL]...\n"
+#~ msgstr "Použitie: %s [VOĽBA]... [URL]...\n"
+
+#~ msgid ""
+#~ "Mandatory arguments to long options are mandatory for short options too.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Parametre povinné pri dlhých voľbách sú povinné aj pre skrátené voľby.\n"
+#~ "\n"
+
+#~ msgid "Startup:\n"
+#~ msgstr "Spustenie:\n"
+
+#~ msgid ""
+#~ "  -V,  --version                   display the version of Wget and exit\n"
+#~ msgstr ""
+#~ "  -V,  --version                   zobraziť verziu programu Wget a "
+#~ "skončiť\n"
+
+#~ msgid "  -h,  --help                      print this help\n"
+#~ msgstr "  -h,  --help                      vytlačiť túto pomoc\n"
+
+#~ msgid "  -b,  --background                go to background after startup\n"
+#~ msgstr "  -b,  --background                prejsť do pozadia po spustení\n"
+
+#~ msgid ""
+#~ "  -e,  --execute=COMMAND           execute a `.wgetrc'-style command\n"
+#~ msgstr "  -e,  --execute=PRÍKAZ            vykonať príkaz štýlu .wgetrc\n"
+
+#~ msgid "Logging and input file:\n"
+#~ msgstr "Zaznamenávanie a vstupný súbor:\n"
+
+#~ msgid "  -o,  --output-file=FILE          log messages to FILE\n"
+#~ msgstr "  -o,  --output-file=SÚBOR         zaznamenať správy do SÚBORu\n"
+
+#~ msgid "  -a,  --append-output=FILE        append messages to FILE\n"
+#~ msgstr "  -a,  --append-output=SÚBOR       pridať správy do SÚBORu\n"
+
+#~ msgid ""
+#~ "  -d,  --debug                     print lots of debugging information\n"
+#~ msgstr ""
+#~ "  -d,  --debug                     vytlačiť množstvo ladiacich "
+#~ "informácií\n"
+
+#~ msgid "       --wdebug                    print Watt-32 debug output\n"
+#~ msgstr ""
+#~ "       --wdebug                    vytlačiť ladiaci výstup Watt-32\n"
+
+#~ msgid "  -q,  --quiet                     quiet (no output)\n"
+#~ msgstr "  -q,  --quiet                     potichu (bez výstupu)\n"
+
+#~ msgid ""
+#~ "  -v,  --verbose                   be verbose (this is the default)\n"
+#~ msgstr ""
+#~ "  -v,  --verbose                   byť rozvláčny (toto je štandard)\n"
+
+#~ msgid ""
+#~ "  -nv, --no-verbose                turn off verboseness, without being "
+#~ "quiet\n"
+#~ msgstr ""
+#~ "  -nv, --no-verbose                vypnúť rozvláčnosť bez toho, aby bolo "
+#~ "ticho\n"
+
+#~ msgid ""
+#~ "       --report-speed=TYPE         output bandwidth as TYPE.  TYPE can be "
+#~ "bits\n"
+#~ msgstr ""
+#~ "       --report-speed=TYP          vypisovať šírku pásma ako TYP. TYP "
+#~ "môže byť `bits'\n"
+
+#~ msgid ""
+#~ "  -i,  --input-file=FILE           download URLs found in local or "
+#~ "external FILE\n"
+#~ msgstr ""
+#~ "  -i,  --input-file=SÚBOR          stiahnuť URL, ktoré sa nachádzajú v "
+#~ "miestnom\n"
+#~ "                                     alebo externom SÚBORe\n"
+
+#~ msgid ""
+#~ "       --input-metalink=FILE       download files covered in local "
+#~ "Metalink FILE\n"
+#~ msgstr ""
+#~ "       --input-metalink=SÚBOR      stiahnuť súbory zahrnuté v miestnom "
+#~ "Metalink SÚBORe\n"
+
+#~ msgid "  -F,  --force-html                treat input file as HTML\n"
+#~ msgstr ""
+#~ "  -F,  --force-html                spracovať vstupný súbor ako HTML\n"
+
+#~ msgid ""
+#~ "  -B,  --base=URL                  resolves HTML input-file links (-i -"
+#~ "F)\n"
+#~ "                                     relative to URL\n"
+#~ msgstr ""
+#~ "  -B,  --base=URL                  prevedie HTML odkazy vstupného súboru "
+#~ "(-i -F)\n"
+#~ "                                     relatívne k URL\n"
+
+#~ msgid "       --config=FILE               specify config file to use\n"
+#~ msgstr ""
+#~ "       --config=SÚBOR              určiť, ktorý konfiguračný súbor "
+#~ "použiť\n"
+
+#~ msgid "       --no-config                 do not read any config file\n"
+#~ msgstr ""
+#~ "       --no-config                 nenačítať žiaden konfiguračný súbor\n"
+
+#~ msgid ""
+#~ "       --rejected-log=FILE         log reasons for URL rejection to FILE\n"
+#~ msgstr ""
+#~ "       --rejected-log=SÚBOR        zaznamenať dôvody pre odmietnutie URL "
+#~ "do SÚBORu\n"
+
+#~ msgid "Download:\n"
+#~ msgstr "Sťahovanie:\n"
+
+#~ msgid ""
+#~ "  -t,  --tries=NUMBER              set number of retries to NUMBER (0 "
+#~ "unlimits)\n"
+#~ msgstr ""
+#~ "  -t,  --tries=ČÍSLO               nastaviť počet opakovaní na ČÍSLO (0 "
+#~ "neobmedzene)\n"
+
+#~ msgid ""
+#~ "       --retry-connrefused         retry even if connection is refused\n"
+#~ msgstr ""
+#~ "       --retry-connrefused         pokúsiť sa znova, aj keď bolo spojenie "
+#~ "odmietnuté\n"
+
+#~ msgid "  -O,  --output-document=FILE      write documents to FILE\n"
+#~ msgstr "  -O,  --output-document=SÚBOR     zapísať dokumenty do SÚBORu\n"
+
+#~ msgid ""
+#~ "  -nc, --no-clobber                skip downloads that would download to\n"
+#~ "                                     existing files (overwriting them)\n"
+#~ msgstr ""
+#~ "  -nc, --no-clobber                preskočiť sťahovania, ktoré by "
+#~ "sťahovali\n"
+#~ "                                     do existujúcich súborov (prepísali "
+#~ "ich)\n"
+
+#~ msgid ""
+#~ "  -c,  --continue                  resume getting a partially-downloaded "
+#~ "file\n"
+#~ msgstr ""
+#~ "  -c,  --continue                  obnoviť získavanie čiastočne "
+#~ "stiahnutého súboru\n"
+
+#~ msgid ""
+#~ "       --start-pos=OFFSET          start downloading from zero-based "
+#~ "position OFFSET\n"
+#~ msgstr ""
+#~ "       --start-pos=POSUV           začať sťahovanie od pozície POSUV "
+#~ "(začína nulou)\n"
+
+#~ msgid "       --progress=TYPE             select progress gauge type\n"
+#~ msgstr "       --progress=TYP              zvoliť typ zobrazenia postupu\n"
+
+#~ msgid ""
+#~ "       --show-progress             display the progress bar in any "
+#~ "verbosity mode\n"
+#~ msgstr ""
+#~ "       --show-progress             zobraziť lištu postupu v každom režime "
+#~ "rozvláčnosti\n"
+
+#~ msgid ""
+#~ "  -N,  --timestamping              don't re-retrieve files unless newer "
+#~ "than\n"
+#~ "                                     local\n"
+#~ msgstr ""
+#~ "  -N,  --timestamping              nesťahovať opäť súbory, pokiaľ nie sú "
+#~ "novšie\n"
+#~ "                                     ako miestne\n"
+
+#~ msgid ""
+#~ "       --no-if-modified-since      don't use conditional if-modified-"
+#~ "since get\n"
+#~ "                                     requests in timestamping mode\n"
+#~ msgstr ""
+#~ "       --no-if-modified-since      nepoužívať požiadavky sťahovania s "
+#~ "podmienkou\n"
+#~ "                                     if-modified-since v režime "
+#~ "označovania\n"
+#~ "                                     časovými značkami\n"
+
+#~ msgid ""
+#~ "       --no-use-server-timestamps  don't set the local file's timestamp "
+#~ "by\n"
+#~ "                                     the one on the server\n"
+#~ msgstr ""
+#~ "       --no-use-server-timestamps  nenastavovať časové značky miestnych "
+#~ "súborov\n"
+#~ "                                     podľa toho ako sú na serveri\n"
+
+#~ msgid "  -S,  --server-response           print server response\n"
+#~ msgstr "  -S,  --server-response           vytlačiť odpoveď servera\n"
+
+#~ msgid "       --spider                    don't download anything\n"
+#~ msgstr "       --spider                    nesťahovať nič\n"
+
+#~ msgid ""
+#~ "  -T,  --timeout=SECONDS           set all timeout values to SECONDS\n"
+#~ msgstr ""
+#~ "  -T,  --timeout=SEKUNDY           nastaviť všetky hodnoty časových "
+#~ "limitov na SEKUNDY\n"
+
+#~ msgid ""
+#~ "       --dns-servers=ADDRESSES     list of DNS servers to query (comma "
+#~ "separated)\n"
+#~ msgstr ""
+#~ "       --dns-servers=ADRESY        zoznam DNS serverov, na ktoré posielať "
+#~ "požiadavky (oddelené čiarkou)\n"
+
+#~ msgid ""
+#~ "       --bind-dns-address=ADDRESS  bind DNS resolver to ADDRESS (hostname "
+#~ "or IP) on local host\n"
+#~ msgstr ""
+#~ "       --bind-dns-address=ADRESA   zviazať DNS resolver s ADRESOU (názov "
+#~ "hostiteľa alebo IP) na miestnom hostiteľovi\n"
+
+#~ msgid ""
+#~ "       --dns-timeout=SECS          set the DNS lookup timeout to SECS\n"
+#~ msgstr ""
+#~ "       --dns-timeout=SEKUNDY       nastaviť časový limit DNS vyhľadávania "
+#~ "na SEKUNDY\n"
+
+#~ msgid "       --connect-timeout=SECS      set the connect timeout to SECS\n"
+#~ msgstr ""
+#~ "       --connect-timeout=SEKUNDY   nastaviť časový limit spojenia na "
+#~ "SEKUNDY\n"
+
+#~ msgid "       --read-timeout=SECS         set the read timeout to SECS\n"
+#~ msgstr ""
+#~ "       --read-timeout=SEKUNDY      nastaviť časový limit čítania na "
+#~ "SEKUNDY\n"
+
+#~ msgid "  -w,  --wait=SECONDS              wait SECONDS between retrievals\n"
+#~ msgstr ""
+#~ "  -w,  --wait=SEKUNDY              počkať SEKUNDY medzi sťahovaniami\n"
+
+#~ msgid ""
+#~ "       --waitretry=SECONDS         wait 1..SECONDS between retries of a "
+#~ "retrieval\n"
+#~ msgstr ""
+#~ "       --waitretry=SEKÚND          počkať 1..SEKÚND medzi pokusmi o "
+#~ "sťahovanie\n"
+
+#~ msgid ""
+#~ "       --random-wait               wait from 0.5*WAIT...1.5*WAIT secs "
+#~ "between retrievals\n"
+#~ msgstr ""
+#~ "       --random-wait               počkať od 0,5 × POČKAŤ ... 1,5 × "
+#~ "POČKAŤ sekúnd medzi\n"
+#~ "                                     sťahovaniami\n"
+
+#~ msgid "       --no-proxy                  explicitly turn off proxy\n"
+#~ msgstr "       --no-proxy                  explicitne vypnúť proxy\n"
+
+#~ msgid "  -Q,  --quota=NUMBER              set retrieval quota to NUMBER\n"
+#~ msgstr ""
+#~ "  -Q,  --quota=ČÍSLO               nastaviť limit sťahovania na ČÍSLO\n"
+
+#~ msgid ""
+#~ "       --bind-address=ADDRESS      bind to ADDRESS (hostname or IP) on "
+#~ "local host\n"
+#~ msgstr ""
+#~ "       --bind-address=ADRESA       zviazať s ADRESOU (názov hostiteľa "
+#~ "alebo IP) na miestnom hostiteľovi\n"
+
+#~ msgid "       --limit-rate=RATE           limit download rate to RATE\n"
+#~ msgstr ""
+#~ "       --limit-rate=RÝCHLOSŤ       obmedziť rýchlosť sťahovania na "
+#~ "RÝCHLOSŤ\n"
+
+#~ msgid "       --no-dns-cache              disable caching DNS lookups\n"
+#~ msgstr ""
+#~ "       --no-dns-cache              zakázať dočasné ukladanie DNS "
+#~ "vyhľadávania\n"
+
+#~ msgid ""
+#~ "       --restrict-file-names=OS    restrict chars in file names to ones "
+#~ "OS allows\n"
+#~ msgstr ""
+#~ "       --restrict-file-names=OS    obmedziť znaky v názvoch súborov na "
+#~ "tie, ktoré povoľuje OS\n"
+
+#~ msgid ""
+#~ "       --ignore-case               ignore case when matching files/"
+#~ "directories\n"
+#~ msgstr ""
+#~ "       --ignore-case               ignorovať veľkosť písmen pri "
+#~ "porovnávaní súborov/adresárov\n"
+
+#~ msgid "  -4,  --inet4-only                connect only to IPv4 addresses\n"
+#~ msgstr "  -4,  --inet4-only                pripájať sa len na adresy IPv4\n"
+
+#~ msgid "  -6,  --inet6-only                connect only to IPv6 addresses\n"
+#~ msgstr "  -6,  --inet6-only                pripájať sa len na adresy IPv6\n"
+
+#~ msgid ""
+#~ "       --prefer-family=FAMILY      connect first to addresses of "
+#~ "specified family,\n"
+#~ "                                     one of IPv6, IPv4, or none\n"
+#~ msgstr ""
+#~ "       --prefer-family=RODINA      pripájať sa najskôr k adresám zadanej "
+#~ "rodiny,\n"
+#~ "                                     jedno z IPv6, IPv4 alebo none\n"
+
+#~ msgid ""
+#~ "       --user=USER                 set both ftp and http user to USER\n"
+#~ msgstr ""
+#~ "       --user=POUŽÍVATEĽ           nastaviť ftp a http používateľov na "
+#~ "POUŽÍVATEĽ\n"
+
+#~ msgid ""
+#~ "       --password=PASS             set both ftp and http password to "
+#~ "PASS\n"
+#~ msgstr ""
+#~ "       --password=HESLO            nastaviť ftp a http heslo na HESLO\n"
+
+#~ msgid "       --ask-password              prompt for passwords\n"
+#~ msgstr "       --ask-password              pýtať sa na heslá\n"
+
+#~ msgid ""
+#~ "       --use-askpass=COMMAND       specify credential handler for "
+#~ "requesting \n"
+#~ "                                     username and password.  If no "
+#~ "COMMAND is \n"
+#~ "                                     specified the WGET_ASKPASS or the "
+#~ "SSH_ASKPASS \n"
+#~ "                                     environment variable is used.\n"
+#~ msgstr ""
+#~ "       --use-askpass=PRÍKAZ        určuje poverujúci obslužný program na "
+#~ "vyžiadanie \n"
+#~ "                                     mena používateľa a hesla.  Ak nie je "
+#~ "PRÍKAZ \n"
+#~ "                                     uvedený, použije sa premenná "
+#~ "prostredia \n"
+#~ "                                     WGET_ASKPASS alebo SSH_ASKPASS.\n"
+
+#~ msgid "       --no-iri                    turn off IRI support\n"
+#~ msgstr "       --no-iri                    vypnúť podporu IRI\n"
+
+#~ msgid ""
+#~ "       --local-encoding=ENC        use ENC as the local encoding for "
+#~ "IRIs\n"
+#~ msgstr ""
+#~ "       --local-encoding=KÓD        použiť KÓD ako miestne kódovanie pre "
+#~ "IRI\n"
+
+#~ msgid ""
+#~ "       --remote-encoding=ENC       use ENC as the default remote "
+#~ "encoding\n"
+#~ msgstr ""
+#~ "       --remote-encoding=KÓD       použiť KÓD ako predvolené vzdialené "
+#~ "kódovanie\n"
+
+#~ msgid "       --unlink                    remove file before clobber\n"
+#~ msgstr "       --unlink                    odstrániť súbor pred čistením\n"
+
+#~ msgid ""
+#~ "       --keep-badhash              keep files with checksum mismatch "
+#~ "(append .badhash)\n"
+#~ msgstr ""
+#~ "       --keep-badhash              ponechať súbory s nesúhlasiacim "
+#~ "kontrolným súčtom (pridať .badhash)\n"
+
+#~ msgid ""
+#~ "       --metalink-index=NUMBER     Metalink application/metalink4+xml "
+#~ "metaurl ordinal NUMBER\n"
+#~ msgstr ""
+#~ "       --metalink-index=ČÍSLO      Poradové ČÍSLO metaurl Metalink "
+#~ "application/metalink4+xml\n"
+
+#~ msgid ""
+#~ "       --metalink-over-http        use Metalink metadata from HTTP "
+#~ "response headers\n"
+#~ msgstr ""
+#~ "       --metalink-over-http        použiť metadáta Metalink z hlavičiek "
+#~ "odpovede HTTP\n"
+
+#~ msgid ""
+#~ "       --preferred-location        preferred location for Metalink "
+#~ "resources\n"
+#~ msgstr ""
+#~ "       --preferred-location        uprednostňované umiestnenie pre zdroje "
+#~ "Metalink\n"
+
+#~ msgid ""
+#~ "       --no-xattr                  turn off storage of metadata in "
+#~ "extended file attributes\n"
+#~ msgstr ""
+#~ "       --no-xattr                  vypnúť ukladanie metaúdajov v "
+#~ "rozšírených príznakoch súborov\n"
+
+#~ msgid "Directories:\n"
+#~ msgstr "Adresáre:\n"
+
+#~ msgid "  -nd, --no-directories            don't create directories\n"
+#~ msgstr "  -nd, --no-directories            nevytvárať adresáre\n"
+
+#~ msgid "  -x,  --force-directories         force creation of directories\n"
+#~ msgstr "  -x,  --force-directories         vynútiť vytváranie adresárov\n"
+
+#~ msgid "  -nH, --no-host-directories       don't create host directories\n"
+#~ msgstr "  -nH, --no-host-directories       nevytvárať adresáre hostiteľa\n"
+
+#~ msgid ""
+#~ "       --protocol-directories      use protocol name in directories\n"
+#~ msgstr ""
+#~ "       --protocol-directories      použiť názov protokolu v adresároch\n"
+
+#~ msgid "  -P,  --directory-prefix=PREFIX   save files to PREFIX/..\n"
+#~ msgstr "  -P,  --directory-prefix=PREDP    uložiť súbory do PREDP/..\n"
+
+#~ msgid ""
+#~ "       --cut-dirs=NUMBER           ignore NUMBER remote directory "
+#~ "components\n"
+#~ msgstr ""
+#~ "       --cur-dirs=POČET            ignorovať POČET vzdialených častí "
+#~ "názvu adresára\n"
+
+#~ msgid "HTTP options:\n"
+#~ msgstr "HTTP voľby:\n"
+
+#~ msgid "       --http-user=USER            set http user to USER\n"
+#~ msgstr ""
+#~ "       --http-user=POUŽÍVATEĽ      nastaviť http používateľa na "
+#~ "POUŽÍVATEĽ\n"
+
+#~ msgid "       --http-password=PASS        set http password to PASS\n"
+#~ msgstr "       --http-password=HESLO       nastaviť http heslo na HESLO\n"
+
+#~ msgid "       --no-cache                  disallow server-cached data\n"
+#~ msgstr ""
+#~ "       --no-cache                  nepovoliť dočasne uložené dáta na "
+#~ "serveri\n"
+
+#~ msgid ""
+#~ "       --default-page=NAME         change the default page name "
+#~ "(normally\n"
+#~ "                                     this is 'index.html'.)\n"
+#~ msgstr ""
+#~ "       --default-page=NÁZOV        zmeniť názov predvolenej stránky "
+#~ "(štandardne\n"
+#~ "                                     je to `index.html'.)\n"
+
+#~ msgid ""
+#~ "  -E,  --adjust-extension          save HTML/CSS documents with proper "
+#~ "extensions\n"
+#~ msgstr ""
+#~ "  -E,  --html-extension            uložiť HTML/CSS dokumenty so správnou "
+#~ "príponou\n"
+
+#~ msgid ""
+#~ "       --ignore-length             ignore 'Content-Length' header field\n"
+#~ msgstr ""
+#~ "       --ignore-length             ignorovať pole 'Content-Length' v "
+#~ "hlavičke\n"
+
+#~ msgid "       --header=STRING             insert STRING among the headers\n"
+#~ msgstr "       --header=REŤAZEC            vložiť REŤAZEC do hlavičky\n"
+
+#~ msgid ""
+#~ "       --max-redirect              maximum redirections allowed per page\n"
+#~ msgstr ""
+#~ "       --max-redirect              maximum povolených presmerovaní na "
+#~ "stránku\n"
+
+#~ msgid "       --proxy-user=USER           set USER as proxy username\n"
+#~ msgstr ""
+#~ "       --proxy-user=POUŽÍVATEĽ     nastaviť POUŽÍVATEĽa ako používateľa "
+#~ "proxy\n"
+
+#~ msgid "       --proxy-password=PASS       set PASS as proxy password\n"
+#~ msgstr "       --proxy-password=HESLO      nastaviť HESLO ako heslo proxy\n"
+
+#~ msgid ""
+#~ "       --referer=URL               include 'Referer: URL' header in HTTP "
+#~ "request\n"
+#~ msgstr ""
+#~ "       --referer=URL               zahrnúť hlavičku 'Referer: URL' do "
+#~ "HTTP požiadavky\n"
+
+#~ msgid "       --save-headers              save the HTTP headers to file\n"
+#~ msgstr "       --save-headers              uložiť HTTP hlavičky do súboru\n"
+
+#~ msgid ""
+#~ "  -U,  --user-agent=AGENT          identify as AGENT instead of Wget/"
+#~ "VERSION\n"
+#~ msgstr ""
+#~ "  -U,  --user-agent=AGENT          identifikovať sa ako AGENT namiesto "
+#~ "Wget/VERZIA\n"
+
+#~ msgid ""
+#~ "       --no-http-keep-alive        disable HTTP keep-alive (persistent "
+#~ "connections)\n"
+#~ msgstr ""
+#~ "       --no-http-keep-alive        zakázať HTTP keep-alive (trvalé "
+#~ "spojenia)\n"
+
+#~ msgid "       --no-cookies                don't use cookies\n"
+#~ msgstr "       --no-cookies                nepoužívať koláčiky\n"
+
+#~ msgid ""
+#~ "       --load-cookies=FILE         load cookies from FILE before session\n"
+#~ msgstr ""
+#~ "       --load-cookies=SÚBOR        pre sedením načítať koláčiky zo "
+#~ "SÚBORu\n"
+
+#~ msgid ""
+#~ "       --save-cookies=FILE         save cookies to FILE after session\n"
+#~ msgstr ""
+#~ "       --save-cookies=SÚBOR        po sedení uložiť koláčiky do SÚBORu\n"
+
+#~ msgid ""
+#~ "       --keep-session-cookies      load and save session (non-permanent) "
+#~ "cookies\n"
+#~ msgstr ""
+#~ "       --keep-session-cookies      načítať a uložiť koláčiky sedenia (nie "
+#~ "trvalé)\n"
+
+#~ msgid ""
+#~ "       --post-data=STRING          use the POST method; send STRING as "
+#~ "the data\n"
+#~ msgstr ""
+#~ "       --post-data=REŤAZEC         použiť POST metódu; poslať REŤAZEC ako "
+#~ "dáta\n"
+
+#~ msgid ""
+#~ "       --post-file=FILE            use the POST method; send contents of "
+#~ "FILE\n"
+#~ msgstr ""
+#~ "       --post-file=SÚBOR           použiť POST metódu; poslať obsah "
+#~ "SÚBORu\n"
+
+#~ msgid ""
+#~ "       --method=HTTPMethod         use method \"HTTPMethod\" in the "
+#~ "request\n"
+#~ msgstr ""
+#~ "       --method=HTTPmetóda         použiť metódu \"HTTPmetóda\" v "
+#~ "požiadavke\n"
+
+#~ msgid ""
+#~ "       --body-data=STRING          send STRING as data. --method MUST be "
+#~ "set\n"
+#~ msgstr ""
+#~ "       --body-data=REŤAZEC         poslať REŤAZEC ako dáta. --method MUSÍ "
+#~ "byť nastavené\n"
+
+#~ msgid ""
+#~ "       --body-file=FILE            send contents of FILE. --method MUST "
+#~ "be set\n"
+#~ msgstr ""
+#~ "       --body-file=SÚBOR           poslať obsah SÚBORu.  --method MUSÍ "
+#~ "byť nastavené\n"
+
+#~ msgid ""
+#~ "       --content-disposition       honor the Content-Disposition header "
+#~ "when\n"
+#~ "                                     choosing local file names "
+#~ "(EXPERIMENTAL)\n"
+#~ msgstr ""
+#~ "       --content-disposition       dodržať hlavičku Content-Disposition "
+#~ "pri\n"
+#~ "                                     voľbe miestnych názvov súborov\n"
+#~ "                                     (EXPERIMENTÁLNE)\n"
+
+#~ msgid ""
+#~ "       --content-on-error          output the received content on server "
+#~ "errors\n"
+#~ msgstr ""
+#~ "       --content-on-error          vypisovať prijatý obsah pri chybách "
+#~ "servera\n"
+
+#~ msgid ""
+#~ "       --auth-no-challenge         send Basic HTTP authentication "
+#~ "information\n"
+#~ "                                     without first waiting for the "
+#~ "server's\n"
+#~ "                                     challenge\n"
+#~ msgstr ""
+#~ "       --auth-no-challenge         poslať informáciu o základnom overení "
+#~ "totožnosti\n"
+#~ "                                     HTTP bez počiatočného čakania na "
+#~ "výzvu servera\n"
+
+#~ msgid "HTTPS (SSL/TLS) options:\n"
+#~ msgstr "Voľby HTTPS (SSL/TLS):\n"
+
+#~ msgid ""
+#~ "       --secure-protocol=PR        choose secure protocol, one of auto, "
+#~ "SSLv2,\n"
+#~ "                                     SSLv3, TLSv1 and PFS\n"
+#~ msgstr ""
+#~ "       --secure-protocol=PR        vybrať bezpečný protokol, jeden z "
+#~ "auto, SSLv2,\n"
+#~ "                                     SSLv3, TLSv1 alebo PFS\n"
+
+#~ msgid "       --https-only                only follow secure HTTPS links\n"
+#~ msgstr ""
+#~ "       --htttps-only               nasledovať len bezpečné HTTPS odkazy\n"
+
+#~ msgid ""
+#~ "       --no-check-certificate      don't validate the server's "
+#~ "certificate\n"
+#~ msgstr "       --no-check-certificate      neoverovať certifikát servera\n"
+
+#~ msgid "       --certificate=FILE          client certificate file\n"
+#~ msgstr "       --certificate=SÚBOR         súbor certifikátu klienta\n"
+
+#~ msgid ""
+#~ "       --certificate-type=TYPE     client certificate type, PEM or DER\n"
+#~ msgstr ""
+#~ "       --certificate-type=TYP      typ certifikátu klienta, PEM alebo "
+#~ "DER\n"
+
+#~ msgid "       --private-key=FILE          private key file\n"
+#~ msgstr "       --private-key=SÚBOR         súbor súkromného kľúča\n"
+
+#~ msgid "       --private-key-type=TYPE     private key type, PEM or DER\n"
+#~ msgstr ""
+#~ "       --private-key-type=TYP      typ súkromného kľúča, PEM alebo DER\n"
+
+#~ msgid "       --ca-certificate=FILE       file with the bundle of CAs\n"
+#~ msgstr "       --ca-certificate=SÚBOR      súbor s balíkom CA\n"
+
+#~ msgid ""
+#~ "       --ca-directory=DIR          directory where hash list of CAs is "
+#~ "stored\n"
+#~ msgstr ""
+#~ "       --ca-directory=ADR          adresár, kde je uložený hašovaný "
+#~ "zoznam CA\n"
+
+#~ msgid "       --crl-file=FILE             file with bundle of CRLs\n"
+#~ msgstr "       --crl-file=SÚBOR            súbor s balíkom CRL\n"
+
+#~ msgid ""
+#~ "       --pinnedpubkey=FILE/HASHES  Public key (PEM/DER) file, or any "
+#~ "number\n"
+#~ "                                   of base64 encoded sha256 hashes "
+#~ "preceded by\n"
+#~ "                                   'sha256//' and separated by ';', to "
+#~ "verify\n"
+#~ "                                   peer against\n"
+#~ msgstr ""
+#~ "       --pinnedpubkey=SÚBOR/HAŠE   Súbor verejného kľúča (PEM/DER), alebo "
+#~ "ľubovoľný počet\n"
+#~ "                                   sha256 hašov, zakódovaných v base64 a "
+#~ "uvedených reťazcom\n"
+#~ "                                   'sha256//', oddelených ';', pomocou "
+#~ "ktorých sa bude\n"
+#~ "                                   overovať protistrana\n"
+
+#~ msgid ""
+#~ "       --random-file=FILE          file with random data for seeding the "
+#~ "SSL PRNG\n"
+#~ msgstr ""
+#~ "       --random-file=SÚBOR         súbor s náhodnými dátami, pre "
+#~ "spustenie SSL PRNG\n"
+
+#~ msgid ""
+#~ "       --egd-file=FILE             file naming the EGD socket with random "
+#~ "data\n"
+#~ msgstr ""
+#~ "       --egd-file=SÚBOR            súbor s pomenovaním EGD soketu s "
+#~ "náhodnými dátami\n"
+
+#~ msgid "HSTS options:\n"
+#~ msgstr "HSTS voľby:\n"
+
+#~ msgid "       --no-hsts                   disable HSTS\n"
+#~ msgstr "       --no-hsts                   zakázať HSTS\n"
+
+#~ msgid ""
+#~ "       --hsts-file                 path of HSTS database (will override "
+#~ "default)\n"
+#~ msgstr ""
+#~ "       --hsts-file                 cesta k databáze HSTS (nahradí "
+#~ "predvolenú)\n"
+
+#~ msgid "FTP options:\n"
+#~ msgstr "FTP voľby:\n"
+
+#~ msgid ""
+#~ "       --ftp-stmlf                 use Stream_LF format for all binary "
+#~ "FTP files\n"
+#~ msgstr ""
+#~ "       --ftp-stmlf                 použiť formát Stream_LF pre všetky "
+#~ "binárne súbory FTP\n"
+
+#~ msgid "       --ftp-user=USER             set ftp user to USER\n"
+#~ msgstr ""
+#~ "       --ftp-user=POUŽÍVATEĽ       nastaviť ftp používateľa na "
+#~ "POUŽÍVATEĽ\n"
+
+#~ msgid "       --ftp-password=PASS         set ftp password to PASS\n"
+#~ msgstr "       --ftp-password=HESLO        nastaviť ftp heslo na HESLO\n"
+
+#~ msgid "       --no-remove-listing         don't remove '.listing' files\n"
+#~ msgstr ""
+#~ "       --no-remove-listing         neodstraňovať súbory '.listing'\n"
+
+#~ msgid "       --no-glob                   turn off FTP file name globbing\n"
+#~ msgstr ""
+#~ "       --no-glob                   pri FTP vypnúť používanie divokých "
+#~ "znakov v názvoch súborov\n"
+
+#~ msgid ""
+#~ "       --no-passive-ftp            disable the \"passive\" transfer mode\n"
+#~ msgstr ""
+#~ "       --no-passive-ftp            zakázať \"pasívny\" režim prenosu\n"
+
+#~ msgid ""
+#~ "       --preserve-permissions      preserve remote file permissions\n"
+#~ msgstr ""
+#~ "       --preserve-permissions      zachovať vzdialené prístupové práva "
+#~ "súborov\n"
+
+#~ msgid ""
+#~ "       --retr-symlinks             when recursing, get linked-to files "
+#~ "(not dir)\n"
+#~ msgstr ""
+#~ "       --retr-symlinks             pri rekurzii získať odkazované súbory "
+#~ "(nie adresáre)\n"
+
+#~ msgid "FTPS options:\n"
+#~ msgstr "FTPS voľby:\n"
+
+#~ msgid ""
+#~ "       --ftps-implicit                 use implicit FTPS (default port is "
+#~ "990)\n"
+#~ msgstr ""
+#~ "       --ftps-implicit                 použiť implicitné FTPS (štandardný "
+#~ "port je 990)\n"
+
+#~ msgid ""
+#~ "       --ftps-resume-ssl               resume the SSL/TLS session started "
+#~ "in the control connection when\n"
+#~ "                                         opening a data connection\n"
+#~ msgstr ""
+#~ "       --ftps-resume-ssl               pri otváraní dátového spojenia "
+#~ "pokračovať v SSL/TLS sedení začatom\n"
+#~ "                                         riadiacim spojením\n"
+
+#~ msgid ""
+#~ "       --ftps-clear-data-connection    cipher the control channel only; "
+#~ "all the data will be in plaintext\n"
+#~ msgstr ""
+#~ "       --ftps-clear-data-connection    šifrovať len riadiace spojenie; "
+#~ "všetky dáta budú nešifrované\n"
+
+#~ msgid ""
+#~ "       --ftps-fallback-to-ftp          fall back to FTP if FTPS is not "
+#~ "supported in the target server\n"
+#~ msgstr ""
+#~ "       --ftps-fallback-to-ftp          vrátiť sa k FTP ak FTPS nie je "
+#~ "podporované na cieľovom serveri\n"
+
+#~ msgid "WARC options:\n"
+#~ msgstr "WARC voľby:\n"
+
+#~ msgid ""
+#~ "       --warc-file=FILENAME        save request/response data to a .warc."
+#~ "gz file\n"
+#~ msgstr ""
+#~ "       --warc-file=NÁZOVSÚBORU     uložiť údaje o požiadavkách/"
+#~ "odpovediach do súboru .warc.gz\n"
+
+#~ msgid ""
+#~ "       --warc-header=STRING        insert STRING into the warcinfo "
+#~ "record\n"
+#~ msgstr ""
+#~ "       --warc-header=REŤAZEC       vložiť REŤAZEC do záznamu warcinfo\n"
+
+#~ msgid ""
+#~ "       --warc-max-size=NUMBER      set maximum size of WARC files to "
+#~ "NUMBER\n"
+#~ msgstr ""
+#~ "       --warc-max-size=ČÍSLO       nastaviť maximálnu veľkosť WARC "
+#~ "súborov na ČÍSLO\n"
+
+#~ msgid "       --warc-cdx                  write CDX index files\n"
+#~ msgstr "       --warc-cdx                  zapísať indexové súbory CDX\n"
+
+#~ msgid ""
+#~ "       --warc-dedup=FILENAME       do not store records listed in this "
+#~ "CDX file\n"
+#~ msgstr ""
+#~ "       --warc-dedup=NÁZOVSÚBORU    neukladať záznamy uvedené v tomto CDX "
+#~ "súbore\n"
+
+#~ msgid ""
+#~ "       --no-warc-compression       do not compress WARC files with GZIP\n"
+#~ msgstr ""
+#~ "       --no-warc-compression       nekomprimovať súbory WARC pomocou "
+#~ "GZIP\n"
+
+#~ msgid "       --no-warc-digests           do not calculate SHA1 digests\n"
+#~ msgstr "       --no-warc-digests           nepočítať kontrolné súčty SHA1\n"
+
+#~ msgid ""
+#~ "       --no-warc-keep-log          do not store the log file in a WARC "
+#~ "record\n"
+#~ msgstr ""
+#~ "       --no-warc-keep-log          neukladať súbor so záznamom do WARC "
+#~ "záznamu\n"
+
+#~ msgid ""
+#~ "       --warc-tempdir=DIRECTORY    location for temporary files created "
+#~ "by the\n"
+#~ "                                     WARC writer\n"
+#~ msgstr ""
+#~ "       --warc-tempdir=ADRESÁR      umiestnenie dočasných súborov "
+#~ "vytvorených\n"
+#~ "                                     WARC zapisovačom\n"
+
+#~ msgid "Recursive download:\n"
+#~ msgstr "Rekurzívne sťahovanie:\n"
+
+#~ msgid "  -r,  --recursive                 specify recursive download\n"
+#~ msgstr "  -r,  --recursive                 nastaviť rekurzívne sťahovanie\n"
+
+#~ msgid ""
+#~ "  -l,  --level=NUMBER              maximum recursion depth (inf or 0 for "
+#~ "infinite)\n"
+#~ msgstr ""
+#~ "  -l,  --level=ČÍSLO               maximálna hĺbka rekurzie (inf alebo 0 "
+#~ "pre nekonečno)\n"
+
+#~ msgid ""
+#~ "       --delete-after              delete files locally after downloading "
+#~ "them\n"
+#~ msgstr ""
+#~ "       --delete-after              odstrániť miestne súbory po ich "
+#~ "stiahnutí\n"
+
+#~ msgid ""
+#~ "  -k,  --convert-links             make links in downloaded HTML or CSS "
+#~ "point to\n"
+#~ "                                     local files\n"
+#~ msgstr ""
+#~ "  -k,  --convert-links             zmeniť odkazy v stiahnutých HTML a CSS "
+#~ "tak,\n"
+#~ "                                     aby ukazovaly na miestne súbory\n"
+
+#~ msgid ""
+#~ "       --convert-file-only         convert the file part of the URLs only "
+#~ "(usually known as the basename)\n"
+#~ msgstr ""
+#~ "       --convert-file-only         previesť len súborovú časť URL "
+#~ "(väčšinou nazývané aj basename)\n"
+
+#~ msgid ""
+#~ "       --backups=N                 before writing file X, rotate up to N "
+#~ "backup files\n"
+#~ msgstr ""
+#~ "       --backups=N                 pred zapísaním súboru X, zachovať až N "
+#~ "záložných súborov\n"
+
+#~ msgid ""
+#~ "  -K,  --backup-converted          before converting file X, back up as "
+#~ "X_orig\n"
+#~ msgstr ""
+#~ "  -K,  --backup-converted          pred konverziou súboru X ho "
+#~ "zazálohovať ako X_orig\n"
+
+#~ msgid ""
+#~ "  -K,  --backup-converted          before converting file X, back up as X."
+#~ "orig\n"
+#~ msgstr ""
+#~ "  -K,  --backup-converted          pred konverziou súboru X ho "
+#~ "zazálohovať ako X.orig\n"
+
+#~ msgid ""
+#~ "  -m,  --mirror                    shortcut for -N -r -l inf --no-remove-"
+#~ "listing\n"
+#~ msgstr ""
+#~ "  -m,  --mirror                    skratka pre -N -r -l inf --no-remove-"
+#~ "listing\n"
+
+#~ msgid ""
+#~ "  -p,  --page-requisites           get all images, etc. needed to display "
+#~ "HTML page\n"
+#~ msgstr ""
+#~ "  -p,  --page-requisites           získať všetky obrázky, atď. potrebné "
+#~ "pre zobrazenie HTML stránky\n"
+
+#~ msgid ""
+#~ "       --strict-comments           turn on strict (SGML) handling of HTML "
+#~ "comments\n"
+#~ msgstr ""
+#~ "       --strict-comments           zapnúť striktné (SGML) spracovávanie "
+#~ "HTML komentárov\n"
+
+#~ msgid "Recursive accept/reject:\n"
+#~ msgstr "Rekurzívne akceptovanie/odmietnutie:\n"
+
+#~ msgid ""
+#~ "  -A,  --accept=LIST               comma-separated list of accepted "
+#~ "extensions\n"
+#~ msgstr ""
+#~ "  -A,  --accept=ZOZNAM             čiarkou oddelený zoznam akceptovaných "
+#~ "prípon\n"
+
+#~ msgid ""
+#~ "  -R,  --reject=LIST               comma-separated list of rejected "
+#~ "extensions\n"
+#~ msgstr ""
+#~ "  -R,  --reject=ZOZNAM             čiarkou oddelený zoznam odmietnutých "
+#~ "prípon\n"
+
+#~ msgid "       --accept-regex=REGEX        regex matching accepted URLs\n"
+#~ msgstr ""
+#~ "       --accept-regex=REGVÝRAZ     regulárny výraz pre akceptované URL\n"
+
+#~ msgid "       --reject-regex=REGEX        regex matching rejected URLs\n"
+#~ msgstr ""
+#~ "       --reject-regex=REGVÝRAZ     regulárny výraz je odmietnuté URL\n"
+
+#~ msgid "       --regex-type=TYPE           regex type (posix|pcre)\n"
+#~ msgstr ""
+#~ "       --regex-type=TYP            typ regulárneho výrazu (posix|pcre)\n"
+
+#~ msgid "       --regex-type=TYPE           regex type (posix)\n"
+#~ msgstr "       --regex-type=TYP            typ regulárneho výrazu (posix)\n"
+
+#~ msgid ""
+#~ "  -D,  --domains=LIST              comma-separated list of accepted "
+#~ "domains\n"
+#~ msgstr ""
+#~ "  -D,  --domains=ZOZNAM            čiarkou oddelený zoznam akceptovaných "
+#~ "domén\n"
+
+#~ msgid ""
+#~ "       --exclude-domains=LIST      comma-separated list of rejected "
+#~ "domains\n"
+#~ msgstr ""
+#~ "       --exclude-domains=ZOZNAM    čiarkou oddelený zoznam odmietnutých "
+#~ "domén\n"
+
+#~ msgid ""
+#~ "       --follow-ftp                follow FTP links from HTML documents\n"
+#~ msgstr ""
+#~ "       --follow-ftp                nasledovať FTP odkazy z HTML "
+#~ "dokumentov\n"
+
+#~ msgid ""
+#~ "       --follow-tags=LIST          comma-separated list of followed HTML "
+#~ "tags\n"
+#~ msgstr ""
+#~ "       --follow-tags=ZOZNAM        čiarkou oddelený zoznam nasledovaných "
+#~ "HTML značiek\n"
+
+#~ msgid ""
+#~ "       --ignore-tags=LIST          comma-separated list of ignored HTML "
+#~ "tags\n"
+#~ msgstr ""
+#~ "       --ignore-tags=ZOZNAM        čiarkou oddelený zoznam ignorovaných "
+#~ "HTML značiek\n"
+
+#~ msgid ""
+#~ "  -H,  --span-hosts                go to foreign hosts when recursive\n"
+#~ msgstr ""
+#~ "  -H,  --span-hosts                prejsť na cudzích hostiteľov pri "
+#~ "rekurzii\n"
+
+#~ msgid "  -L,  --relative                  follow relative links only\n"
+#~ msgstr ""
+#~ "  -L,  --relative                  nasledovať len relatívne odkazy\n"
+
+#~ msgid "  -I,  --include-directories=LIST  list of allowed directories\n"
+#~ msgstr "  -I,  --include-directories=ZOZNAM zoznam povolených adresárov\n"
+
+#~ msgid ""
+#~ "       --trust-server-names        use the name specified by the "
+#~ "redirection\n"
+#~ "                                     URL's last component\n"
+#~ msgstr ""
+#~ "  --trust-server-names             použiť názov určený posledným "
+#~ "komponentom\n"
+#~ "                                     URL presmerovania\n"
+
+#~ msgid "  -X,  --exclude-directories=LIST  list of excluded directories\n"
+#~ msgstr "  -X,  --exclude-directories=ZOZNAM zoznam vynechaných adresárov\n"
+
+#~ msgid ""
+#~ "  -np, --no-parent                 don't ascend to the parent directory\n"
+#~ msgstr ""
+#~ "  -np, --no-parent                 nevystupovať do rodičovského adresára\n"
+
+#~ msgid "Mail bug reports and suggestions to <bug-wget@gnu.org>\n"
+#~ msgstr ""
+#~ "Správy o chybách a návrhy na vylepšenie zasielajte na adresu\n"
+#~ "<bug-wget@gnu.org> (iba anglicky); komentáre k slovenskému\n"
+#~ "prekladu zasielajte na adresu <sk-i18n@lists.linux.sk>\n"
+
+#~ msgid "GNU Wget %s, a non-interactive network retriever.\n"
+#~ msgstr "GNU Wget %s, program pre neinteraktívne sťahovanie súborov.\n"
+
+#~ msgid "Username for '%s%s': "
+#~ msgstr "Meno používateľa pre '%s%s: "
+
+#~ msgid "Password for '%s%s@%s': "
+#~ msgstr "Heslo pre '%s%s@%s': "
+
+#~ msgid "Wgetrc: "
+#~ msgstr "Wgetrc: "
+
+#~ msgid "Locale: "
+#~ msgstr "Národné prostredie: "
+
+#~ msgid "Compile: "
+#~ msgstr "Kompilácia: "
+
+#~ msgid "Link: "
+#~ msgstr "Odkaz: "
+
+#~ msgid ""
+#~ "GNU Wget %s built on %s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "GNU Wget %s zostavený na %s.\n"
+#~ "\n"
+
+#~ msgid "    %s (env)\n"
+#~ msgstr "    %s (prostredie)\n"
+
+#~ msgid "    %s (user)\n"
+#~ msgstr "    %s (používateľ)\n"
+
+#~ msgid "    %s (system)\n"
+#~ msgstr "    %s (systém)\n"
+
+#~ msgid "Copyright (C) %s Free Software Foundation, Inc.\n"
+#~ msgstr "Copyright © %s Free Software Foundation, Inc.\n"
+
+#~ msgid ""
+#~ "License GPLv3+: GNU GPL version 3 or later\n"
+#~ "<http://www.gnu.org/licenses/gpl.html>.\n"
+#~ "This is free software: you are free to change and redistribute it.\n"
+#~ "There is NO WARRANTY, to the extent permitted by law.\n"
+#~ msgstr ""
+#~ "Licencia GPLv3+: GNU GPL verzia 3 alebo novšia\n"
+#~ "<http://www.gnu.org/licenses/gpl.html>.\n"
+#~ "Toto je slobodný softvér: môžete ho ľubovoľne meniť a distribuovať.\n"
+#~ "BEZ ZÁRUKY v rozsahu povolenom zákonom.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Originally written by Hrvoje Niksic <hniksic@xemacs.org>.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Pôvodným autorom tohoto programu je Hrvoje Nikšić <hniksic@xemacs.com>\n"
+
+#~ msgid "Please send bug reports and questions to <bug-wget@gnu.org>.\n"
+#~ msgstr ""
+#~ "Hlásenia o chybách a otázky zasielajte, prosím, na adresu\n"
+#~ "<bug-wget@gnu.org> (iba anglicky).\n"
+#~ "Komentáre k slovenskému prekladu zasielajte na adresu <sk-i18n@lists."
+#~ "linux.sk>.\n"
+
+#~ msgid "Memory allocation problem\n"
+#~ msgstr "Problém s alokovaním pamäte\n"
+
+#~ msgid "Try `%s --help' for more options.\n"
+#~ msgstr "Príkaz `%s --help' vypíše viac volieb.\n"
+
+#~ msgid "Debugging support not compiled in. Ignoring --debug flag.\n"
+#~ msgstr ""
+#~ "Podpora ladenia nebola zahrnutá pri zostavovaní. Príznak --debug sa "
+#~ "ignoruje.\n"
+
+#~ msgid ""
+#~ "Both --no-clobber and --convert-links were specified, only --convert-"
+#~ "links will be used.\n"
+#~ msgstr ""
+#~ "Oboje --no-clobber a --convert-links bolo zadané. Použije sa len --"
+#~ "convert-links.\n"
+
+#~ msgid ""
+#~ "Both --no-clobber and --convert-file-only were specified, only --convert-"
+#~ "file-only will be used.\n"
+#~ msgstr ""
+#~ "Oboje --no-clobber a --convert-file-only bolo zadané. Použije sa len --"
+#~ "convert-links.\n"
+
+#~ msgid "Can't be verbose and quiet at the same time.\n"
+#~ msgstr "Nie je možné byť zároveň rozvláčny aj byť ticho.\n"
+
+#~ msgid "Cannot specify both --inet4-only and --inet6-only.\n"
+#~ msgstr "Nie je možné zadať naraz --inet4-only aj --inet6-only.\n"
+
+#~ msgid ""
+#~ "Cannot specify both -k or --convert-file-only and -O if multiple URLs are "
+#~ "given, or in combination\n"
+#~ "with -p or -r. See the manual for details.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Nie je možné zadať -k alebo --convert-file-only spolu s -O ak sú zadané "
+#~ "viaceré URL, alebo v kombinácii\n"
+#~ "s -p alebo -r. Podrobnosti nájdete v návode.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "WARNING: combining -O with -r or -p will mean that all downloaded "
+#~ "content\n"
+#~ "will be placed in the single file you specified.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "UPOZORNENIE: kombinácia -O s -r alebo -p bude znamenať, že celý "
+#~ "stiahnutý\n"
+#~ "obsah bude umiestnený do jedného vami zadaného súboru.\n"
+
+#~ msgid ""
+#~ "WARC output does not work with --no-clobber, --no-clobber will be "
+#~ "disabled.\n"
+#~ msgstr ""
+#~ "WARC výstup nefunguje s --no-clobber, --no-clobber bude deaktivované.\n"
+
+#~ msgid ""
+#~ "WARC output does not work with timestamping, timestamping will be "
+#~ "disabled.\n"
+#~ msgstr ""
+#~ "WARC výstup nefunguje s označovaním časovými značkami, označovanie "
+#~ "časovými značkame\n"
+#~ "bude deaktivované.\n"
+
+#~ msgid "WARC output does not work with --spider.\n"
+#~ msgstr "WARC výstup nefunguje so --spider.\n"
+
+#~ msgid ""
+#~ "WARC output does not work with --continue or --start-pos, they will be "
+#~ "disabled.\n"
+#~ msgstr ""
+#~ " WARC výstup nefunguje s --continue alebo --start-pos, tieto budú "
+#~ "deaktivované.\n"
+
+#~ msgid ""
+#~ "Digests are disabled; WARC deduplication will not find duplicate "
+#~ "records.\n"
+#~ msgstr ""
+#~ "Kontrolné súčty nie sú povolené; WARC deduplikácia nenájde duplikátne "
+#~ "záznamy.\n"
+
+#~ msgid "Cannot specify both --ask-password and --password.\n"
+#~ msgstr "Nie je možné zadať naraz --ask-password aj --password.\n"
+
+#~ msgid "You cannot specify both --post-data and --post-file.\n"
+#~ msgstr "Nemôžete zadať naraz --post-data aj --post-file.\n"
+
+#~ msgid ""
+#~ "You cannot use --post-data or --post-file along with --method. --method "
+#~ "expects data through --body-data and --body-file options\n"
+#~ msgstr ""
+#~ "Nemôžete použiť --post-data alebo --post-file spolu s --method. --method "
+#~ "očakáva dáta pomocou voľby --body-data a --body-file\n"
+
+#~ msgid ""
+#~ "You must specify a method through --method=HTTPMethod to use with --body-"
+#~ "data or --body-file.\n"
+#~ msgstr ""
+#~ "Metódu, ktorá sa má použiť s --body-data alebo --body-file, musíte zadať "
+#~ "pomocou --method=HTTPmetóda.\n"
+
+#~ msgid "You cannot specify both --body-data and --body-file.\n"
+#~ msgstr "Nemôžete zadať naraz --body-data aj --body-file.\n"
+
+#~ msgid "This version does not have support for IRIs\n"
+#~ msgstr "Táto verzia nemá podporu pre IRI\n"
+
+#~ msgid ""
+#~ "-k or -r can be used together with -O only if outputting to a regular "
+#~ "file.\n"
+#~ msgstr ""
+#~ "-k alebo -r môže byť použité spolu s -O, len ak je výstup do bežného "
+#~ "súboru.\n"
+
+#~ msgid "Unable to parse metalink file %s.\n"
+#~ msgstr "Nepodarilo sa analyzovať metalink súbor %s.\n"
+
+#~ msgid "Could not download all resources from %s.\n"
+#~ msgstr "Nepodarilo sa stiahnuť všetky zdroje z %s.\n"
+
+#~ msgid ""
+#~ "FINISHED --%s--\n"
+#~ "Total wall clock time: %s\n"
+#~ "Downloaded: %d files, %s in %s (%s)\n"
+#~ msgstr ""
+#~ "UKONČENÉ --%s--\n"
+#~ "Celkový čas: %s\n"
+#~ "Stiahnutých: %d súborov, %s za %s (%s)\n"
+
+#~ msgid "Download quota of %s EXCEEDED!\n"
+#~ msgstr "Limit objemu stiahnutych dát %s PREKROČENÝ!\n"
+
+#~ msgid "-O not supported for metalink download. Ignoring.\n"
+#~ msgstr "-O nie je podporované pre sťahovanie metalink. Ignoruje sa.\n"
+
+#~ msgid "[--trust-server-names %s, --directory-prefix=%s]\n"
+#~ msgstr "[--trust-server-names %s, --directory-prefix=%s]\n"
+
+#~ msgid "Planned metalink file: %s\n"
+#~ msgstr "Plánovaný metalink súbor: %s\n"
+
+#~ msgid "Secured metalink file: %s\n"
+#~ msgstr "Zabezpečený metalink súbor: %s\n"
+
+#~ msgid "Rejecting metalink file. Unsafe name.\n"
+#~ msgstr "Odmietnutý metalink súbor. Meno nie je bezpečné.\n"
+
+#~ msgid "Processing metaurl %s...\n"
+#~ msgstr "Spracováva sa metaurl %s...\n"
+
+#~ msgid "Rejecting metaurl file %s. Unsafe name.\n"
+#~ msgstr "Odmietnutý metaurl súbor %s. Meno nie je bezpečné.\n"
+
+#~ msgid "Unable to parse metaurl file %s.\n"
+#~ msgstr "Nepodarilo sa analyzovať metaurl súbor %s.\n"
+
+#~ msgid "Metaurls processing returned with error.\n"
+#~ msgstr "Spracovanie metaurl skončilo s chybou.\n"
+
+#~ msgid "Resource type %s not supported, ignoring...\n"
+#~ msgstr "Typ zdroja %s nepodporovaný, ignoruje sa...\n"
+
+#~ msgid "File size not declared. Skipping check.\n"
+#~ msgstr "Neuvedená veľkosť súboru. Kontrola preskočená.\n"
+
+#~ msgid "Size mismatch for file %s.\n"
+#~ msgstr "Veľkosť súboru %s nesúhlasí.\n"
+
+#~ msgid "Size matches.\n"
+#~ msgstr "Veľkosť súhlasí.\n"
+
+#~ msgid "Checksum matches.\n"
+#~ msgstr "Kontrolný súčet súhlasí.\n"
+
+#~ msgid "Checksum mismatch for file %s.\n"
+#~ msgstr "Kontrolný súčet súboru %s nesúhlasí.\n"
+
+#~ msgid "GPGME data_new_from_mem: %s\n"
+#~ msgstr "GPGME data_new_from_mem: %s\n"
+
+#~ msgid "GPGME op_verify_result: NULL\n"
+#~ msgstr "GPGME op_verify_result: NULL\n"
+
+#~ msgid "Signature validation succeeded.\n"
+#~ msgstr "Overenie podpisu úspešné.\n"
+
+#~ msgid "Invalid signature. Rejecting resource.\n"
+#~ msgstr "Neplatný podpis. Zdroj odmietnutý.\n"
+
+#~ msgid "Data matches signature, but signature is not trusted.\n"
+#~ msgstr "Údaje zodpovedajú podpisu, ale podpis nie je dôveryhodný.\n"
+
+#~ msgid "No checksums found.\n"
+#~ msgstr "Kontrolné súčty nenájdené.\n"
+
+#~ msgid "Failed to download %s. Skipping resource.\n"
+#~ msgstr "Sťahovanie %s zlyhalo. Zdroj preskočený.\n"
+
+#~ msgid "File %s retrieved but size does not match. \n"
+#~ msgstr "Súbor %s bol získaný, ale veľkosť nesúhlasí. \n"
+
+#~ msgid "File %s retrieved but checksum does not match. \n"
+#~ msgstr "Súbor %s bol získaný, ale kontrolný súčet nesúhlasí. \n"
+
+#~ msgid "File %s retrieved but signature does not match. \n"
+#~ msgstr "Súbor %s bol získaný, ale podpis nesúhlasí. \n"
+
+#~ msgid "Renaming %s to %s.\n"
+#~ msgstr "Premenováva sa %s na %s.\n"
+
+#~ msgid "Continuing in background.\n"
+#~ msgstr "Pokračovanie v behu na pozadí.\n"
+
+#~ msgid "%s: Couldn't find usable socket driver.\n"
+#~ msgstr "%s: Nepodarilo sa nájsť použiteľný ovládač soketov.\n"
+
+#~ msgid "%s: %s:%d: warning: %s token appears before any machine name\n"
+#~ msgstr ""
+#~ "%s: %s:%d: upozornenie: token %s je uvedený pred akýmkoľvek názvom "
+#~ "počítača\n"
+
+#~ msgid "Usage: %s NETRC [HOSTNAME]\n"
+#~ msgstr "Použitie: %s NETRC [NÁZOV_POČÍTAČA]\n"
+
+#~ msgid "%s: cannot stat %s: %s\n"
+#~ msgstr "%s: volanie `stat %s' skončilo s chybou: %s\n"
+
+#~ msgid "WARNING: using a weak random seed.\n"
+#~ msgstr "UPOZORNENIE: používané slabé spúšťacie zrnko pre náhodné čísla.\n"
+
+#~ msgid "Could not seed PRNG; consider using --random-file.\n"
+#~ msgstr "Nepodarilo sa inicializovať PRNG; zvážte použitie --random-file.\n"
+
+#~ msgid "Your OpenSSL version is too old to support TLSv1.1\n"
+#~ msgstr "Vaša verzia OpenSSL je príliš stará, aby podporovala TLSv1.1\n"
+
+#~ msgid "Your OpenSSL version is too old to support TLSv1.2\n"
+#~ msgstr "Vaša verzia OpenSSL je príliš stará, aby podporovala TLSv1.2\n"
+
+#~ msgid "OpenSSL: unimplemented 'secure-protocol' option value %d\n"
+#~ msgstr "OpenSSL: neimplementovaná hodnota %d voľby 'secure-protocol'\n"
+
+#~ msgid "%s: cannot verify %s's certificate, issued by %s:\n"
+#~ msgstr "%s: nie je možné overiť certifikát pre %s, vydaný %s:\n"
+
+#~ msgid "  Unable to locally verify the issuer's authority.\n"
+#~ msgstr "  Nie je možné miestne overiť autoritu vydavateľa.\n"
+
+#~ msgid "  Self-signed certificate encountered.\n"
+#~ msgstr "  Vyskytol sa certifikát podpísaný samým sebou.\n"
+
+#~ msgid "  Issued certificate has expired.\n"
+#~ msgstr "  Vydanému certifikátu vypršala platnosť.\n"
+
+#~ msgid ""
+#~ "%s: no certificate subject alternative name matches\n"
+#~ "\trequested host name %s.\n"
+#~ msgstr ""
+#~ "%s: žiadny alternatívny názov predmetu v certifikáte\n"
+#~ "\tsa nezhoduje s požadovaným názvom hostiteľa %s.\n"
+
+#~ msgid ""
+#~ "    %s: certificate common name %s doesn't match requested host name %s.\n"
+#~ msgstr ""
+#~ "    %s: bežný názov %s v certifikáte sa nezhoduje s požadovaným názvom "
+#~ "hostiteľa %s.\n"
+
+#~ msgid ""
+#~ "    %s: certificate common name is invalid (contains a NUL character).\n"
+#~ "    This may be an indication that the host is not who it claims to be\n"
+#~ "    (that is, it is not the real %s).\n"
+#~ msgstr ""
+#~ "    %s: bežný názov v certifikáte je neplatný (obsahuje znak NUL).\n"
+#~ "    To môže byť znamením toho, že hostiteľ nie je tým, za koho sa vydáva\n"
+#~ "    (to znamená, nie je to reálne %s).\n"
+
+#~ msgid "To connect to %s insecurely, use `--no-check-certificate'.\n"
+#~ msgstr "Na nie bezpečné pripojenie k %s použite `--no-check-certificate'.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "%*s[ skipping %sK ]"
+#~ msgstr ""
+#~ "\n"
+#~ "%*s[ preskakuje sa %sK ]"
+
+#~ msgid "Invalid dot style specification %s; leaving unchanged.\n"
+#~ msgstr "Neplatná bodková špecifikácia %s; ponecháva sa nezmenené.\n"
+
+#~ msgid "    eta %s"
+#~ msgstr "    odh %s"
+
+#~ msgid "    in "
+#~ msgstr "    za "
+
+#~ msgid "Cannot get REALTIME clock frequency: %s\n"
+#~ msgstr "Nie je možné získať frekvenciu hodín reálneho času: %s\n"
+
+#~ msgid "Removing %s since it should be rejected.\n"
+#~ msgstr "Odstraňuje sa %s, pretože by mal byť odmietnutý.\n"
+
+#~ msgid "Loading robots.txt; please ignore errors.\n"
+#~ msgstr "Načítava sa robots.txt. Chybové hlásenia ignorujte, prosím.\n"
+
+#~ msgid "Error in proxy URL %s: Must be HTTP.\n"
+#~ msgstr "Chyba v proxy URL %s: Musí byť HTTP.\n"
+
+#~ msgid "%d redirections exceeded.\n"
+#~ msgstr "Prekročený limit %d presmerovaní.\n"
+
+#~ msgid ""
+#~ "Giving up.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Nemá to zmysel.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Retrying.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Skúša sa znova.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Found no broken links.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Neboli nájdené poškodené odkazy.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Found %d broken link.\n"
+#~ "\n"
+#~ msgid_plural ""
+#~ "Found %d broken links.\n"
+#~ "\n"
+#~ msgstr[0] ""
+#~ "Nájdených %d poškodených odkazov.\n"
+#~ "\n"
+#~ msgstr[1] ""
+#~ "Nájdený %d poškodený odkaz.\n"
+#~ "\n"
+#~ msgstr[2] ""
+#~ "Nájdené %d poškodené odkazy.\n"
+#~ "\n"
+
+#~ msgid "Scheme missing"
+#~ msgstr "Schéma chýba"
+
+#~ msgid "Invalid host name"
+#~ msgstr "Neplatný názov hostiteľa"
+
+#~ msgid "Bad port number"
+#~ msgstr "Zlé číslo portu"
+
+#~ msgid "Invalid user name"
+#~ msgstr "Neplatné meno používateľa"
+
+#~ msgid "Unterminated IPv6 numeric address"
+#~ msgstr "Neukončená číselná adresa pre IPv6"
+
+#~ msgid "Invalid IPv6 numeric address"
+#~ msgstr "Neplatná číselná adresa IPv6"
+
+#~ msgid "HTTPS support not compiled in"
+#~ msgstr "Podpora pre HTTPS nie je zakompilovaná"
+
+#~ msgid "%s: %s: Failed to allocate enough memory; memory exhausted.\n"
+#~ msgstr ""
+#~ "%s: %s: Zlyhalo vyžiadanie dostatočnej pamäte; pamäť je vyčerpaná.\n"
+
+#~ msgid "%s: %s: Failed to allocate %ld bytes; memory exhausted.\n"
+#~ msgstr "%s: %s: Zlyhalo vyžiadanie %ld bajtov; pamäť je vyčerpaná.\n"
+
+#~ msgid "%s: aprintf: text buffer is too big (%d bytes), aborting.\n"
+#~ msgstr ""
+#~ "%s: aprintf: pamäť na text je príliš veľká (%d bajtov), predčasne "
+#~ "ukončujem.\n"
+
+#~ msgid "Failed to unlink symlink %s: %s\n"
+#~ msgstr "Nebolo možné odstrániť symbolický odkaz %s: %s\n"
+
+#~ msgid "Invalid regular expression %s, %s\n"
+#~ msgstr "Neplatný regulárny výraz %s, %s\n"
+
+#~ msgid "Error while matching %s: %d\n"
+#~ msgstr "Chyba pri hľadaní zhody %s: %d\n"
+
+#~ msgid "Error opening GZIP stream to WARC file.\n"
+#~ msgstr "Chyba pri otváraní prúdu GZIP do súboru WARC.\n"
+
+#~ msgid "Error writing warcinfo record to WARC file.\n"
+#~ msgstr "Chyba pri zápise warcinfo záznamu do súboru WARC.\n"
+
+#~ msgid ""
+#~ "Opening WARC file %s.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Otváranie súboru WARC %s.\n"
+#~ "\n"
+
+#~ msgid "Error opening WARC file %s.\n"
+#~ msgstr "Chyba pri otváraní súboru WARC %s.\n"
+
+#~ msgid "CDX file does not list original urls. (Missing column 'a'.)\n"
+#~ msgstr "Súbor CDX neobsahuje pôvodné url. (Chýba stlpec 'a'.)\n"
+
+#~ msgid "CDX file does not list checksums. (Missing column 'k'.)\n"
+#~ msgstr "Súbor CDX neobsahuje kontrolné súčty. (Chýba stlpec 'k'.)\n"
+
+#~ msgid "CDX file does not list record ids. (Missing column 'u'.)\n"
+#~ msgstr "Súbor CDX neobsahuje identifikátory záznamov. (Chýba stlpec 'u'.)\n"
+
+#~ msgid ""
+#~ "Loaded %d record from CDX.\n"
+#~ "\n"
+#~ msgid_plural ""
+#~ "Loaded %d records from CDX.\n"
+#~ "\n"
+#~ msgstr[0] "Načítaných %d záznamov z CDX.\n"
+#~ msgstr[1] "Načítaný %d záznam z CDX.\n"
+#~ msgstr[2] "Načítané %d záznamy z CDX.\n"
+
+#~ msgid "Could not read CDX file %s for deduplication.\n"
+#~ msgstr "Nepodarilo sa prečítať súbor CDX %s na vylúčenie duplicít.\n"
+
+#~ msgid "Could not open temporary WARC manifest file.\n"
+#~ msgstr "Nepodarilo sa otvoriť dočasný súbor manifestu WARC.\n"
+
+#~ msgid "Could not open temporary WARC log file.\n"
+#~ msgstr "Nepodarilo sa otvoriť dočasný súbor so záznamom WARC.\n"
+
+#~ msgid "Could not open WARC file.\n"
+#~ msgstr "Nepodarilo sa otvoriť súbor WARC.\n"
+
+#~ msgid "Could not open CDX file for output.\n"
+#~ msgstr "Nepodarilo sa otvoriť súbor CDX ako výstup.\n"
+
+#~ msgid "Could not open temporary WARC file.\n"
+#~ msgstr "Nepodarilo sa otvoriť dočasný súbor WARC.\n"
+
+#~ msgid "Found exact match in CDX file. Saving revisit record to WARC.\n"
+#~ msgstr ""
+#~ "Našla sa presná zhoda v súbore CDX. Ukladá sa záznam opätovného "
+#~ "navštívenia do WARC.\n"
+
+#~ msgid "idn_decode failed (%d): %s\n"
+#~ msgstr "idn_decode zlyhalo (%d): %s\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "%s received.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "%s prijatý.\n"

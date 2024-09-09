@@ -1,0 +1,245 @@
+GNU Wget2 NEWS -- history of user-visible changes.
+
+Copyright (C) 2012-2015 Tim Ruehsen
+Copyright (C) 2015-2021 Free Software Foundation, Inc.
+See the end for copying conditions.
+
+Please send GNU Wget2 bug reports to <bug-wget@gnu.org>.
+
+xx.xx.2021 Release 2.0.0
+  * OpenSSL: Fix CRL checking
+  * OpenSSL: Implement ALPN
+  * OpenSSL: Fix memory leaks
+  * Update license information
+  * Fix for reproducible builds
+  * Add Accept-Encoding: lzip
+  * Rename --retry-on-http-status to --retry-on-http-error
+  * Limit to page requisites only for leaf pages
+  * Allow list of tokens for Connection: header
+  * Fix directory clash with --no-clobber
+  * Fix NULL dereference with --convert-links
+  * Using --robots=off downloads robots.txt
+  * Add pkg-config support for GPGME
+  * Fix conversion (-k) in combination with -E
+  * Fix cookie file header to be recognized by 'file' command
+  * Fix loading CA certs when 'system' is not supported
+  * Add option --method, improving backward compatibility
+  * Add option --body-data, improving backward compatibility
+  * Add option --body-file, improving backward compatibility
+  * Add option --ignore-length, improving backward compatibility
+  * Add option --convert-file-only, improving backward compatibility
+  * Add option --download-attr to make use of the HTML5 'download' attribute
+  * Support terminal hyperlinks in output
+  * Configure switch --disable-manylibs to disable building small libraries
+  * Support --background on Windows
+  * Add option --bind-interface
+  * Add HTTP2 uploading
+  * Support the HTML download attribute (for a and area tags)
+  * Add option --download-attr=[strippath|usepath] to control download attribute support
+  * OpenSSL: Add OCSP support
+  * OpenSSL: Implement OCSP stapling
+  * Support data: URL in srcset attribute
+  * Fixed diverse issues
+  * Improved code, documentation, building, testing, CI, ...
+
+30.08.2019 Release 1.99.2 (beta)
+  * Improve docs
+  * Improve build system
+  * More continuous integration testing
+  * Add functionality tests
+  * Add examples
+  * Add HTTP/2 support for test suite (GSOC project)
+  * Add OCSP responder for test suite (GSOC project)
+  * Add new option --keep-extension
+  * Add new option --retry-on-http-status
+  * Add new option --dns-cache-preload
+  * Add -X/--exclude-directories and -I/--include-directories
+  * Add new option --save-content-on
+  * Add new option --limit-rate
+  * Add new option --unlink (Wget1.x compatibility)
+  * Add new option --start-pos (Wget1.x compatibility)
+  * Add new option --no-if-modified-since
+  * Add new option --ocsp-server
+  * Add new option --ocsp-nonce
+  * Add new option --ocsp-date
+  * Add bitmap type to libwget
+  * Add support for Chromium's HSTS Preload List
+  * Add zstd decompression (RFC8478)
+  * Add WolfSSL as alternative TLS backend
+  * Add OpenSSL as alternative TLS backend
+  * Add arguments fail / nofail to --verify-sig
+  * Add TLSv1_x to --secure-protocol
+  * Add support for TCP FastOpen Linux 4.11+ style
+  * Add basic HTML entity decoding (RFC1866)
+  * Add TLS 1.3 post-handshake authentication
+  * Add XDG Desktop Specification support for config files
+  * Remove support for libidn2 < 0.14 and libunistring
+  * Remove option --gnutls-options (use --secure-protocol instead)
+  * Rename --dns-caching to --dns-cache (Wget1.x compatibility)
+  * Skip -np/--no-parent for CSS URLs
+  * Enable syncing with translationproject.org while bootstrapping
+  * Fix HTTP/2 slowness issue
+  * Fix xattr behavior (CVE-2018-20483)
+  * Fixed a pile of bugs
+  * Made many changes to the libwget API
+
+
+30.05.2018 Release 1.99.1 (alpha)
+  * Enhance docs
+  * Enhance building on many platforms
+  * Enhance statistics
+  * Add --http2-request-window=SIZE
+  * Add --https-enforce=TYPE
+  * Add --compression=TYPE
+  * Add --retry-connrefused
+  * Add more fuzzing
+  * Add more tests
+  * Add more CI testing
+  * Fix bugs
+
+11.01.2018 Release 1.99.0 (alpha)
+  * Add HTTP/2.0
+  * Add IDNA 2008 / TR46
+  * Add Travis-CI .yml file for Linux and MacOS
+  * Build with gnulib
+  * Moved to Doxygen (from GTK-Doc)
+  * Support Shoutcast response (ICY)
+  * Use colors for debug and error messages
+  * Use TCP Fast Open (TFO) for TLS handshakes
+  * Add TLS False Start
+  * Add TLS Session resumption
+  * Add sanitizer configure options
+  * Add 'make check-coverage' for viewing test code coverage
+  * Add Public Key Pinning (HPKP)
+  * Add brotli (br) compression method
+  * Add mime type filtering
+  * Add GPG signature checking
+  * Add fuzzing
+  * Add plugins
+  * Add statistic functions
+  * Use libmicrohttpd (MHD) for testing
+
+*** Previous Mget releases ***
+02.05.2015
+  New release v0.1.9
+  Made cross-compilable with MinGW on Linux
+  Fix for 'unsigned char' architectures
+  Add --follow-tags and --ignore-tags
+  Added multithreaded progress bar (--progress=bar)
+  Added --backups
+  Added --post-data and --post-file
+  Add port to Referer HTTP header
+  Fixed race condition when having a filename / directory clash
+  Added --crl-file option to respect CRLs
+  Added OCSP (stapling + responder request)
+  Added --ocsp and --ocsp-stapling
+  Added OCSP response caching
+  Added pkg-config support for library searching
+  Added wildcard support for -D/--domains and --exclude-domains
+  Removed --load-hsts and --save-hsts (will be automatically done)
+  Compilable on Solaris
+  Fixed lots of Coverity scan issues
+  Fixed several small bugs
+
+27.08.2014
+  New release v0.1.8
+  forgot to bump up version
+
+27.08.2014
+  New release v0.1.7
+  added -m / --mirror
+  added descriptions of options to --help
+
+15.08.2014
+  New release v0.1.6
+  Check cookie domains via libpsl against the Public Sufix List
+  Fixed -p/--page-requisites
+  Fixed HTML parsing of uppercase attributes (fixes issue #21)
+  Added --accept, --reject, --ignore-case
+  Added -k/--convert-links and -K/--backup-converted
+
+08.03.2014
+  Fixed sigfault in cookie handling, introduced in v0.1.5.
+
+02.03.2014
+  Added --gnutls-options to directly set a GnuTLS priority string for secure connections.
+
+26.02.2014
+  New release v0.1.5
+
+19.02.2014
+  Added support for RFC 6266 Content-Disposition
+
+17.02.2014
+  Fixed a race condition that could lead to sigfaults.
+  Fixed waiting for threads at program exit.
+
+16.02.2014
+  Made HTTPS test work with GnuTLS 2.12.
+  Added option -/t--tries to Wget.
+
+12.02.2014
+  Added HTTPS server code, used in test suite.
+  Added new test test-i-https.
+
+06.02.2014
+  Changed the naming convention of types.
+  Support pkg-config.
+  Fixed generating of man pages.
+
+01.02.2014
+  Added support for RFC 6797 HTTP Strict Transport Security (HSTS).
+  Do not download robots.txt twice for HTTP and HTTPS if --protocol-directories
+    is not given.
+
+24.01.2014
+  New release v0.1.4
+  Use libnettle for checksumming if libgnutls is not available or < 2.10.0.
+
+21.01.2014
+  Gtk-doc is not required any more to configure and compile the project.
+  Made project configurable and compilable on Cygwin.
+
+17.01.2014
+  Release first public version v0.1.3 (master branch)
+  Created new branch 'develop' for further hacking.
+
+02.01.2014
+  Added support for bzip2 Content-Encoding / Accept-Encoding type.
+    It was easy going after having gzip and lzma decompression implemented.
+  Created a mailing list for discussions around Wget.
+    Subscribe by sending a mail to wget-bugs+subscribe@googlegroups.com.
+
+31.12.2013
+  Added support for XZ / LZMA Content-Encoding / Accept-Encoding type (LZMA2 compression).
+    See https://wiki.mozilla.org/LZMA2_Compression for setting up an Apache to support it.
+    See https://bugzilla.mozilla.org/show_bug.cgi?id=366559 for Firefox/Mozilla discussion.
+
+30.12.2013
+  Extended --adjust-extension to attach .rss resp. .atom to RSS and Atom Feeds.
+  Implemented Wget options -w/--wait, --random-wait, -t/--tries.
+    With these you can (randomly) slow down website downloading.
+
+25.12.2013
+  Added URL scanning of RSS 2.0 feeds using the internal XML parser.
+
+15.12.2013
+  Added URL scanning of Atom 1.0 feeds using the internal XML parser.
+
+24.11.2013
+  Added URL scanning of sitemaps using the internal XML parser.
+
+----------------------------------------------------------------------
+Copyright information:
+
+Copyright (C) 1997-2005 Free Software Foundation, Inc.
+
+   Permission is granted to anyone to make or distribute verbatim
+   copies of this document as received, in any medium, provided that
+   the copyright notice and this permission notice are preserved, thus
+   giving the recipient permission to redistribute in turn.
+
+   Permission is granted to distribute modified versions of this
+   document, or of portions of it, under the above conditions,
+   provided also that they carry prominent notices stating who last
+   changed them.

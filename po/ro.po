@@ -1,0 +1,2321 @@
+# Romanian translation for wget2
+# Copyright (C) 2020 Free Software Foundation, Inc.
+# This file is distributed under the same license as the wget2 package.
+# Florentina Mușat <florentina.musat.28@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wget2 1.99.1\n"
+"Report-Msgid-Bugs-To: bug-wget2@gnu.org\n"
+"POT-Creation-Date: 2021-09-12 13:13+0200\n"
+"PO-Revision-Date: 2020-06-21 14:04+0300\n"
+"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 2.3.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
+"%100<=19) ? 1 : 2);\n"
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr "Eroare de sistem necunoscută"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Familia de adrese pentru numele de gazdă nu este suportată"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Eșec temporar în rezolvarea numelui"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Valoare greșită pentru ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Eșec nerecuperabil în rezolvarea numelui"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family nu este suportat"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Eșec la alocarea memoriei"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Nicio adresă asociată cu numele de gazdă"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Nume sau serviciu necunoscut"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Servname nu este suportat pentru ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype nu este suportat"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Eroare de sistem"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Preîncărcare de argument prea mică"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Cerere de procesare în progres"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Cerere anulată"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Cererea nu este anulată"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Toate cererile terminate"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Întrerupt de un semnal"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Șirul de parametru nu este corect codat"
+
+#: lib/gai_strerror.c:87 libwget/error.c:57
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr ""
+
+#: lib/openat-die.c:57
+#, fuzzy, c-format
+msgid "failed to return to initial working directory"
+msgstr "Nu s-a putut inițializa rețelistica (%d)"
+
+#: lib/os2-spawn.c:46
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle a eșuat"
+
+#: lib/os2-spawn.c:83
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "nu se poate restaura fd %d: dup2 a eșuat"
+
+#: lib/regcomp.c:135 libwget/error.c:44
+msgid "Success"
+msgstr "Succes"
+
+#: lib/regcomp.c:138
+msgid "No match"
+msgstr "Nu există potrivire"
+
+#: lib/regcomp.c:141
+msgid "Invalid regular expression"
+msgstr "Expresie regulată nevalidă"
+
+#: lib/regcomp.c:144
+msgid "Invalid collation character"
+msgstr "Caracter de colaționare nevalid"
+
+#: lib/regcomp.c:147
+msgid "Invalid character class name"
+msgstr "Nume de clasă de caracter nevalid"
+
+#: lib/regcomp.c:150
+msgid "Trailing backslash"
+msgstr "Linie oblică inversă de urmărire"
+
+#: lib/regcomp.c:153
+msgid "Invalid back reference"
+msgstr "Referință de spate nevalidă"
+
+#: lib/regcomp.c:156
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "[, [^, [:, [., sau [= nepotrivit"
+
+#: lib/regcomp.c:159
+msgid "Unmatched ( or \\("
+msgstr "( sau \\( nepotrivit"
+
+#: lib/regcomp.c:162
+msgid "Unmatched \\{"
+msgstr "\\{ nepotrivit"
+
+#: lib/regcomp.c:165
+msgid "Invalid content of \\{\\}"
+msgstr "Conținut nevalid al \\{\\}"
+
+#: lib/regcomp.c:168
+msgid "Invalid range end"
+msgstr "Sfârșit de interval nevalid"
+
+#: lib/regcomp.c:171
+msgid "Memory exhausted"
+msgstr "Memorie epuizată"
+
+#: lib/regcomp.c:174
+msgid "Invalid preceding regular expression"
+msgstr "Expresie regulată precedentă nevalidă"
+
+#: lib/regcomp.c:177
+msgid "Premature end of regular expression"
+msgstr "Sfârșit prematur al expresiei regulate"
+
+#: lib/regcomp.c:180
+msgid "Regular expression too big"
+msgstr "Expresia regulată prea mare"
+
+#: lib/regcomp.c:183
+msgid "Unmatched ) or \\)"
+msgstr ") sau \\) nepotrivit"
+
+#: lib/regcomp.c:676
+msgid "No previous regular expression"
+msgstr "Nu există o expresie regulată precedentă"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221 lib/spawn-pipe.c:460
+#: lib/spawn-pipe.c:463
+#, c-format
+msgid "cannot create pipe"
+msgstr "nu se poate crea conexiunea"
+
+#: lib/spawn-pipe.c:598 lib/wait-process.c:290 lib/wait-process.c:364
+#, c-format
+msgid "%s subprocess failed"
+msgstr "subprocesul %s a eșuat"
+
+#: lib/wait-process.c:231 lib/wait-process.c:263 lib/wait-process.c:325
+#, c-format
+msgid "%s subprocess"
+msgstr "subproces %s"
+
+#: lib/wait-process.c:282 lib/wait-process.c:354
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "subprocesul %s a obținut un semnal fatal %d"
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "memorie epuizată"
+
+#: libwget/cookie.c:408
+#, c-format
+msgid "Incomplete cookie entry: %s\n"
+msgstr "Intrare de cookie incompletă: %s\n"
+
+#: libwget/cookie.c:440
+msgid "Failed to read cookies\n"
+msgstr "Nu s-au putut citi cookie-urile\n"
+
+#: libwget/cookie.c:499
+#, c-format
+msgid "Failed to write cookie file '%s'\n"
+msgstr "Nu s-a putut scrie fișierul cookie „%s”\n"
+
+#: libwget/cookie_parse.c:363
+msgid "Cookie without name or assignment ignored\n"
+msgstr "Cookie fără nume sau sarcină ignorată\n"
+
+#: libwget/css.c:152
+#, c-format
+msgid "Unknown token after @charset: %d\n"
+msgstr "Jeton necunoscut după @charset: %d\n"
+
+#: libwget/css.c:194 libwget/io.c:326 libwget/xml.c:627
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "Nu s-a putut deschide %s\n"
+
+#: libwget/css_url.c:102
+#, c-format
+msgid "Cannot resolve relative URI '%s'\n"
+msgstr "Nu se poate rezolva URI-ul relativ „%s”\n"
+
+#: libwget/decompressor.c:120
+msgid "Failed to init gzip decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea gzip\n"
+
+#: libwget/decompressor.c:159
+#, c-format
+msgid "Failed to uncompress gzip stream (%d)\n"
+msgstr "Nu s-a putu decomprima fluxul gzip (%d)\n"
+
+#: libwget/decompressor.c:168
+#, c-format
+msgid "Failed to close gzip stream (%d)\n"
+msgstr "Nu s-a putut închide fluxul gzip (%d)\n"
+
+#: libwget/decompressor.c:177
+msgid "Failed to init deflate decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea de dezumflare\n"
+
+#: libwget/decompressor.c:192
+msgid "Failed to init LZMA decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea LZMA\n"
+
+#: libwget/decompressor.c:231
+#, c-format
+msgid "Failed to uncompress LZMA stream (%d)\n"
+msgstr "Nu s-a putut decomprima fluxul LZMA (%d)\n"
+
+#: libwget/decompressor.c:245
+msgid "Failed to init Brotli decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea Brotli\n"
+
+#: libwget/decompressor.c:288
+#, c-format
+msgid "Failed to uncompress Brotli stream (%u): %s\n"
+msgstr "Nu s-a putut decomprima fluxul Brotli (%u): %s\n"
+
+#: libwget/decompressor.c:303
+#, fuzzy
+msgid "Failed to create Zstandard decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea LZMA\n"
+
+#: libwget/decompressor.c:309
+#, fuzzy, c-format
+msgid "Failed to init Zstandard decompression: %s\n"
+msgstr "Nu s-a putut inițializa decomprimarea LZMA\n"
+
+#: libwget/decompressor.c:340
+#, fuzzy, c-format
+msgid "Failed to uncompress Zstandard stream: %s\n"
+msgstr "Nu s-a putut decomprima fluxul LZMA (%d)\n"
+
+#: libwget/decompressor.c:361
+#, fuzzy
+msgid "Failed to create lzip decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea gzip\n"
+
+#: libwget/decompressor.c:368
+#, fuzzy, c-format
+msgid "Failed to create lzip decompression: %d %s\n"
+msgstr "Nu s-a putut inițializa decomprimarea gzip\n"
+
+#: libwget/decompressor.c:389
+#, fuzzy, c-format
+msgid "Failed to uncompress lzip stream: %d %s\n"
+msgstr "Nu s-a putu decomprima fluxul gzip (%d)\n"
+
+#: libwget/decompressor.c:444
+msgid "Failed to init bzip2 decompression\n"
+msgstr "Nu s-a putut inițializa decomprimarea bzip2\n"
+
+#: libwget/decompressor.c:483
+#, c-format
+msgid "Failed to uncompress bzip2 stream (%d)\n"
+msgstr "Nu s-a putut decomprima fluxul bzip2 (%d)\n"
+
+#: libwget/dns.c:261
+#, fuzzy, c-format
+msgid "Failed to resolve %s:%d: %s\n"
+msgstr "Nu s-a putut rezolva %s (%s)\n"
+
+#: libwget/dns.c:344
+#, c-format
+msgid "Failed to resolve %s (%s)\n"
+msgstr "Nu s-a putut rezolva %s (%s)\n"
+
+#: libwget/encoding.c:112
+#, c-format
+msgid "Failed to transcode '%s' string into '%s' (%d)\n"
+msgstr "Nu s-a putut transcoda șirul „%s” în „%s” (%d)\n"
+
+#: libwget/encoding.c:124
+#, c-format
+msgid "Failed to prepare transcoding '%s' into '%s' (%d)\n"
+msgstr "Nu s-a putut pregăti transcodarea a „%s” în „%s” (%d)\n"
+
+#: libwget/encoding.c:261
+#, c-format
+msgid "toASCII(%s) failed (%d): %s\n"
+msgstr "toASCII(%s) a eșuat (%d): %s\n"
+
+#: libwget/encoding.c:280
+#, c-format
+msgid "toASCII failed (%d): %s\n"
+msgstr "toASCII a eșuat (%d): %s\n"
+
+#: libwget/encoding.c:283
+#, c-format
+msgid "Invalid UTF-8 sequence not converted: '%s'\n"
+msgstr "Secvența UTF-8 nevalidă nu este convertită: „%s”\n"
+
+#: libwget/encoding.c:287
+#, c-format
+msgid "toASCII not available: '%s'\n"
+msgstr "toASCII nu este disponibil: „%s”\n"
+
+#: libwget/error.c:45
+msgid "General error"
+msgstr ""
+
+#: libwget/error.c:46
+msgid "No memory"
+msgstr ""
+
+#: libwget/error.c:47
+#, fuzzy
+msgid "Invalid value"
+msgstr "Sfârșit de interval nevalid"
+
+#: libwget/error.c:48
+msgid "Timeout"
+msgstr ""
+
+#: libwget/error.c:49
+#, fuzzy
+msgid "Connect error"
+msgstr "Eroare necunoscută"
+
+#: libwget/error.c:50
+msgid "Handshake error"
+msgstr ""
+
+#: libwget/error.c:51
+#, fuzzy
+msgid "Certificate error"
+msgstr "Tip de certificat: %s\n"
+
+#: libwget/error.c:52
+msgid "libwget has been built without TLS support"
+msgstr ""
+
+#: libwget/error.c:53
+#, fuzzy
+msgid "Failed to parse XML"
+msgstr "Nu s-a putut parsa: „%s”\n"
+
+#: libwget/error.c:54
+#, fuzzy
+msgid "Failed to open file"
+msgstr "Nu s-a putut deschide %s\n"
+
+#: libwget/error.c:55
+msgid "I/O error"
+msgstr ""
+
+#: libwget/error.c:56
+#, fuzzy
+msgid "Unsupported function"
+msgstr "Calitate de protecție nesuportată „%s”.\n"
+
+#: libwget/hash_printf.c:74
+#, c-format
+msgid "Failed to hash (%d)\n"
+msgstr "Nu s-a putut face o dispersie (%d)\n"
+
+#: libwget/hashfile.c:92
+#, c-format
+msgid "Unknown hash type '%s'\n"
+msgstr "Tip de dispersie necunoscut „%s”\n"
+
+#: libwget/hashfile.c:808
+#, c-format
+msgid "%s: Hash init failed for type '%s': %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:814
+#, c-format
+msgid "%s: Hash update failed: %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:825
+#, c-format
+msgid "%s: Hash finalization failed: %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:830
+#, c-format
+msgid "%s: Failed to read %llu bytes\n"
+msgstr "%s: Nu s-a putut citi %llu octeți\n"
+
+#: libwget/hpkp_db.c:306
+#, c-format
+msgid "HPKP: could not parse host line '%s'\n"
+msgstr "HPKP: nu s-a putut parsa linia de gazdă „%s”\n"
+
+#: libwget/hpkp_db.c:312
+#, c-format
+msgid "HPKP: could not parse pin line '%s'\n"
+msgstr "HPKP: nu s-a putut parsa linia de fixare „%s”\n"
+
+#: libwget/hpkp_db.c:355
+msgid "Failed to read HPKP data\n"
+msgstr "Nu s-au putut citi datele HPKP\n"
+
+#: libwget/hpkp_db.c:439
+#, c-format
+msgid "Failed to write HPKP file '%s'\n"
+msgstr "Nu s-a putut scrie fișierul HPKP „%s”\n"
+
+#: libwget/hsts.c:412 libwget/tls_session.c:332
+#, c-format
+msgid "Failed to parse HSTS line: '%s'\n"
+msgstr "Nu s-a putut parsa linia HSTS: „%s”\n"
+
+#: libwget/hsts.c:452
+msgid "Failed to read HSTS data\n"
+msgstr "Nu s-au putut citi datele HSTS\n"
+
+#: libwget/hsts.c:512
+#, c-format
+msgid "Failed to write HSTS file '%s'\n"
+msgstr "Nu s-a putut scrie fișierul HSTS „%s”\n"
+
+#: libwget/http.c:178 libwget/http.c:188 libwget/http.c:197 libwget/http.c:206
+#, c-format
+msgid "%s: Unknown key %d (or value must not be an integer)\n"
+msgstr "%s: Cheie necunoscută %d (sau valoarea poate să nu fie un întreg)\n"
+
+#: libwget/http.c:303
+#, c-format
+msgid "Unsupported quality of protection '%s'.\n"
+msgstr "Calitate de protecție nesuportată „%s”.\n"
+
+#: libwget/http.c:314
+#, c-format
+msgid "Unsupported algorithm '%s'.\n"
+msgstr "Algoritm nesuportat „%s”.\n"
+
+#: libwget/http.c:409
+#, c-format
+msgid "Decompress failed [host: %s - resource: %s]\n"
+msgstr "Decomprimarea a eșuat [gazdă: %s - resursă: %s]\n"
+
+#: libwget/http.c:667
+msgid "Failed to create HTTP2 callbacks\n"
+msgstr "Nu s-au putut crea callback-uri HTTP2\n"
+
+#: libwget/http.c:677
+#, c-format
+msgid "Failed to create HTTP2 client session (%d)\n"
+msgstr "Nu s-a putut crea sesiune de client HTTP2 (%d)\n"
+
+#: libwget/http.c:689
+#, c-format
+msgid "Failed to submit HTTP2 client settings (%d)\n"
+msgstr "Nu s-au putut submite configurările de client HTTP2 (%d)\n"
+
+#: libwget/http.c:724
+#, c-format
+msgid "Failed to terminate HTTP2 session (%d)\n"
+msgstr "Nu s-a putut termina sesiunea HTTP2 (%d)\n"
+
+#: libwget/http.c:838
+msgid "Failed to submit HTTP2 request\n"
+msgstr "Nu s-a putut submite cererea HTTP2\n"
+
+#: libwget/http.c:853
+msgid "Failed to create request buffer\n"
+msgstr "Nu s-a putut crea preîncăcarea de cerere\n"
+
+#: libwget/http.c:1046 libwget/http.c:1140
+#, fuzzy, c-format
+msgid "Failed to allocate %zu bytes\n"
+msgstr "Nu s-au putut citi %zu octeți (%d)\n"
+
+#: libwget/http.c:1161
+#, fuzzy, c-format
+msgid "Failed to convert chunk size '%.31s'\n"
+msgstr "Nu s-a putut scrie fișierul cookie „%s”\n"
+
+#: libwget/http.c:1197
+#, fuzzy, c-format
+msgid "Chunk size overflow: %zX\n"
+msgstr "Supraplin de dimensiune de bucaă: %lX\n"
+
+#: libwget/http.c:1237
+msgid "Expected end-of-chunk not found\n"
+msgstr "Sfârșit de bucată așteptat negăsit\n"
+
+#: libwget/http.c:1283
+#, c-format
+msgid "Failed to read %zd bytes (%d)\n"
+msgstr "Nu s-au putut citi %zd octeți (%d)\n"
+
+#: libwget/http.c:1286
+#, c-format
+msgid "Just got %zu of %zu bytes\n"
+msgstr "Tocmai s-au obținut %zu din %zu octeți\n"
+
+#: libwget/http.c:1289
+#, c-format
+msgid "Body too large: %zu instead of %zu bytes\n"
+msgstr "Corp prea mare: %zu în loc de %zu octeți\n"
+
+#: libwget/http_highlevel.c:45 libwget/http_highlevel.c:60
+#, fuzzy, c-format
+msgid "Failed to write %zu bytes of data (%d)\n"
+msgstr "Nu s-au putut scrie %zu octeți de date (%d: %s)\n"
+
+#: libwget/http_highlevel.c:161
+#, c-format
+msgid "Unknown option %d\n"
+msgstr "Opțiune necunoscută %d\n"
+
+#: libwget/http_highlevel.c:171
+msgid "Error parsing URL\n"
+msgstr "Eroare la parsarea URL-ului\n"
+
+#: libwget/http_highlevel.c:178
+msgid "Missing URL/URI\n"
+msgstr "Lipsește URL-ul/URI-ul\n"
+
+#: libwget/http_parse.c:863 libwget/http_parse.c:888
+#, c-format
+msgid "Failed to parse date '%s'\n"
+msgstr "Nu s-a putut parsa data „%s”\n"
+
+#: libwget/http_parse.c:1271
+msgid "HTTP response header not found\n"
+msgstr "Antetul de răspuns HTTP nu a fost găsit\n"
+
+#: libwget/init.c:136 src/options.c:3580
+#, fuzzy, c-format
+msgid "Failed to init DNS cache (%d)"
+msgstr "Nu s-a putut inițializa rețelistica (%d)"
+
+#: libwget/init.c:171 libwget/init.c:245 libwget/init.c:270 libwget/init.c:285
+#, c-format
+msgid "%s: Unknown option %d"
+msgstr "%s: Opțiune necunoscută %d"
+
+#: libwget/init.c:190
+#, c-format
+msgid "%s: Failed to init networking (%d)"
+msgstr "%s: Nu s-a putut inițializa rețelistica (%d)"
+
+#: libwget/init.c:228
+#, c-format
+msgid "%s: Failed to deinit networking (%d)"
+msgstr "%s: Nu s-a putut să se ne-inițializeze rețelistica (%d)"
+
+#: libwget/io.c:126
+#, c-format
+msgid "%s: Failed to read, error %d\n"
+msgstr "%s: Nu s-a putut citi, eroare %d\n"
+
+#: libwget/io.c:319
+#, c-format
+msgid ""
+"WARNING: Size of %s changed from %lld to %lld while reading. This may lead "
+"to unwanted results !\n"
+msgstr ""
+"AVERTISMENT: Dimensiunea a lui %s s-a schimbat de la %lld la %lld în timpul "
+"citirii. Acest lucru poate conduce la rezultate nedorite !\n"
+
+#: libwget/io.c:322
+#, c-format
+msgid "Failed to fstat %s\n"
+msgstr "Nu s-a putut fstat %s\n"
+
+#: libwget/io.c:410
+#, c-format
+msgid "Failed to create '%s' (%d)\n"
+msgstr "Nu s-a putut crea „%s” (%d)\n"
+
+#: libwget/io.c:418
+#, c-format
+msgid "Failed to lock '%s' (%d)\n"
+msgstr "Nu s-a putut bloca „%s” (%d)\n"
+
+#: libwget/io.c:430
+#, c-format
+msgid "Failed to read open '%s' (%d)\n"
+msgstr "Nu s-a putut citi „%s” deschis (%d)\n"
+
+#: libwget/io.c:453
+#, c-format
+msgid "Failed to open tmpfile '%s' (%d)\n"
+msgstr "Nu s-a putut deschide fișierul tmp „%s” (%d)\n"
+
+#: libwget/io.c:462
+#, c-format
+msgid "Failed to write open '%s' (%d)\n"
+msgstr "Nu s-a putut scrie „%s” deschis (%d)\n"
+
+#: libwget/io.c:478
+#, c-format
+msgid "Failed to write/close '%s' (%d)\n"
+msgstr "Nu s-a putut scrie/închide „%s” (%d)\n"
+
+#: libwget/io.c:485
+#, c-format
+msgid "Failed to rename '%s' to '%s' (%d)\n"
+msgstr "Nu s-a putut redenumi „%s” la „%s” (%d)\n"
+
+#: libwget/io.c:486
+#, c-format
+msgid "Take manually care for '%s'\n"
+msgstr "Aveți grijă manual pentru „%s”\n"
+
+#: libwget/iri.c:680
+#, c-format
+msgid "Missing host/domain in URI '%s'\n"
+msgstr "Lipsește gazda/domeniul în URI-ul „%s”\n"
+
+#: libwget/net.c:592 libwget/net.c:600
+msgid "Failed to set socket to non-blocking\n"
+msgstr "Nu s-a putut stabili soclul la non-blocare\n"
+
+#: libwget/net.c:597
+msgid "Failed to get socket flags\n"
+msgstr "Nu s-au putut obține fanioanele soclului\n"
+
+#: libwget/net.c:609
+msgid "Failed to set socket option REUSEADDR\n"
+msgstr "Nu s-a putut stabili opțiunea soclului REUSEADDR\n"
+
+#: libwget/net.c:613
+msgid "Failed to set socket option NODELAY\n"
+msgstr "Nu s-a putut stabili opțiunea soclului la NODELAY\n"
+
+#: libwget/net.c:618
+#, fuzzy
+msgid "Failed to set socket option BINDTODEVICE\n"
+msgstr "Nu s-a putut stabili opțiunea soclului la NODELAY\n"
+
+#: libwget/net.c:623
+msgid "Unsupported socket option BINDTODEVICE\n"
+msgstr ""
+
+#: libwget/net.c:719
+#, c-format
+msgid "Failed to bind (%d)\n"
+msgstr "Nu s-a putut lega (%d)\n"
+
+#: libwget/net.c:755 libwget/net.c:925
+#, c-format
+msgid "Failed to connect (%d)\n"
+msgstr "Nu s-a putut conecta (%d)\n"
+
+#: libwget/net.c:786
+#, c-format
+msgid "Failed to create socket (%d)\n"
+msgstr "Nu s-a putut crea soclul (%d)\n"
+
+#: libwget/net.c:865
+#, c-format
+msgid "Failed to read %zu bytes (%d)\n"
+msgstr "Nu s-au putut citi %zu octeți (%d)\n"
+
+#: libwget/net.c:947
+#, fuzzy, c-format
+msgid "Failed to write %zu bytes (%d)\n"
+msgstr "Nu s-a putut scrie %zu octeți (%d: %s)\n"
+
+#: libwget/net.c:988
+#, c-format
+msgid "%s: internal error: length mismatch %zu != %zd\n"
+msgstr "%s: eroare internă: nepotrivire de lungime %zu != %zd\n"
+
+#: libwget/metalink.c:135
+#, fuzzy, c-format
+msgid "Mirror scheme not supported: '%s'\n"
+msgstr "Schema URI nu este suportată: „%s”\n"
+
+#: libwget/metalink.c:288
+msgid "Error in parsing XML"
+msgstr "Eroare în parsarea XML"
+
+#: libwget/ocsp.c:469
+#, c-format
+msgid "Failed to parse OCSP line: '%s'\n"
+msgstr "Nu s-a putut parsa linia OCSP: „%s”\n"
+
+#: libwget/ocsp.c:516
+msgid "Failed to read OCSP hosts\n"
+msgstr "Nu s-au putut citi gazdele OCSP\n"
+
+#: libwget/ocsp.c:521
+msgid "Failed to read OCSP fingerprints\n"
+msgstr "Nu s-au putut citi amprentele OCSP\n"
+
+#: libwget/ocsp.c:603
+#, c-format
+msgid "Failed to write to OCSP hosts to '%s'\n"
+msgstr "Nu s-au putut scrie gazdele OCSP la „%s”\n"
+
+#: libwget/ocsp.c:608
+#, c-format
+msgid "Failed to write to OCSP fingerprints to '%s'\n"
+msgstr "Nu s-a putut scrie la amprentele OCSP la „%s”\n"
+
+#: libwget/pipe.c:85
+#, c-format
+msgid "Failed to create pipe for STDIN on %s\n"
+msgstr "Nu s-a putut crea conexiunea pentru STDIN pe %s\n"
+
+#: libwget/pipe.c:89
+#, c-format
+msgid "Failed to create pipe for STDOUT on %s\n"
+msgstr "Nu s-a putut crea conexiunea pentru STDOUT pe %s\n"
+
+#: libwget/pipe.c:97
+#, c-format
+msgid "Failed to create pipe for STDERR on %s\n"
+msgstr "Nu s-a putut crea conexiunea pentru STDERR pe %s\n"
+
+#: libwget/pipe.c:115 libwget/pipe.c:125 libwget/pipe.c:136
+#, c-format
+msgid "Failed to dup2(%d,%d) (%d)\n"
+msgstr "Nu s-a putut dup2(%d,%d) (%d)\n"
+
+#: libwget/pipe.c:163
+#, c-format
+msgid "Failed to fork '%s'\n"
+msgstr "Nu s-a putut da fork la „%s”\n"
+
+#: libwget/ssl_gnutls.c:207 libwget/ssl_wolfssl.c:187
+#, c-format
+msgid "Unknown config key %d (or value must not be a string)\n"
+msgstr ""
+"Cheie de configurare necunoscută %d (sau valoarea poate să nu fie un șir)\n"
+
+#: libwget/ssl_gnutls.c:241 libwget/ssl_wolfssl.c:221
+#, c-format
+msgid "Unknown config key %d (or value must not be an object)\n"
+msgstr ""
+"Cheie de configurare necunoscută %d (sau valoarea poate să nu fie un "
+"obiect)\n"
+
+#: libwget/ssl_gnutls.c:294 libwget/ssl_wolfssl.c:267
+#, c-format
+msgid "Unknown config key %d (or value must not be an integer)\n"
+msgstr ""
+"Cheie de configurare necunoscută %d (sau valoarea poate să nu fie un "
+"întreg)\n"
+
+#: libwget/ssl_gnutls.c:341
+#, c-format
+msgid "Certificate info [%u]:\n"
+msgstr "Informații de certificat [%u]:\n"
+
+#: libwget/ssl_gnutls.c:344
+#, c-format
+msgid "  Valid since: %s"
+msgstr "  Valid de la: %s"
+
+#: libwget/ssl_gnutls.c:347
+#, c-format
+msgid "  Expires: %s"
+msgstr "  Expiră: %s"
+
+#: libwget/ssl_gnutls.c:354
+#, c-format
+msgid "  Fingerprint: %s\n"
+msgstr "  Amprentă: %s\n"
+
+#: libwget/ssl_gnutls.c:362
+#, c-format
+msgid "  Serial number: %s\n"
+msgstr "  Număr serial: %s\n"
+
+#: libwget/ssl_gnutls.c:367
+#, c-format
+msgid "  Public key: %s, %s (%u bits)\n"
+msgstr "  Cheie publică: %s, %s (%u biți)\n"
+
+#: libwget/ssl_gnutls.c:372
+#, c-format
+msgid "  Version: #%d\n"
+msgstr "  Versiune: #%d\n"
+
+#: libwget/ssl_gnutls.c:376
+#, fuzzy, c-format
+msgid "  DN: %s\n"
+msgstr "  DN al emitentului: %s\n"
+
+#: libwget/ssl_gnutls.c:380
+#, c-format
+msgid "  Issuer's DN: %s\n"
+msgstr "  DN al emitentului: %s\n"
+
+#: libwget/ssl_gnutls.c:384
+#, c-format
+msgid "  Issuer's OID: %s\n"
+msgstr "  OID al emitentului: %s\n"
+
+#: libwget/ssl_gnutls.c:388
+#, c-format
+msgid "  Issuer's UID: %s\n"
+msgstr "  UID al emitentului %s\n"
+
+#: libwget/ssl_gnutls.c:400
+#, c-format
+msgid "  Unknown certificate type %d\n"
+msgstr "  Tip de certificat necunoscut %d\n"
+
+#: libwget/ssl_gnutls.c:417 libwget/ssl_gnutls.c:489 libwget/ssl_gnutls.c:518
+msgid "----\n"
+msgstr "----\n"
+
+#: libwget/ssl_gnutls.c:425
+msgid "TLS/IA session\n"
+msgstr "Sesiune TLS/IA\n"
+
+#: libwget/ssl_gnutls.c:430
+#, c-format
+msgid "SRP session with username %s\n"
+msgstr "Sesiune SRP cu numele de utilizator %s\n"
+
+#: libwget/ssl_gnutls.c:438
+#, c-format
+msgid "PSK authentication. PSK hint '%s'\n"
+msgstr "Autentificare PSK. Indiciu PSK „%s”\n"
+
+#: libwget/ssl_gnutls.c:443
+#, c-format
+msgid "PSK authentication. Connected as '%s'\n"
+msgstr "Autentificare PSK. Conectat ca „%s”\n"
+
+#: libwget/ssl_gnutls.c:455
+msgid "Anonymous authentication.\n"
+msgstr "Autentificare anonimă.\n"
+
+#: libwget/ssl_gnutls.c:483
+msgid "Transport authentication failure\n"
+msgstr "Eșec la autentificarea de transport\n"
+
+#: libwget/ssl_gnutls.c:485
+#, c-format
+msgid "Unsupported credential type %d.\n"
+msgstr "Tip de certificare nesuportată %d.\n"
+
+#: libwget/ssl_gnutls.c:492
+#, c-format
+msgid "Ephemeral DH using prime of %d bits\n"
+msgstr "DH efemer utilizând un număr prim de %d biți\n"
+
+#: libwget/ssl_gnutls.c:495
+#, c-format
+msgid "Ephemeral ECDH using curve %s\n"
+msgstr "ECDH efemer utilizând curba %s\n"
+
+#: libwget/ssl_gnutls.c:500
+#, c-format
+msgid "Key Exchange: %s\n"
+msgstr "Schimb de chei: %s\n"
+
+#: libwget/ssl_gnutls.c:504
+#, c-format
+msgid "Protocol: %s\n"
+msgstr "Protocol: %s\n"
+
+#: libwget/ssl_gnutls.c:508
+#, c-format
+msgid "Certificate Type: %s\n"
+msgstr "Tip de certificat: %s\n"
+
+#: libwget/ssl_gnutls.c:512
+#, c-format
+msgid "Cipher: %s\n"
+msgstr "Cifru: %s\n"
+
+#: libwget/ssl_gnutls.c:516
+#, c-format
+msgid "MAC: %s\n"
+msgstr "MAC: %s\n"
+
+#: libwget/ssl_gnutls.c:866
+#, c-format
+msgid "Failed to import pubkey: %s\n"
+msgstr "Nu s-a putut importa cheia publică: %s\n"
+
+#: libwget/ssl_gnutls.c:874 libwget/ssl_gnutls.c:886 libwget/ssl_gnutls.c:894
+#, c-format
+msgid "Failed to export pubkey: %s\n"
+msgstr "Nu s-a putut exporta cheia publică: %s\n"
+
+#: libwget/ssl_gnutls.c:934
+msgid "ERROR"
+msgstr "EROARE"
+
+#: libwget/ssl_gnutls.c:934
+msgid "WARNING"
+msgstr "AVERTISMENT"
+
+#: libwget/ssl_gnutls.c:953
+#, c-format
+msgid "%s: Certificate verification error\n"
+msgstr "%s: Eroare la verificarea certificatului\n"
+
+#: libwget/ssl_gnutls.c:993
+#, c-format
+msgid "%s: The certificate is not trusted.\n"
+msgstr "%s: Certificatul nu este de încredere.\n"
+
+#: libwget/ssl_gnutls.c:995
+#, c-format
+msgid "%s: The certificate has been revoked.\n"
+msgstr "%s: Certificatul a fost revocat.\n"
+
+#: libwget/ssl_gnutls.c:997
+#, fuzzy, c-format
+msgid "%s: The certificate doesn't have a known issuer.\n"
+msgstr "%s: Certificatul nu are un emitent cunoscut.\n"
+
+#: libwget/ssl_gnutls.c:999
+#, c-format
+msgid "%s: The certificate signer was not a CA.\n"
+msgstr "%s: Semnatarul certificatului nu a fost un CA.\n"
+
+#: libwget/ssl_gnutls.c:1001
+#, c-format
+msgid "%s: The certificate was signed using an insecure algorithm.\n"
+msgstr "%s: Certificatul a fost semnat utilizând un algoritm nesigur.\n"
+
+#: libwget/ssl_gnutls.c:1003
+#, c-format
+msgid "%s: The certificate is not yet activated.\n"
+msgstr "%s: Certificatul nu este încă activat.\n"
+
+#: libwget/ssl_gnutls.c:1005
+#, c-format
+msgid "%s: The certificate has expired.\n"
+msgstr "%s: Certificatul a expirat.\n"
+
+#: libwget/ssl_gnutls.c:1008
+#, c-format
+msgid "%s: The certificate signature is invalid.\n"
+msgstr "%s: Semnătura certificatului nu este validă.\n"
+
+#: libwget/ssl_gnutls.c:1010
+#, c-format
+msgid "%s: The certificate's owner does not match hostname '%s'.\n"
+msgstr ""
+"%s: Deținătorul certificatului nu se potrivește cu numele de gazdă „%s”.\n"
+
+#: libwget/ssl_gnutls.c:1022
+#, c-format
+msgid "%s: The certificate could not be verified (0x%X).\n"
+msgstr "%s: Certificatul nu a putut fi verificat (0x%X).\n"
+
+#: libwget/ssl_gnutls.c:1033
+#, c-format
+msgid "%s: Certificate must be X.509\n"
+msgstr "%s: Certificatul trebuie să fie X.509\n"
+
+#: libwget/ssl_gnutls.c:1038
+#, c-format
+msgid "%s: Error initializing X.509 certificate\n"
+msgstr "%s: Eroare la inițializarea certificatului X.509\n"
+
+#: libwget/ssl_gnutls.c:1044
+#, c-format
+msgid "%s: No certificate was found!\n"
+msgstr "%s: Nu s-a găsit niciun certificat!\n"
+
+#: libwget/ssl_gnutls.c:1049
+#, c-format
+msgid "%s: Failed to parse certificate: %s\n"
+msgstr "%s: Nu s-a putut parsa certificatul: %s\n"
+
+#: libwget/ssl_gnutls.c:1072
+msgid "WARNING: The certificate's (stapled) OCSP status is invalid\n"
+msgstr "AVERTISMENT: Starea OCSP (capsată) a certificatului nu este validă\n"
+
+#: libwget/ssl_gnutls.c:1075
+msgid "WARNING: The certificate's (stapled) OCSP status has not been sent\n"
+msgstr ""
+"AVERTISMENT: Starea OCSP (capsată) a certificatului nu a fost trimisă\n"
+
+#: libwget/ssl_gnutls.c:1087
+#, c-format
+msgid "%s: Failed to parse certificate[%u]: %s\n"
+msgstr "%s: Nu s-a putut parsa certificatul[%u]: %s\n"
+
+#: libwget/ssl_gnutls.c:1173
+#, c-format
+msgid "%s: Pubkey pinning mismatch!\n"
+msgstr "%s: Nepotrivire la fixarea de cheie publică!\n"
+
+#: libwget/ssl_gnutls.c:1229
+msgid "GnuTLS requires the key and the cert to be of the same type.\n"
+msgstr "GnuTLS necesită ca cheia și certificatul să fie de același tip.\n"
+
+#: libwget/ssl_gnutls.c:1233
+msgid "No certificates or keys were found\n"
+msgstr "Nu s-au găsit certificate sau chei\n"
+
+#: libwget/ssl_gnutls.c:1238
+#, c-format
+msgid "No CAs were found in '%s'\n"
+msgstr "Nu s-au găsit CA-uri în „%s”\n"
+
+#: libwget/ssl_gnutls.c:1319
+#, c-format
+msgid "Failed to opendir %s\n"
+msgstr "Nu s-a putu deschide directorul %s\n"
+
+#: libwget/ssl_gnutls.c:1326
+#, c-format
+msgid "Failed to load CRL '%s': (%d)\n"
+msgstr "Nu s-a putut încărca CRL-ul „%s”: (%d)\n"
+
+#: libwget/ssl_gnutls.c:1368
+#, c-format
+msgid "GnuTLS: Unsupported priority string '%s': %s\n"
+msgstr "GnuTLS: Șir de prioritate nesuportat „%s”: %s\n"
+
+#: libwget/ssl_gnutls.c:1372
+#, c-format
+msgid "GnuTLS: Unsupported default priority 'NULL': %s\n"
+msgstr "GnuTLS: Prioritate implicită nesuportată „NULL”: %s\n"
+
+#: libwget/ssl_gnutls.c:1612 libwget/ssl_gnutls.c:1618
+#, fuzzy
+msgid ""
+"TLS False Start requested but libwget built with insufficient GnuTLS "
+"version\n"
+msgstr ""
+"S-a cerut start fals TLS dar Wget a generat cu versiunea insuficientă "
+"GnuTLS\n"
+
+#: libwget/ssl_gnutls.c:1623
+#, c-format
+msgid "GnuTLS: Failed to set priorities: %s\n"
+msgstr "GnuTLS: Nu s-au putut stabili prioritățile: %s\n"
+
+#: libwget/ssl_gnutls.c:1653
+msgid "WARNING: OCSP is not available in this version of GnuTLS.\n"
+msgstr "AVERTISMENT: OCSP nu este disponibil în această versiune de GnuTLS.\n"
+
+#: libwget/ssl_gnutls.c:1720
+#, c-format
+msgid "GnuTLS: Failed to set session data: %s\n"
+msgstr "GnuTLS: Nu s-a putut stabili datele sesiunii: %s\n"
+
+#: libwget/ssl_wolfssl.c:590
+msgid "Missing TLS method\n"
+msgstr ""
+
+#: libwget/ssl_wolfssl.c:596
+#, fuzzy
+msgid "Failed to create WOLFSSL_CTX\n"
+msgstr "Nu s-a putut crea „%s” (%d)\n"
+
+#: libwget/ssl_wolfssl.c:611
+#, fuzzy, c-format
+msgid "WolfSSL: Failed to set ciphers '%s'\n"
+msgstr "GnuTLS: Nu s-au putut stabili prioritățile: %s\n"
+
+#: libwget/ssl_wolfssl.c:619
+#, c-format
+msgid "Failed to load %s, please check the file.\n"
+msgstr ""
+
+#: libwget/ssl_wolfssl.c:859
+#, fuzzy
+msgid "Failed to create WolfSSL session\n"
+msgstr "Nu s-au putut citi datele sesiunii TLS\n"
+
+#: libwget/ssl_wolfssl.c:992
+#, fuzzy, c-format
+msgid "failed to connect TLS (%d): %s\n"
+msgstr "Nu s-a putut conecta (%d)\n"
+
+#: libwget/ssl_openssl.c:231 libwget/ssl_openssl.c:271
+#: libwget/ssl_openssl.c:345
+#, fuzzy, c-format
+msgid ""
+"Unknown configuration key %d (maybe this config value should be of another "
+"type?)\n"
+msgstr ""
+"Cheie de configurare necunoscută %d (sau valoarea poate să nu fie un "
+"obiect)\n"
+
+#: libwget/ssl_openssl.c:394
+msgid ""
+"OpenSSL: TLS 1.3 is not supported by your OpenSSL version. Will use TLS 1.2 "
+"instead.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:404
+#, fuzzy, c-format
+msgid "OpenSSL: Invalid priority string '%s'\n"
+msgstr "GnuTLS: Șir de prioritate nesuportat „%s”: %s\n"
+
+#: libwget/ssl_openssl.c:466
+#, c-format
+msgid ""
+"OpenSSL: Could not load certificates from default paths. Falling back to "
+"'%s'."
+msgstr ""
+
+#: libwget/ssl_openssl.c:471
+#, c-format
+msgid "OpenSSL: No certificates could be loaded from directory '%s'\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:475
+#, c-format
+msgid "OpenSSL: Could not open directory '%s'. No certificates were loaded.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:581
+msgid "Got a stapled OCSP response, but could not parse it. Aborting.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:587
+msgid "Could not get server's cert stack\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:598
+msgid "Could not verify stapled OCSP response. Aborting.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:763
+msgid "Unsuccessful OCSP response\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:771
+msgid "Could not verify OCSP certificate chain\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:777
+#, fuzzy
+msgid "Could not parse OCSP single response\n"
+msgstr "Nu s-a putut parsa linia OCSP: „%s”\n"
+
+#: libwget/ssl_openssl.c:783
+msgid "Could not obtain OCSP response status\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:788
+#, fuzzy
+msgid "Certificate revoked by OCSP\n"
+msgstr "%s: Certificatul[%u] din „%s” a fost revocat (via OCSP)\n"
+
+#: libwget/ssl_openssl.c:795
+msgid "Could not get 'thisUpd' from OCSP response. Cannot check time.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:802
+msgid "OCSP response is too old. Ignoring.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:850
+msgid "Could not obtain OCSP_BASICRESPONSE\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:855
+msgid "OCSP nonce does not match\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:974
+#, c-format
+msgid "Could not compute certificate fingerprint for cert %u\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1066
+msgid "Could not retrieve certificate store. Will skip HPKP checks.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1072
+msgid "Could not retrieve saved verification status flags.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1085
+#, fuzzy
+msgid "Public key pinning mismatch.\n"
+msgstr "%s: Nepotrivire la fixarea de cheie publică!\n"
+
+#: libwget/ssl_openssl.c:1096
+#, fuzzy
+msgid "Certificate revoked by OCSP.\n"
+msgstr "%s: Certificatul[%u] din „%s” a fost revocat (via OCSP)\n"
+
+#: libwget/ssl_openssl.c:1117
+msgid "Certificate check disabled. Peer's certificate will NOT be checked.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1123
+msgid "OpenSSL: Could not obtain cert store\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1136
+#, fuzzy, c-format
+msgid "Could not load CRL from '%s' (%d)\n"
+msgstr "Nu s-a putut încărca CRL-ul „%s”: (%d)\n"
+
+#: libwget/ssl_openssl.c:1150
+#, c-format
+msgid "Could not load CA certificate from file '%s'\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1206
+msgid "Could not initialize OpenSSL\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1257
+msgid "OpenSSL: Could not parse cached session data.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1265
+#, fuzzy
+msgid "OpenSSL: Could not set session data.\n"
+msgstr "GnuTLS: Nu s-a putut stabili datele sesiunii: %s\n"
+
+#: libwget/ssl_openssl.c:1491
+msgid ""
+"Host name check disabled. Server certificate's subject name will not be "
+"checked.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1500
+msgid "Could not set 'status_request' extension\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1506
+msgid "SNI could not be sent"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1510
+msgid "ALPN offering could not be sent"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1518
+#, fuzzy
+msgid "Could not get cached TLS session"
+msgstr "Nu s-au putut citi datele sesiunii TLS\n"
+
+#: libwget/ssl_openssl.c:1540
+#, c-format
+msgid "Could not complete TLS handshake: %s\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1696
+#, c-format
+msgid "TLS read error: %s\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1731
+#, c-format
+msgid "TLS write error: %s\n"
+msgstr ""
+
+#: libwget/tls_session.c:355
+msgid "Failed to read TLS session data\n"
+msgstr "Nu s-au putut citi datele sesiunii TLS\n"
+
+#: libwget/tls_session.c:403
+#, c-format
+msgid "Failed to write TLS session file '%s'\n"
+msgstr "Nu s-a putut scrie fișierul de sesiune TLS „%s”\n"
+
+#: src/bar.c:95
+#, fuzzy
+msgid "Cannot create progress bar thread. Disabling progress bar.\n"
+msgstr ""
+"Nu se poate crea un fir de bară de progres. Se dezactivează bara de "
+"progres.\n"
+
+#: src/dl.c:41
+#, c-format
+msgid "Piling up error '%s' over error '%s'"
+msgstr "Se suprapune eroarea „%s” peste eroarea „%s”"
+
+#: src/gpgme.c:60
+msgid "GPGME Failure\n"
+msgstr "Eșec GPGME\n"
+
+#: src/gpgme.c:64
+#, fuzzy, c-format
+msgid "%s: Invalid signature\n"
+msgstr "%s: Eșec nemanipulat\n"
+
+#: src/gpgme.c:67
+#, c-format
+msgid "%s: Key %s expired\n"
+msgstr "%s: Cheia %s a expirat\n"
+
+#: src/gpgme.c:70
+#, c-format
+msgid "%s: Expired signature\n"
+msgstr ""
+
+#: src/gpgme.c:73
+#, c-format
+msgid "%s: Key %s missing\n"
+msgstr "%s: Cheia %s lipsește\n"
+
+#: src/gpgme.c:76
+#, c-format
+msgid "%s: Unhandled failure\n"
+msgstr "%s: Eșec nemanipulat\n"
+
+#: src/gpgme.c:117
+msgid "Invalid signature, signature file must have a sig extension\n"
+msgstr ""
+"Semnătură nevalidă, fișierul semnătură trebuie să aibă o extensie sig\n"
+
+#: src/gpgme.c:156
+msgid "Failed to init gpgme context\n"
+msgstr "Nu s-a putut inițializa contextul gpgme\n"
+
+#: src/gpgme.c:171
+msgid "Couldn't specify gnupg homedir\n"
+msgstr "Nu s-a putut specifica directorul de acasă gnupg\n"
+
+#: src/gpgme.c:177
+#, c-format
+msgid "Couldn't canonicalize %s. (Does the path exist?)\n"
+msgstr "Nu s-a putut face canonic %s. (Calea există?)\n"
+
+#: src/gpgme.c:186
+msgid "Error during verification\n"
+msgstr "Eroare în timpul verificării\n"
+
+#: src/gpgme.c:194
+msgid "GPGME verify failed!\n"
+msgstr "Verificarea GPGME a eșuat!\n"
+
+#: src/gpgme.c:273
+#, c-format
+msgid "Unsupported protocol type for content: %s\n"
+msgstr "Tip de protocol nesuportat pentru conținut: %s\n"
+
+#: src/gpgme.c:281
+msgid "Couldn't correct signature file!\n"
+msgstr "Nu s-a putut corecta fișierul de semnătură!\n"
+
+#: src/gpgme.c:290
+#, c-format
+msgid "Failed to read file to verify sig: %s\n"
+msgstr "Nu s-a putut citi fișierul pentru a verifica sig: %s\n"
+
+#: src/host.c:391 src/wget.c:937
+#, c-format
+msgid "URL '%s' not followed (disallowed by robots.txt)\n"
+msgstr "URL-ul „%s” nu este urmat (nepermis de robots.txt)\n"
+
+#: src/job.c:186
+#, c-format
+msgid ""
+"Failed to truncate %s\n"
+" from %llu to %llu bytes\n"
+msgstr ""
+"Nu s-a putu trunchia %s\n"
+" de la %llu la %llu octeți\n"
+
+#: src/job.c:205
+#, c-format
+msgid "Checksum OK for '%s'\n"
+msgstr "Suma de control OK pentru „%s”\n"
+
+#: src/job.c:212
+msgid "Failed to build checksum, assuming file to be OK\n"
+msgstr ""
+"Nu s-a putut genera suma de control, se presupune că fișierul este OK\n"
+
+#: src/job.c:217
+#, c-format
+msgid "Bad checksum for '%s'\n"
+msgstr "Sumă de control greșită pentru „%s”\n"
+
+#: src/job.c:235
+#, c-format
+msgid "Piece %d/%d not OK - requeuing\n"
+msgstr "Piesa %d/%d nu este OK - se reintră în coadă\n"
+
+#: src/options.c:287
+#, c-format
+msgid "Value out of range (0-65535): %s\n"
+msgstr "Valoarea în afara intervalului (0-65535): %s\n"
+
+#: src/options.c:351
+#, c-format
+msgid "Invalid byte specifier: %s\n"
+msgstr "Specificator de octet nevalid: %s\n"
+
+#: src/options.c:423
+#, c-format
+msgid "Ignoring invalid header: %s\n"
+msgstr "Se ignoră antetul nevalid: %s\n"
+
+#: src/options.c:432
+#, c-format
+msgid "No value in header (ignoring): %s\n"
+msgstr "Nu există nicio valoare în antet (se ignoră): %s\n"
+
+#: src/options.c:674
+#, c-format
+msgid "Invalid boolean value '%s'\n"
+msgstr "Valoare logică nevalidă „%s”\n"
+
+#: src/options.c:716
+#, c-format
+msgid "Invalid time specifier in '%s'\n"
+msgstr "Specificator de timp nevalid în „%s”\n"
+
+#: src/options.c:746
+#, c-format
+msgid "Unknown cert type '%s'\n"
+msgstr "Tip de certificat necunoscut „%s”\n"
+
+#: src/options.c:763
+#, c-format
+msgid "Unsupported regex type '%s'\n"
+msgstr "Tip de expresie regulată nesuportat „%s”\n"
+
+#: src/options.c:773
+#, fuzzy
+msgid "Empty progress type\n"
+msgstr "Tip de progres necunoscut „%s”\n"
+
+#: src/options.c:782
+#, c-format
+msgid "Unknown progress type '%s'\n"
+msgstr "Tip de progres necunoscut „%s”\n"
+
+#: src/options.c:807
+#, c-format
+msgid "Unknown restrict-file-name type '%s'\n"
+msgstr "Tip de restricționare de nume de fișier necunoscut „%s”\n"
+
+#: src/options.c:839
+#, c-format
+msgid "Unknown option '-n%c'\n"
+msgstr "Opțiune necunoscută „-n%c”\n"
+
+#: src/options.c:859
+#, c-format
+msgid "Unknown address family '%s'\n"
+msgstr "Familie de adrese necunoscută „%s”\n"
+
+#: src/options.c:886
+#, c-format
+msgid "Unknown stats format '%s'\n"
+msgstr "Format de statistici necunoscut „%s”\n"
+
+#: src/options.c:916 src/options.c:934
+#, c-format
+msgid "Plugin '%s' failed to load: %s\n"
+msgstr "Modulul „%s” a eșuat să se încarce:: %s\n"
+
+#: src/options.c:995 src/options.c:1015
+msgid "Missing required type specifier\n"
+msgstr "Lipsește specificatorul de tip necesar\n"
+
+#: src/options.c:999 src/options.c:1019
+#, c-format
+msgid "Invalid type specifier: %s\n"
+msgstr "Specificator de tip nevalid: %s\n"
+
+#: src/options.c:1032
+msgid "no-verify-sig cannot take additional arguments\n"
+msgstr ""
+
+#: src/options.c:1042
+#, fuzzy, c-format
+msgid "Invalid option specifier: %s\n"
+msgstr "Specificator de octet nevalid: %s\n"
+
+#: src/options.c:1086
+#, c-format
+msgid "Compression type %s not supported\n"
+msgstr "Tipul de comprimare %s nesuportat\n"
+
+#: src/options.c:1089
+#, c-format
+msgid "Duplicate type %s"
+msgstr "Tip duplicat %s"
+
+#: src/options.c:1119
+#, c-format
+msgid "Lib for type %s not built"
+msgstr "Biblioteca pentru tipul %s nu este generată"
+
+#: src/options.c:1151
+#, c-format
+msgid "Disallowed Value for --no-download-attr: %s\n"
+msgstr ""
+
+#: src/options.c:1160
+#, c-format
+msgid "Invalid value for --download-attr: %s\n"
+msgstr ""
+
+#: src/options.c:2505 src/options.c:2540
+#, c-format
+msgid "Unknown option '%s'\n"
+msgstr "Opțiune necunoscută „%s”\n"
+
+#: src/options.c:2557
+#, c-format
+msgid "Option 'no-%s' doesn't allow an argument\n"
+msgstr "Opțiunea „no-%s” nu permite un argument\n"
+
+#: src/options.c:2561
+#, c-format
+msgid "Option '%s' doesn't allow an argument\n"
+msgstr "Opțiunea „%s” nu permite un argument\n"
+
+#: src/options.c:2572
+#, c-format
+msgid "Missing argument for option '%s'\n"
+msgstr "Argument lipsă pentru opțiunea „%s”\n"
+
+#: src/options.c:2638
+#, c-format
+msgid "Failed to parse: '%s'\n"
+msgstr "Nu s-a putut parsa: „%s”\n"
+
+#: src/options.c:2700
+#, c-format
+msgid "Config file recursion detected in %s\n"
+msgstr "Recursivitate de fișier de configurare detectată în %s\n"
+
+#: src/options.c:2727
+#, c-format
+msgid "Failed to open %s (%d): %s\n"
+msgstr "Nu s-a putut deschide %s (%d): %s\n"
+
+#: src/options.c:2791
+#, c-format
+msgid "Failed to parse last line in '%s'\n"
+msgstr "Nu s-a putut parsa ultima linie în „%s”\n"
+
+#: src/options.c:2871
+#, c-format
+msgid "Missing argument(s) for option '-%c'\n"
+msgstr "Argument(e) lipsă pentru opțiunea „-%c”\n"
+
+#: src/options.c:2891
+#, c-format
+msgid "Unknown option '-%c'\n"
+msgstr "Opțiune necunoscută „-%c”\n"
+
+#: src/options.c:2922
+#, c-format
+msgid "Password for user \"%s\": "
+msgstr "Parola pentru utilizatorul „%s”: "
+
+#: src/options.c:2924
+msgid "Password: "
+msgstr "Parolă: "
+
+#: src/options.c:2945
+msgid "Cannot create pipe"
+msgstr "Nu se poate crea conexiunea"
+
+#: src/options.c:2951
+#, c-format
+msgid "Error initializing spawn file actions for use-askpass: %d"
+msgstr ""
+"Eroare la inițializarea acțiunilor fișierului de creare pentru use-askpass: "
+"%d"
+
+#: src/options.c:2962
+#, c-format
+msgid "Error setting spawn file actions for use-askpass: %d"
+msgstr ""
+"Eroare la configurarea acțiunilor fișierului de creare pentru use-askpass: %d"
+
+#: src/options.c:2969
+#, c-format
+msgid "Error spawning %s: %d"
+msgstr "Eroare la crearea %s: %d"
+
+#: src/options.c:2986
+#, c-format
+msgid "Error reading response from command \"%s %s\": %s\n"
+msgstr "Eroare la citirea răspunsului de la comanda „%s %s”: %s\n"
+
+#: src/options.c:3051
+#, fuzzy, c-format
+msgid "Failed to open %s"
+msgstr "Nu s-a putut deschide %s\n"
+
+#: src/options.c:3101
+#, c-format
+msgid "~/.wget2rc is deprecated. Please move it to %s/wget2rc\n"
+msgstr ""
+
+#: src/options.c:3419
+#, c-format
+msgid "Failed to set http proxies %s\n"
+msgstr "Nu s-au putut stabili proxy-urile http %s\n"
+
+#: src/options.c:3423
+#, c-format
+msgid "Failed to set https proxies %s\n"
+msgstr "Nu s-au putut stabili proxy-urile https %s\n"
+
+#: src/options.c:3427
+#, c-format
+msgid "Failed to set proxy exceptions %s\n"
+msgstr "Nu s-au putut stabili excepțiile proxy-ului %s\n"
+
+#: src/options.c:3453
+#, fuzzy, c-format
+msgid "Failed to load %s (%d)"
+msgstr "Nu s-a putut bloca „%s” (%d)\n"
+
+#: src/options.c:3513
+msgid ""
+"Specifying both --start-pos and --continue is not recommended; --continue "
+"will be disabled"
+msgstr ""
+
+#: src/options.c:3519
+msgid "WARNING: timestamping does nothing in combination with -O"
+msgstr ""
+
+#: src/options.c:3523
+msgid "Can't timestamp and not clobber old files at the same time"
+msgstr ""
+
+#: src/options.c:3527
+msgid "WARNING: timestamping does nothing in combination with spider"
+msgstr ""
+
+#: src/options.c:3531
+msgid ""
+"WARNING: timestamping and chunk-size only work together without If-Modified-"
+"Since"
+msgstr ""
+
+#: src/options.c:3570
+#, c-format
+msgid "Failed to init networking (%d)"
+msgstr "Nu s-a putut inițializa rețelistica (%d)"
+
+#: src/options.c:3575
+#, fuzzy, c-format
+msgid "Failed to init DNS (%d)"
+msgstr "Nu s-a putut lega (%d)\n"
+
+#: src/options.c:3593 src/options.c:3604 src/options.c:3615 src/options.c:3626
+#: src/options.c:3637
+#, fuzzy, c-format
+msgid "Failed to open '%s' (%d)"
+msgstr "Nu s-a putut citi „%s” deschis (%d)\n"
+
+#: src/options.c:3884
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare())\n"
+msgstr ""
+"%s: Opțiunea nu este în ordinea „%s” după „%s” (utilizând opt_compare())\n"
+
+#: src/options.c:3893
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare_config())\n"
+msgstr ""
+"%s: Opțiunea nu este în ordinea „%s” după „%s” (utilizând "
+"opt_compare_config())\n"
+
+#: src/options.c:3903
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare())\n"
+msgstr "%s: Nu s-a putut găsi opțiunea „%s” (utilizând opt_compare())\n"
+
+#: src/options.c:3913 src/options.c:3937
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare_config())\n"
+msgstr "%s: Nu s-a putut găsi opțiunea „%s” (utilizând opt_compare_config())\n"
+
+#: src/options.c:3962
+#, c-format
+msgid "%s: Failed to parse bool short option #%zu (=%d)\n"
+msgstr "%s: Nu s-a putut parsa opțiunea scurtă logică #%zu (=%d)\n"
+
+#: src/options.c:3988 src/options.c:3994
+#, c-format
+msgid "%s: Failed to parse bool long option #%zu (%d)\n"
+msgstr "%s: Nu s-a putut parsa opțiunea lungă logică #%zu (%d)\n"
+
+#: src/options.c:4037
+#, c-format
+msgid "%s: Failed to parse timeout short option #%zu (=%d)\n"
+msgstr "%s: Nu s-a putut parsa opțiunea scurtă limită de timp #%zu (=%d)\n"
+
+#: src/options.c:4068
+#, c-format
+msgid "%s: Failed to parse timeout long option #%zu (%d)\n"
+msgstr "%s: Nu s-a putut parsa opțiunea lungă limită de timp #%zu (%d)\n"
+
+#: src/options.c:4103
+#, c-format
+msgid "%s: Extra headers found in option #%zu\n"
+msgstr "%s: Antete extra găsite în opțiunea #%zu\n"
+
+#: src/options.c:4108
+#, c-format
+msgid "%s: Failed to parse header option #%zu\n"
+msgstr "%s: Nu s-a putut parsa opțiunea antetului #%zu\n"
+
+#: src/options.c:4131
+#, c-format
+msgid "%s: Accepted illegal header option #%zu\n"
+msgstr "%s Opțiune de antet ilegală acceptată #%zu\n"
+
+#: src/options.c:4159 src/options.c:4178
+#, c-format
+msgid "%s: Failed to parse string short option #%zu (=%s)\n"
+msgstr "%s: Nu s-a putut parsa opțiunea scurtă de șir #%zu (=%s)\n"
+
+#: src/plugin.c:397
+#, c-format
+msgid "Plugin '%s' failed to load: %s"
+msgstr "Modulul „%s” a eșuat să se încarce: %s"
+
+#: src/plugin.c:505
+#, c-format
+msgid "Options for %s:\n"
+msgstr "Opțiunile pentru %s:\n"
+
+#: src/utils.c:50
+#, c-format
+msgid "Internal error: Unexpected relative path: '%s'\n"
+msgstr "Eroare internă: Cale relativă neașteptată: „%s”\n"
+
+#: src/utils.c:74 src/utils.c:81
+#, c-format
+msgid "Failed to make directory '%s' (errno=%d)\n"
+msgstr "Nu s-a putut da make la directorul „%s” (errno=%d)\n"
+
+#: src/utils.c:79
+#, c-format
+msgid "Failed to rename '%s' (errno=%d)\n"
+msgstr "Nu s-a putut redenumi „%s” (errno=%d)\n"
+
+#: src/wget.c:592
+#, c-format
+msgid "HSTS in effect for %s:%hu\n"
+msgstr "HSTS în efect pentru %s:%hu\n"
+
+#: src/wget.c:610
+#, c-format
+msgid "Failed to parse URI '%s'\n"
+msgstr "Nu s-a putut parsa URI-ul „%s”\n"
+
+#: src/wget.c:628
+#, c-format
+msgid "URI scheme not supported: '%s'\n"
+msgstr "Schema URI nu este suportată: „%s”\n"
+
+#: src/wget.c:771
+#, c-format
+msgid "Adding URL: %s\n"
+msgstr "Se adaugă URL-ul: %s\n"
+
+#: src/wget.c:787 src/wget.c:1148
+#, c-format
+msgid "Cannot resolve URI '%s'\n"
+msgstr "Nu se poate rezolva URI-ul „%s”\n"
+
+#: src/wget.c:809
+#, fuzzy, c-format
+msgid "URL '%s' not followed (unsupported scheme)\n"
+msgstr "URI-ul „%s” nu este urmărit (schemă nesuportată „%s”)\n"
+
+#: src/wget.c:819
+#, c-format
+msgid "URL '%s' not followed (https-only requested)\n"
+msgstr "URL-ul „%s” nu este urmărit (cerut doar https)\n"
+
+#: src/wget.c:859
+msgid "missing ip/host/domain"
+msgstr "lipsește ip-ul/gazda/domeniul"
+
+#: src/wget.c:862
+msgid "no host-spanning requested"
+msgstr "nu s-a cerut nicio întindere a gazdei"
+
+#: src/wget.c:864
+msgid "domain explicitly excluded"
+msgstr "domeniul exclus explicit"
+
+#: src/wget.c:868
+#, c-format
+msgid "URL '%s' not followed (%s)\n"
+msgstr "URL-ul „%s” nu este urmărit (%s)\n"
+
+#: src/wget.c:891
+#, c-format
+msgid "URL '%s' not followed (parent ascending not allowed)\n"
+msgstr "URL-ul „%s” nu este urmărit (ascensiunea părinților nu este permisă)\n"
+
+#: src/wget.c:909
+#, fuzzy, c-format
+msgid "URL '%s' not requested (file already exists)\n"
+msgstr "URL-ul „%.*s” nu este urmărit (deja cunoscut)\n"
+
+#: src/wget.c:944
+#, c-format
+msgid "Failed to get '%s' from hosts\n"
+msgstr "Nu s-a putut obține „%s” de la gazde\n"
+
+#: src/wget.c:1069 src/wget.c:1074 src/wget.c:1101 src/wget.c:1105
+#, c-format
+msgid "  %.*s -> %s\n"
+msgstr ""
+
+#: src/wget.c:1070 src/wget.c:1102
+#, c-format
+msgid "       -> %s\n"
+msgstr ""
+
+#: src/wget.c:1125
+#, c-format
+msgid "convert %s %s %s\n"
+msgstr "convertește %s %s %s\n"
+
+#: src/wget.c:1128
+#, c-format
+msgid "%s not found (%d)\n"
+msgstr "%s negăsit (%d)\n"
+
+#: src/wget.c:1173
+#, c-format
+msgid "Failed to rename %s to %s (%d)"
+msgstr "Nu s-a putut redenumi %s la %s (%d)"
+
+#: src/wget.c:1177
+#, c-format
+msgid "Failed to write open %s (%d)"
+msgstr "Nu s-a putut scrie deschis %s (%d)"
+
+#: src/wget.c:1308 src/wget.c:1397
+#, c-format
+msgid "Failed to start downloader, error %d\n"
+msgstr "Nu s-a putut porni descărcătorul, eroare %d\n"
+
+#: src/wget.c:1331
+#, c-format
+msgid "Failed to open input file %s\n"
+msgstr "Nu s-a putut deschide fișierul de intrare %s\n"
+
+#: src/wget.c:1336
+msgid "Nothing to do - goodbye\n"
+msgstr "Nimic de făcut - la revedere\n"
+
+#: src/wget.c:1354
+msgid "Wget2 built without thread support. Disabling progress report\n"
+msgstr ""
+"Wget2 a generat fără suport de fir. Se dezactivează raportul de progres\n"
+
+#: src/wget.c:1404
+#, c-format
+msgid "Quota of %lld bytes reached - stopping.\n"
+msgstr "Cota de %lld octeți ajunsă - se oprește.\n"
+
+#: src/wget.c:1424
+#, c-format
+msgid "Failed to wait for downloader #%d (%d %d)\n"
+msgstr "Nu s-a reușit să se aștepte pentru descărcător #%d (%d %d)\n"
+
+#: src/wget.c:1429
+#, c-format
+msgid "Downloaded: %d files, %s bytes, %d redirects, %d errors\n"
+msgstr "Descărcat: %d fișiere, %s octeți, %d redirecționări, %d erori\n"
+
+#: src/wget.c:1455
+msgid ""
+"--convert-links and --convert-file-only cannot be used together, error\n"
+msgstr ""
+
+#: src/wget.c:1551
+#, fuzzy, c-format
+msgid "Failed to connect: %s\n"
+msgstr "Nu s-a putut conecta (%d)\n"
+
+#: src/wget.c:1775
+msgid "The file is already fully retrieved; nothing to do.\n"
+msgstr "Fișierul este deja recuperat complet, nimic de făcut.\n"
+
+#: src/wget.c:1822
+#, c-format
+msgid "File '%s' not modified on server. Omitting download"
+msgstr ""
+
+#: src/wget.c:1859
+#, c-format
+msgid "Not scanning '%s' (known ETag)\n"
+msgstr "Nu se scanează „%s” (ETag cunoscut)\n"
+
+#: src/wget.c:1906
+#, c-format
+msgid "The sizes do not match (local %lld, remote %zu) -- retrieving"
+msgstr ""
+
+#: src/wget.c:2049
+#, c-format
+msgid "File length %llu - remove job\n"
+msgstr "Lungimea fișierului %llu - elimină sarcina\n"
+
+#: src/wget.c:2051
+msgid "No download mirrors found - remove job\n"
+msgstr "Nu s-au găsit oglinzi de descărcare - elimină sarcina\n"
+
+#: src/wget.c:2164
+msgid "Couldn't determine base file to delete for failed verification\n"
+msgstr ""
+"Nu s-a putut determina fișierul de bază de șters pentru verificarea eșuată\n"
+
+#: src/wget.c:2168
+#, c-format
+msgid "Signature for file %s successfully verified\n"
+msgstr "Semnătura pentru fișierul %s a fost verificată cu succes\n"
+
+#: src/wget.c:2184
+msgid "Should not have remaining extensions!\n"
+msgstr ""
+
+#: src/wget.c:2198
+msgid "File name for signature checking not assigned to job!\n"
+msgstr ""
+"Numele de fișier pentru verificarea semnăturii nu este atribuit la sarcină!\n"
+
+#: src/wget.c:2200
+#, fuzzy
+msgid "Cannot check the signature on a signature!\n"
+msgstr "Nu s-a putut corecta fișierul de semnătură!\n"
+
+#: src/wget.c:2408
+#, c-format
+msgid "Unhandled action %d\n"
+msgstr "Acțiune nemanipulată %d\n"
+
+#: src/wget.c:2516
+#, c-format
+msgid "URL '%.*s' not followed (conversion failed)\n"
+msgstr "URL-ul „%.*s” nu este urmărit (conversia a eșuat)\n"
+
+#: src/wget.c:2524
+#, c-format
+msgid "Cannot resolve relative URI %.*s\n"
+msgstr "Nu se poate rezolva URI-ul relativ %.*s\n"
+
+#: src/wget.c:2546
+msgid "set by user"
+msgstr "stabilit de utilizator"
+
+#: src/wget.c:2551 src/wget.c:2559 src/wget.c:2567
+msgid "set by BOM"
+msgstr "stabilit de BOM"
+
+#: src/wget.c:2573
+msgid "set by server response"
+msgstr "stabilit de răspunsul serverului"
+
+#: src/wget.c:2582
+#, c-format
+msgid "Convert non-ASCII encoding '%s' (%s) to UTF-8\n"
+msgstr "Convertește codarea non-ASCII „%s” (%s) la UTF-8\n"
+
+#: src/wget.c:2586
+#, c-format
+msgid "Link conversion disabled for '%s'\n"
+msgstr "Conversia legăturii dezactivată pentru „%s”\n"
+
+#: src/wget.c:2589
+#, fuzzy, c-format
+msgid "Filename conversion disabled for '%s'\n"
+msgstr "Conversia legăturii dezactivată pentru „%s”\n"
+
+#: src/wget.c:2593
+#, c-format
+msgid "Failed to convert non-ASCII encoding '%s' (%s) to UTF-8, skip parsing\n"
+msgstr ""
+"Nu s-a putut converti codarea non-ASCII „%s” (%s) la UTF-8, se omite "
+"parsarea\n"
+
+#: src/wget.c:2606
+msgid "set by document"
+msgstr "stabilit de document"
+
+#: src/wget.c:2609
+msgid "default, encoding not specified"
+msgstr "implicit, codarea nu este specificată"
+
+#: src/wget.c:2613
+#, c-format
+msgid "URI content encoding = '%s' (%s)\n"
+msgstr "Codare de conținut URI = „%s” (%s)\n"
+
+#: src/wget.c:2621
+#, c-format
+msgid "BASE '%.*s' not usable (missing absolute base URI)\n"
+msgstr "BAZA „%.*s” nu este utilizabilă (lipsește URI-ul de bază absolută)\n"
+
+#: src/wget.c:2628
+#, c-format
+msgid "Cannot resolve BASE URI %.*s\n"
+msgstr "Nu se poate rezolva URI-ul de BAZĂ %.*s\n"
+
+#: src/wget.c:2640
+#, c-format
+msgid "URL '%.*s' not followed (action/formaction attribute)\n"
+msgstr ""
+"URL-ul „%.*s” nu este urmărit (atribut de acțiune/acțiune de formular)\n"
+
+#: src/wget.c:2654
+#, c-format
+msgid "URL '%.*s' not followed (page requisites + level)\n"
+msgstr "URL-ul „%.*s” nu este urmărit (rechizite de pagină + nivel)\n"
+
+#: src/wget.c:2665 src/wget.c:2997
+#, c-format
+msgid "URL '%.*s' not followed (missing base URI)\n"
+msgstr "URL-ul „%.*s” nu este urmări (lipsește baza URI)\n"
+
+#: src/wget.c:2729 src/wget.c:2860
+#, c-format
+msgid "found %d url(s) (base=%s)\n"
+msgstr "s-a(u) găsit %d url(uri) (bază=%s)\n"
+
+#: src/wget.c:2737 src/wget.c:2833 src/wget.c:2867
+#, c-format
+msgid "URL '%.*s' not followed (not matching sitemap location)\n"
+msgstr ""
+"URL-ul „%.*s” nu este urmărit (nu se potrivește cu locația hărții site-"
+"ului)\n"
+
+#: src/wget.c:2744 src/wget.c:2761 src/wget.c:2874
+#, c-format
+msgid "URL '%.*s' not followed (already known)\n"
+msgstr "URL-ul „%.*s” nu este urmărit (deja cunoscut)\n"
+
+#: src/wget.c:2752
+#, c-format
+msgid "found %d sitemap url(s) (base=%s)\n"
+msgstr "s-a(u) găsit url(uri) de hartă de site %d (baza=%s)\n"
+
+#: src/wget.c:2794
+#, c-format
+msgid "Can't scan '%s' because no libz support enabled at compile time\n"
+msgstr ""
+"Nu se poate scana „%s” pentru că nu există suport libz activat la timpul de "
+"compilare\n"
+
+#: src/wget.c:2931
+#, c-format
+msgid "Invalid file length %llu\n"
+msgstr "Lungime de fișier nevalid %llu\n"
+
+#: src/wget.c:2934
+msgid "No download mirrors found\n"
+msgstr "Nu s-au găsit oglinzi de descărcare\n"
+
+#: src/wget.c:2983 src/wget.c:3011 src/wget.c:3030
+#, c-format
+msgid "URI content encoding = '%s'\n"
+msgstr "Codare de conținut URI = „%s”\n"
+
+#: src/wget.c:3103
+#, fuzzy, c-format
+msgid "Failed to set file date (%d)\n"
+msgstr "Nu s-a putut stabilit data fișierului: %s\n"
+
+#: src/wget.c:3250
+#, c-format
+msgid "Failed to write to STDOUT (%zu, errno=%d)\n"
+msgstr "Nu s-a putut scrie la STDOUT (%zu, errno=%d)\n"
+
+#: src/wget.c:3349
+#, c-format
+msgid "Failed to rename %s to %s (errno=%d)\n"
+msgstr "Nu s-a putut redenumi %s la %s (errno=%d)\n"
+
+#: src/wget.c:3372 src/wget.c:3378
+#, fuzzy, c-format
+msgid "Failed to load partial content from '%s' (errno=%d)\n"
+msgstr "Nu s-a putut încărca conținutul parțial de la „%s” (errno=%d): %s\n"
+
+#: src/wget.c:3387
+#, fuzzy, c-format
+msgid "Failed to unlink '%s' (errno=%d)\n"
+msgstr "Nu s-a putut redenumi „%s” (errno=%d)\n"
+
+#: src/wget.c:3405
+#, c-format
+msgid "Saving ']8;;file://%s%s\\%s]8;;\\'\n"
+msgstr ""
+
+#: src/wget.c:3409
+#, c-format
+msgid "Saving '%s'\n"
+msgstr "Se salvează „%s”\n"
+
+#: src/wget.c:3414
+#, c-format
+msgid "Failed to write file %s (%zd, errno=%d)\n"
+msgstr "Nu s-a putut scrie fișierul %s (%zd, errno=%d)\n"
+
+#: src/wget.c:3422
+#, c-format
+msgid "File '%s' already there; not retrieving.\n"
+msgstr "Fișierul „%s” deja acolo; nu se recuperează.\n"
+
+#: src/wget.c:3428
+#, c-format
+msgid "Directory / file name clash - not saving '%s'\n"
+msgstr "Conflict de director / nume de fișier - nu se salvează „%s”\n"
+
+#: src/wget.c:3430
+#, fuzzy, c-format
+msgid "Failed to open '%s' (%d)\n"
+msgstr "Nu s-a putut citi „%s” deschis (%d)\n"
+
+#: src/wget.c:3442
+#, c-format
+msgid "Failed to save extended attribute %s\n"
+msgstr "Nu s-a putut salva atributul extins %s\n"
+
+#: src/wget.c:3628
+#, c-format
+msgid ""
+"# got header %zu bytes:\n"
+"%s\n"
+msgstr ""
+"# a obținut antetul %zu octeți:\n"
+"%s\n"
+
+#: src/wget.c:3702
+#, fuzzy, c-format
+msgid "Failed to open .netrc file '%s' (%d): %s\n"
+msgstr "Nu s-a putut deschide fișierul .netrc „%s” (%d)\n"
+
+#: src/wget.c:4034
+#, c-format
+msgid "Failed to fsync errno=%d\n"
+msgstr "Nu s-a putut face fsync errno=%d\n"
+
+#: src/wget.c:4342
+#, c-format
+msgid "Continuing in background, pid %lu.\n"
+msgstr ""
+
+#: src/wget.c:4344 src/wget.c:4410
+#, c-format
+msgid "Output will be written to %s.\n"
+msgstr ""
+
+#: src/wget.c:4370
+msgid "fake_fork_child() failed\n"
+msgstr ""
+
+#: src/wget.c:4378
+msgid "fake_fork() failed\n"
+msgstr ""
+
+#: src/wget.c:4404
+#, fuzzy, c-format
+msgid "Failed to fork (%d)\n"
+msgstr "Nu s-a putut da fork la „%s”\n"
+
+#: src/wget.c:4408
+#, c-format
+msgid "Continuing in background, pid %d.\n"
+msgstr ""
+
+#: src/wget.c:4418
+msgid "Failed to redirect stdin to /dev/null.\n"
+msgstr ""
+
+#: src/wget.c:4420
+msgid "Failed to redirect stdout to /dev/null.\n"
+msgstr ""
+
+#: src/wget.c:4422
+#, fuzzy
+msgid "Failed to redirect stderr to /dev/null.\n"
+msgstr "Nu s-a putut da make la directorul „%s” (errno=%d)\n"
+
+#, c-format
+#~ msgid "Fetched cookies from '%s'\n"
+#~ msgstr "S-au adus cookie-urile de la „%s”\n"
+
+#, c-format
+#~ msgid "Saved %d cookie%s into '%s'\n"
+#~ msgstr "S-a salvat %d cookie %s în „%s”\n"
+
+#~ msgid "No cookies to save. Table is empty.\n"
+#~ msgstr "Nu sunt cookie-uri de salvat. Tabelul este gol.\n"
+
+#, c-format
+#~ msgid "u8_tolower(%s) failed (%d)\n"
+#~ msgstr "u8_tolower(%s) a eșuat (%d)\n"
+
+#, c-format
+#~ msgid "%s: Hash type '%s' not supported by linked crypto engine\n"
+#~ msgstr ""
+#~ "%s: Tipul de dispersie „%s” nu este suportat de motorul de criptografie "
+#~ "legat\n"
+
+#, c-format
+#~ msgid "Fetched HSTS data from '%s'\n"
+#~ msgstr "S-au adus datele HSTS de la „%s”\n"
+
+#, c-format
+#~ msgid "Saved %d HSTS entr%s into '%s'\n"
+#~ msgstr "Salvat %d intrarea HSTS %s în „%s”\n"
+
+#~ msgid "No HSTS entries to save. Table is empty.\n"
+#~ msgstr "Nu sunt intrări HSTS de salvat. Tabelul este gol.\n"
+
+#, c-format
+#~ msgid "Fetched OCSP hosts from '%s'\n"
+#~ msgstr "Nu s-au putut aduce gazdele OCSP de la „%s”\n"
+
+#, c-format
+#~ msgid "Fetched OCSP fingerprints from '%s'\n"
+#~ msgstr "Nu s-au putut aduce amprentele OCSP de la „%s”\n"
+
+#, c-format
+#~ msgid "Saved OCSP hosts to '%s'\n"
+#~ msgstr "Gazdele OCSP salvate la „%s”\n"
+
+#, c-format
+#~ msgid "Saved OCSP fingerprints to '%s'\n"
+#~ msgstr "S-au salvat amprentele OCSP la „%s”\n"
+
+#, c-format
+#~ msgid "Fetched TLS session data from '%s'\n"
+#~ msgstr "S-au adus datele sesiunii TLS de la „%s”\n"
+
+#, c-format
+#~ msgid "Saved %d TLS session entr%s into '%s'\n"
+#~ msgstr "S-a salvat sesiunea TLS %d intrarea %s în „%s”\n"
+
+#~ msgid "No TLS session entries to save. Table is empty.\n"
+#~ msgstr "Nu sunt intrări de sesiune TLS de salvat. Tabelul este gol.\n"
+
+#, c-format
+#~ msgid "Stats format not supported by %s stats \n"
+#~ msgstr "Formatul de statistici nu este suportat de statisticile %s\n"
+
+#, c-format
+#~ msgid "File could not be opened %s for %s stats\n"
+#~ msgstr "Fișierul nu a putut fi deschis %s pentru %s statistici\n"
+
+#, c-format
+#~ msgid "%s stats saved in %s\n"
+#~ msgstr "%s statistici salvate în %s\n"
+
+#, c-format
+#~ msgid "Failed to open '%s' (errno=%d): %s\n"
+#~ msgstr "Nu s-a putut deschide „%s” (errno=%d): %s\n"

@@ -1,0 +1,52 @@
+Authors of and contributors to Wget2.
+Thank you very much for spending your time !
+
+This list of contributors is maintained in the
+order of date of first commit. Those with the
+"ASSGN" tag have assigned the copyrights of their
+patches to the FSF.
+
+Design and implementation of Wget2 and libwget:
+Tim Rühsen (rockdaboot)
+
+Maintainers:
+[ASSGN] Tim Rühsen *tim.ruehsen [at] gmx.de*
+[ASSGN] Darshit Shah *darnir [at] gnu.org*
+[ASSGN] Giuseppe Scrivano *gscrivano [at] gnu.org*
+
+Contributors:
+
+[     ] Ant Bryan *anthonybryan [at] gmail.com*
+[     ] Benoit Goudreault-Emond *bgoudreault [at] webmd.net*
+[     ] magemore *alex [at] magemore.com*
+[ASSGN] Ander Juaristi *ajuaristi [at] gmx.es*
+[ASSGN] Ander Juaristi *a [at] juaristi.eus*
+[     ] Andries E. Brouwer *Andries.Brouwer [at] cwi.nl*
+[     ] Jaaap [at] github.com
+[     ] Dagobert Michelsen *dam [at] opencsw.org*
+[ASSGN] Gisle Vanem *gvanem [at] yahoo.no*
+[ASSGN] Avinash Sonawane *rootkea [at] gmail.com*
+[ASSGN] Didik Setiawan *ds [at] didiksetiawan.com*
+[     ] Michael Heerklotz *michael.heerklotz [at] check24.de*
+[ASSGN] Vijo Cherian *codervijo [at] gmail.com*
+[     ] Gianluca Varisco *gianluca.varisco [at] gmail.com*
+[     ] Michael *michael [at] cyber-dome.com*
+[     ] Gabriele Balducci
+[ASSGN] DalmeGNU *dalmemail [at] gmail.com*
+[ASSGN] Josef Möllers *jmoellers [at] suse.de*
+[ASSGN] Neil Locketz *neil [at] nlocketz.com*
+[ASSGN] Jiading Guo *zingdle [at] gmail.com*
+[ASSGN] Jay *jbhv12 [at] gmail.com*
+[     ] Tsukasa OI *floss_wget [at] irq.a4lg.com*
+[ASSGN] Aniketh Gireesh *anikethgireesh [at] gmail.com*
+[ASSGN] Red Hat, Inc. *redhat.com*
+[ASSGN] Kumar Mallikarjuna *kumarmallikarjuna1 [at] gmail.com*
+[ASSGN] Gisle Vanem *gisle.vanem [at] gmail.com*
+[ASSGN] Archit Pandey *archpndy [at] gmail.com*
+[     ] TheAlakazam *piyushjaipuriyar [at] gmail.com*
+[ASSGN] Suhas K S *suhasks123 [at] gmail.com*
+[ASSGN] Rohan Fletcher *rohfle [at] gmail.com*
+[ASSGN] Zisheng Huang *huangzsh7 [at] gmail.com*
+[ASSGN] Sergei Litvin *litvindev [at] gmail.com*
+[ASSGN] Michael Roosz *Michael.Roosz [at] check24.de*
+[ASSGN] Michael Heerklotz *michael.heerklotz [at] check24.de*

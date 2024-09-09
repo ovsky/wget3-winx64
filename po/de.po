@@ -1,0 +1,2290 @@
+# German messages for GNU Wget2.
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the wget2 package.
+# Jochen Hein <jochen@jochen.org>, 2017.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: wget2 1.99.1\n"
+"Report-Msgid-Bugs-To: bug-wget2@gnu.org\n"
+"POT-Creation-Date: 2021-09-12 13:13+0200\n"
+"PO-Revision-Date: 2019-04-26 14:10+0200\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr "Unbekannter Systemfehler"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Adressfamilie wird für Hostnamen nicht unterstützt"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Temporärer Fehler bei der Namensauflösung"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Ungültiger Wert für ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Nicht behebbarer Fehler bei der Namensauflösung"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family wird nicht unterstützt"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "Fehler bei der Speicheranforderung"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Mit dem Hostnamen ist keine Adresse verknüpft"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Name oder Dienst ist nicht bekannt"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Dienstname wird für ai_socktype nicht unterstützt"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype wird nicht unterstützt"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Systemfehler"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Der Argument-Puffer ist zu klein"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Verarbeitungsanforderung wird bearbeitet"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Anforderung wurde abgebrochen"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Anforderung wurde nicht abgebrochen"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Alle Anforderungen wurden abgearbeitet"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Durch ein Signal unterbrochen"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Der Parameter ist nicht korrekt kodiert"
+
+#: lib/gai_strerror.c:87 libwget/error.c:57
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr ""
+
+#: lib/openat-die.c:57
+#, fuzzy, c-format
+msgid "failed to return to initial working directory"
+msgstr "Netzwerk konnte nicht initialisiert werden (%d)"
+
+#: lib/os2-spawn.c:46
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle fehlgeschlagen"
+
+#: lib/os2-spawn.c:83
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr ""
+"Dateideskriptor %d kann nicht wiederhergestellt werden: dup2 fehlgeschlagen"
+
+#: lib/regcomp.c:135 libwget/error.c:44
+msgid "Success"
+msgstr "Erfolgreich"
+
+#: lib/regcomp.c:138
+msgid "No match"
+msgstr "Kein Teffer"
+
+#: lib/regcomp.c:141
+msgid "Invalid regular expression"
+msgstr "Ungültiger Regulärer Ausdruck"
+
+#: lib/regcomp.c:144
+msgid "Invalid collation character"
+msgstr "Ungültiges Vergleichszeichen"
+
+#: lib/regcomp.c:147
+msgid "Invalid character class name"
+msgstr "Ungültiger Name der Zeichenklasse"
+
+#: lib/regcomp.c:150
+msgid "Trailing backslash"
+msgstr "Backslash »\\« am Ende"
+
+#: lib/regcomp.c:153
+msgid "Invalid back reference"
+msgstr "Ungültige Rückwärtsreferenz"
+
+#: lib/regcomp.c:156
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr ""
+"Öffnende Klammer »[«, »[^«, »[:«, »[.« oder »[=« ohne passende schließende "
+"Klammer"
+
+#: lib/regcomp.c:159
+msgid "Unmatched ( or \\("
+msgstr "Öffnende Klammer »(« oder »\\(« ohne passende schließende Klammer"
+
+#: lib/regcomp.c:162
+msgid "Unmatched \\{"
+msgstr "Öffnende Klammer »\\{« ohne passende schließende Klammer"
+
+#: lib/regcomp.c:165
+msgid "Invalid content of \\{\\}"
+msgstr "Ungültiger Inhalt in »\\{\\}«"
+
+#: lib/regcomp.c:168
+msgid "Invalid range end"
+msgstr "Ungültiges Ende des Bereichs"
+
+#: lib/regcomp.c:171
+msgid "Memory exhausted"
+msgstr "Speicher ausgeschöpft"
+
+# XXX
+#: lib/regcomp.c:174
+msgid "Invalid preceding regular expression"
+msgstr "Ungültiger vorhergehender Regulärer Ausdruck"
+
+#: lib/regcomp.c:177
+msgid "Premature end of regular expression"
+msgstr "Vorzeitiges Ende des Regulären Ausdrucks"
+
+#: lib/regcomp.c:180
+msgid "Regular expression too big"
+msgstr "Der Reguläre Ausdruck ist zu groß"
+
+#: lib/regcomp.c:183
+msgid "Unmatched ) or \\)"
+msgstr "Schließende Klammer »)« oder »\\)« ohne passende öffnende Klammer"
+
+#: lib/regcomp.c:676
+msgid "No previous regular expression"
+msgstr "Kein vorhergehender Regulärer Ausdruck"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221 lib/spawn-pipe.c:460
+#: lib/spawn-pipe.c:463
+#, c-format
+msgid "cannot create pipe"
+msgstr "Pipe kann nicht erstellt werden"
+
+#: lib/spawn-pipe.c:598 lib/wait-process.c:290 lib/wait-process.c:364
+#, c-format
+msgid "%s subprocess failed"
+msgstr "%s Unterprozess fehlgeschlagen"
+
+#: lib/wait-process.c:231 lib/wait-process.c:263 lib/wait-process.c:325
+#, c-format
+msgid "%s subprocess"
+msgstr "%s Unterprozess"
+
+#: lib/wait-process.c:282 lib/wait-process.c:354
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s Unterprozess erhielt das fatale Signal %d"
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "Speicher ausgeschöpft"
+
+#: libwget/cookie.c:408
+#, c-format
+msgid "Incomplete cookie entry: %s\n"
+msgstr "Unvollständiger Cookie-Eintrag: %s\n"
+
+#: libwget/cookie.c:440
+msgid "Failed to read cookies\n"
+msgstr "Cookies konnten nicht gelesen werden\n"
+
+#: libwget/cookie.c:499
+#, c-format
+msgid "Failed to write cookie file '%s'\n"
+msgstr "Cookie-Datei »%s« konnte nicht geschrieben werden\n"
+
+#: libwget/cookie_parse.c:363
+msgid "Cookie without name or assignment ignored\n"
+msgstr "Cookie ohne Name oder Zuweisung wird ignoriert\n"
+
+#: libwget/css.c:152
+#, c-format
+msgid "Unknown token after @charset: %d\n"
+msgstr "Unbekannter Token nach @charset: %d\n"
+
+#: libwget/css.c:194 libwget/io.c:326 libwget/xml.c:627
+#, c-format
+msgid "Failed to open %s\n"
+msgstr "%s konnte nicht geöffnet werden\n"
+
+#: libwget/css_url.c:102
+#, c-format
+msgid "Cannot resolve relative URI '%s'\n"
+msgstr "Relative URI »%s« kann nicht aufgelöst werden\n"
+
+#: libwget/decompressor.c:120
+msgid "Failed to init gzip decompression\n"
+msgstr "Gzip-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:159
+#, c-format
+msgid "Failed to uncompress gzip stream (%d)\n"
+msgstr "Gzip-Datenstrom kann nicht dekomprimiert werden (%d)\n"
+
+#: libwget/decompressor.c:168
+#, c-format
+msgid "Failed to close gzip stream (%d)\n"
+msgstr "Gzip-Datenstrom kann nicht geschlossen werden (%d)\n"
+
+#: libwget/decompressor.c:177
+msgid "Failed to init deflate decompression\n"
+msgstr "»Deflate«-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:192
+msgid "Failed to init LZMA decompression\n"
+msgstr "LZMA-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:231
+#, c-format
+msgid "Failed to uncompress LZMA stream (%d)\n"
+msgstr "LZMA-Datenstrom kann nicht dekomprimiert werden (%d)\n"
+
+#: libwget/decompressor.c:245
+msgid "Failed to init Brotli decompression\n"
+msgstr "Brotli-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:288
+#, c-format
+msgid "Failed to uncompress Brotli stream (%u): %s\n"
+msgstr "Brotli-Datenstrom kann nicht dekomprimiert werden (%u): %s\n"
+
+#: libwget/decompressor.c:303
+#, fuzzy
+msgid "Failed to create Zstandard decompression\n"
+msgstr "LZMA-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:309
+#, fuzzy, c-format
+msgid "Failed to init Zstandard decompression: %s\n"
+msgstr "LZMA-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:340
+#, fuzzy, c-format
+msgid "Failed to uncompress Zstandard stream: %s\n"
+msgstr "LZMA-Datenstrom kann nicht dekomprimiert werden (%d)\n"
+
+#: libwget/decompressor.c:361
+#, fuzzy
+msgid "Failed to create lzip decompression\n"
+msgstr "Gzip-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:368
+#, fuzzy, c-format
+msgid "Failed to create lzip decompression: %d %s\n"
+msgstr "Gzip-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:389
+#, fuzzy, c-format
+msgid "Failed to uncompress lzip stream: %d %s\n"
+msgstr "Gzip-Datenstrom kann nicht dekomprimiert werden (%d)\n"
+
+#: libwget/decompressor.c:444
+msgid "Failed to init bzip2 decompression\n"
+msgstr "Bzip2-Dekompression kann nicht initialisiert werden\n"
+
+#: libwget/decompressor.c:483
+#, c-format
+msgid "Failed to uncompress bzip2 stream (%d)\n"
+msgstr "Bzip2-Datenstrom kann nicht dekomprimiert werden (%d)\n"
+
+#: libwget/dns.c:261
+#, fuzzy, c-format
+msgid "Failed to resolve %s:%d: %s\n"
+msgstr "%s konnte nicht aufgelöst werden (%s)\n"
+
+#: libwget/dns.c:344
+#, c-format
+msgid "Failed to resolve %s (%s)\n"
+msgstr "%s konnte nicht aufgelöst werden (%s)\n"
+
+#: libwget/encoding.c:112
+#, c-format
+msgid "Failed to transcode '%s' string into '%s' (%d)\n"
+msgstr "Zeichenkette »%s« kann nicht zu »%s« transkodiert werden werden (%d)\n"
+
+#: libwget/encoding.c:124
+#, c-format
+msgid "Failed to prepare transcoding '%s' into '%s' (%d)\n"
+msgstr "Transkodierung von »%s« zu »%s« kann nicht vorbereitet werden (%d)\n"
+
+#: libwget/encoding.c:261
+#, c-format
+msgid "toASCII(%s) failed (%d): %s\n"
+msgstr "toASCII(%s) fehlgeschlagen (%d): %s\n"
+
+#: libwget/encoding.c:280
+#, c-format
+msgid "toASCII failed (%d): %s\n"
+msgstr "toASCII fehlgeschlagen (%d): %s\n"
+
+#: libwget/encoding.c:283
+#, c-format
+msgid "Invalid UTF-8 sequence not converted: '%s'\n"
+msgstr "Ungültige UTF-8-Sequenz wird nicht umgewandelt: »%s«\n"
+
+#: libwget/encoding.c:287
+#, c-format
+msgid "toASCII not available: '%s'\n"
+msgstr "toASCII ist nicht verfügbar: »%s«\n"
+
+#: libwget/error.c:45
+msgid "General error"
+msgstr ""
+
+#: libwget/error.c:46
+msgid "No memory"
+msgstr ""
+
+#: libwget/error.c:47
+#, fuzzy
+msgid "Invalid value"
+msgstr "Ungültiges Ende des Bereichs"
+
+#: libwget/error.c:48
+msgid "Timeout"
+msgstr ""
+
+#: libwget/error.c:49
+#, fuzzy
+msgid "Connect error"
+msgstr "Unbekannter Fehler"
+
+#: libwget/error.c:50
+msgid "Handshake error"
+msgstr ""
+
+#: libwget/error.c:51
+#, fuzzy
+msgid "Certificate error"
+msgstr "Zertifikattyp: %s\n"
+
+#: libwget/error.c:52
+msgid "libwget has been built without TLS support"
+msgstr ""
+
+#: libwget/error.c:53
+#, fuzzy
+msgid "Failed to parse XML"
+msgstr "Konnte nicht ausgewertet werden: »%s«\n"
+
+#: libwget/error.c:54
+#, fuzzy
+msgid "Failed to open file"
+msgstr "%s konnte nicht geöffnet werden\n"
+
+#: libwget/error.c:55
+msgid "I/O error"
+msgstr ""
+
+#: libwget/error.c:56
+#, fuzzy
+msgid "Unsupported function"
+msgstr "Qualität des Schutzes »%s« wird nicht unterstützt.\n"
+
+#: libwget/hash_printf.c:74
+#, c-format
+msgid "Failed to hash (%d)\n"
+msgstr "Prüfsumme ist fehlgeschlagen (%d)\n"
+
+#: libwget/hashfile.c:92
+#, c-format
+msgid "Unknown hash type '%s'\n"
+msgstr "Unbekannter Prüfsummentyp »%s«\n"
+
+#: libwget/hashfile.c:808
+#, c-format
+msgid "%s: Hash init failed for type '%s': %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:814
+#, c-format
+msgid "%s: Hash update failed: %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:825
+#, c-format
+msgid "%s: Hash finalization failed: %s\n"
+msgstr ""
+
+#: libwget/hashfile.c:830
+#, c-format
+msgid "%s: Failed to read %llu bytes\n"
+msgstr "%s: Lesen von %llu Bytes ist fehlgeschlagen\n"
+
+#: libwget/hpkp_db.c:306
+#, c-format
+msgid "HPKP: could not parse host line '%s'\n"
+msgstr "HPKP: Host-Zeile »%s« konnte nicht ausgewertet werden\n"
+
+#: libwget/hpkp_db.c:312
+#, c-format
+msgid "HPKP: could not parse pin line '%s'\n"
+msgstr "HPKP: Pin-Zeile »%s« konnte nicht ausgewertet werden\n"
+
+#: libwget/hpkp_db.c:355
+msgid "Failed to read HPKP data\n"
+msgstr "HPKP-Daten konnten nicht gelesen werden\n"
+
+#: libwget/hpkp_db.c:439
+#, c-format
+msgid "Failed to write HPKP file '%s'\n"
+msgstr "HPKP-Datei »%s« konnte nicht geschrieben werden\n"
+
+#: libwget/hsts.c:412 libwget/tls_session.c:332
+#, c-format
+msgid "Failed to parse HSTS line: '%s'\n"
+msgstr "HSTS-Zeile konnte nicht ausgewertet werden: »%s«\n"
+
+#: libwget/hsts.c:452
+msgid "Failed to read HSTS data\n"
+msgstr "HSTS-Daten konnten nicht gelesen werden\n"
+
+#: libwget/hsts.c:512
+#, c-format
+msgid "Failed to write HSTS file '%s'\n"
+msgstr "HSTS-Datei »%s« konnte nicht geschrieben werden\n"
+
+#: libwget/http.c:178 libwget/http.c:188 libwget/http.c:197 libwget/http.c:206
+#, c-format
+msgid "%s: Unknown key %d (or value must not be an integer)\n"
+msgstr ""
+"%s: Unbekannter Schlüssel %d (oder der Wert darf keine Ganzzahl sein)\n"
+
+#: libwget/http.c:303
+#, c-format
+msgid "Unsupported quality of protection '%s'.\n"
+msgstr "Qualität des Schutzes »%s« wird nicht unterstützt.\n"
+
+#: libwget/http.c:314
+#, c-format
+msgid "Unsupported algorithm '%s'.\n"
+msgstr "Nicht unterstützter Algorithmus »%s«.\n"
+
+#: libwget/http.c:409
+#, c-format
+msgid "Decompress failed [host: %s - resource: %s]\n"
+msgstr "Dekompression ist fehlgeschlagen [Host: %s - Ressource: %s]\n"
+
+#: libwget/http.c:667
+msgid "Failed to create HTTP2 callbacks\n"
+msgstr "HTTP2-Callbacks konnten nicht erstellt werden\n"
+
+#: libwget/http.c:677
+#, c-format
+msgid "Failed to create HTTP2 client session (%d)\n"
+msgstr "HTTP2-Client-Sitzung konnte nicht erstellt werden (%d)\n"
+
+#: libwget/http.c:689
+#, c-format
+msgid "Failed to submit HTTP2 client settings (%d)\n"
+msgstr "HTTP2-Client-Einstellungen konnten nicht übermittelt werden (%d)\n"
+
+#: libwget/http.c:724
+#, c-format
+msgid "Failed to terminate HTTP2 session (%d)\n"
+msgstr "HTTP2-Sitzung konnte nicht beendet werden (%d)\n"
+
+#: libwget/http.c:838
+msgid "Failed to submit HTTP2 request\n"
+msgstr "HTTP2-Anfrage konnte nicht übermittelt werden\n"
+
+#: libwget/http.c:853
+msgid "Failed to create request buffer\n"
+msgstr "Anfragepuffer konnte nicht erstellt werden\n"
+
+#: libwget/http.c:1046 libwget/http.c:1140
+#, fuzzy, c-format
+msgid "Failed to allocate %zu bytes\n"
+msgstr "%zu Bytes konnten nicht gelesen werden (%d)\n"
+
+#: libwget/http.c:1161
+#, fuzzy, c-format
+msgid "Failed to convert chunk size '%.31s'\n"
+msgstr "Cookie-Datei »%s« konnte nicht geschrieben werden\n"
+
+#: libwget/http.c:1197
+#, c-format
+msgid "Chunk size overflow: %zX\n"
+msgstr ""
+
+#: libwget/http.c:1237
+msgid "Expected end-of-chunk not found\n"
+msgstr "Erwartetes Teilstückende nicht gefunden\n"
+
+#: libwget/http.c:1283
+#, c-format
+msgid "Failed to read %zd bytes (%d)\n"
+msgstr "%zd Bytes konnten nicht gelesen werden (%d)\n"
+
+#: libwget/http.c:1286
+#, c-format
+msgid "Just got %zu of %zu bytes\n"
+msgstr "Nur %zu von %zu Bytes erhalten\n"
+
+#: libwget/http.c:1289
+#, c-format
+msgid "Body too large: %zu instead of %zu bytes\n"
+msgstr "Rumpf zu groß: %zu anstelle von %zu Bytes\n"
+
+#: libwget/http_highlevel.c:45 libwget/http_highlevel.c:60
+#, fuzzy, c-format
+msgid "Failed to write %zu bytes of data (%d)\n"
+msgstr "%zu Bytes an Daten konnten nicht geschrieben werden (%d: %s)\n"
+
+#: libwget/http_highlevel.c:161
+#, c-format
+msgid "Unknown option %d\n"
+msgstr "Unbekannte Option %d\n"
+
+#: libwget/http_highlevel.c:171
+msgid "Error parsing URL\n"
+msgstr "Fehler beim Auswerten der URL\n"
+
+#: libwget/http_highlevel.c:178
+msgid "Missing URL/URI\n"
+msgstr "URL/URI fehlt\n"
+
+#: libwget/http_parse.c:863 libwget/http_parse.c:888
+#, c-format
+msgid "Failed to parse date '%s'\n"
+msgstr "Datum »%s« konnte nicht ausgewertet werden\n"
+
+#: libwget/http_parse.c:1271
+msgid "HTTP response header not found\n"
+msgstr "HTTP-Antwort-Header nicht gefunden\n"
+
+#: libwget/init.c:136 src/options.c:3580
+#, fuzzy, c-format
+msgid "Failed to init DNS cache (%d)"
+msgstr "Netzwerk konnte nicht initialisiert werden (%d)"
+
+#: libwget/init.c:171 libwget/init.c:245 libwget/init.c:270 libwget/init.c:285
+#, c-format
+msgid "%s: Unknown option %d"
+msgstr "%s: Unbekannte Option %d"
+
+#: libwget/init.c:190
+#, c-format
+msgid "%s: Failed to init networking (%d)"
+msgstr "%s: Netzwerk konnte nicht initialisiert werden (%d)"
+
+#: libwget/init.c:228
+#, c-format
+msgid "%s: Failed to deinit networking (%d)"
+msgstr "%s: Netzwerk konnte nicht deinitialisiert werden (%d)"
+
+#: libwget/io.c:126
+#, c-format
+msgid "%s: Failed to read, error %d\n"
+msgstr "%s: Lesen fehlgeschlagen, Fehler %d\n"
+
+#: libwget/io.c:319
+#, c-format
+msgid ""
+"WARNING: Size of %s changed from %lld to %lld while reading. This may lead "
+"to unwanted results !\n"
+msgstr ""
+"WARNUNG: Größe von %s hat sich während des Lesens von %lld zu %lld geändert. "
+"Dies könnte zu unerwünschten Ergebnissen führen!\n"
+
+#: libwget/io.c:322
+#, c-format
+msgid "Failed to fstat %s\n"
+msgstr "»fstat« für %s nicht möglich\n"
+
+#: libwget/io.c:410
+#, c-format
+msgid "Failed to create '%s' (%d)\n"
+msgstr "Erzeugen von »%s« ist fehlgeschlagen (%d)\n"
+
+#: libwget/io.c:418
+#, c-format
+msgid "Failed to lock '%s' (%d)\n"
+msgstr "»%s« konnte nicht gesperrt werden (%d)\n"
+
+#: libwget/io.c:430
+#, c-format
+msgid "Failed to read open '%s' (%d)\n"
+msgstr "Offenes »%s« konnte nicht gelesen werden (%d)\n"
+
+#: libwget/io.c:453
+#, c-format
+msgid "Failed to open tmpfile '%s' (%d)\n"
+msgstr "Temporäre Datei »%s« konnte nicht geöffnet werden (%d)\n"
+
+#: libwget/io.c:462
+#, c-format
+msgid "Failed to write open '%s' (%d)\n"
+msgstr "Offenes »%s« konnte nicht geschrieben werden (%d)\n"
+
+#: libwget/io.c:478
+#, c-format
+msgid "Failed to write/close '%s' (%d)\n"
+msgstr "»%s« konnte nicht geschrieben/geschlossen werden (%d)\n"
+
+#: libwget/io.c:485
+#, c-format
+msgid "Failed to rename '%s' to '%s' (%d)\n"
+msgstr "»%s« konnte nicht zu »%s« umbenannt werden (%d)\n"
+
+#: libwget/io.c:486
+#, c-format
+msgid "Take manually care for '%s'\n"
+msgstr "»%s« muss manuell verarbeitet werden\n"
+
+#: libwget/iri.c:680
+#, c-format
+msgid "Missing host/domain in URI '%s'\n"
+msgstr "Host/Domain fehlt in URI »%s«\n"
+
+#: libwget/net.c:592 libwget/net.c:600
+msgid "Failed to set socket to non-blocking\n"
+msgstr "Socket konnte nicht auf nicht-blockierend gesetzt werden\n"
+
+#: libwget/net.c:597
+msgid "Failed to get socket flags\n"
+msgstr "Socket-Flags konnten nicht geholt werden\n"
+
+#: libwget/net.c:609
+msgid "Failed to set socket option REUSEADDR\n"
+msgstr "Socket-Option REUSEADDR konnte nicht gesetzt werden\n"
+
+#: libwget/net.c:613
+msgid "Failed to set socket option NODELAY\n"
+msgstr "Socket-Option NODELAY konnte nicht gesetzt werden\n"
+
+#: libwget/net.c:618
+#, fuzzy
+msgid "Failed to set socket option BINDTODEVICE\n"
+msgstr "Socket-Option NODELAY konnte nicht gesetzt werden\n"
+
+#: libwget/net.c:623
+msgid "Unsupported socket option BINDTODEVICE\n"
+msgstr ""
+
+#: libwget/net.c:719
+#, c-format
+msgid "Failed to bind (%d)\n"
+msgstr "Binden ist fehlgeschlagen (%d)\n"
+
+#: libwget/net.c:755 libwget/net.c:925
+#, c-format
+msgid "Failed to connect (%d)\n"
+msgstr "Verbindung ist fehlgeschlagen (%d)\n"
+
+#: libwget/net.c:786
+#, c-format
+msgid "Failed to create socket (%d)\n"
+msgstr "Socket konnte nicht angelegt werden (%d)\n"
+
+#: libwget/net.c:865
+#, c-format
+msgid "Failed to read %zu bytes (%d)\n"
+msgstr "%zu Bytes konnten nicht gelesen werden (%d)\n"
+
+#: libwget/net.c:947
+#, fuzzy, c-format
+msgid "Failed to write %zu bytes (%d)\n"
+msgstr "%zu Bytes konnten nicht geschrieben werden (%d: %s)\n"
+
+#: libwget/net.c:988
+#, c-format
+msgid "%s: internal error: length mismatch %zu != %zd\n"
+msgstr "%s: interner Fehler: keine Längenübereinstimmung %zu != %zd\n"
+
+#: libwget/metalink.c:135
+#, fuzzy, c-format
+msgid "Mirror scheme not supported: '%s'\n"
+msgstr "URI-Schema wird nicht unterstützt: »%s«\n"
+
+#: libwget/metalink.c:288
+msgid "Error in parsing XML"
+msgstr "Fehler bei der XML-Auswertung"
+
+#: libwget/ocsp.c:469
+#, c-format
+msgid "Failed to parse OCSP line: '%s'\n"
+msgstr "OCSP-Zeile konnte nicht ausgewertet werden: »%s«\n"
+
+#: libwget/ocsp.c:516
+msgid "Failed to read OCSP hosts\n"
+msgstr "OCSP-Hosts konnten nicht gelesen werden\n"
+
+#: libwget/ocsp.c:521
+msgid "Failed to read OCSP fingerprints\n"
+msgstr "OCSP-Fingerabdrücke konnten nicht gelesen werden\n"
+
+#: libwget/ocsp.c:603
+#, c-format
+msgid "Failed to write to OCSP hosts to '%s'\n"
+msgstr "OCSP-Hosts konnten nicht nach »%s« geschrieben werden\n"
+
+#: libwget/ocsp.c:608
+#, c-format
+msgid "Failed to write to OCSP fingerprints to '%s'\n"
+msgstr "OCSP-Fingerabdrücke konnten nicht nach »%s« geschrieben werden\n"
+
+#: libwget/pipe.c:85
+#, c-format
+msgid "Failed to create pipe for STDIN on %s\n"
+msgstr "Pipe für Standardeingabe auf %s konnte nicht erzeugt werden\n"
+
+#: libwget/pipe.c:89
+#, c-format
+msgid "Failed to create pipe for STDOUT on %s\n"
+msgstr "Pipe für Standardausgabe auf %s konnte nicht erzeugt werden\n"
+
+#: libwget/pipe.c:97
+#, c-format
+msgid "Failed to create pipe for STDERR on %s\n"
+msgstr "Pipe für Standardfehlerausgabe auf %s konnte nicht erzeugt werden\n"
+
+#: libwget/pipe.c:115 libwget/pipe.c:125 libwget/pipe.c:136
+#, c-format
+msgid "Failed to dup2(%d,%d) (%d)\n"
+msgstr "dup2(%d,%d) ist fehlgeschlagen (%d)\n"
+
+#: libwget/pipe.c:163
+#, c-format
+msgid "Failed to fork '%s'\n"
+msgstr "»%s« konnte nicht geforkt werden\n"
+
+#: libwget/ssl_gnutls.c:207 libwget/ssl_wolfssl.c:187
+#, c-format
+msgid "Unknown config key %d (or value must not be a string)\n"
+msgstr ""
+"Unbekannter Konfigurationsschlüssel %d (oder der Wert darf keine "
+"Zeichenkette sein)\n"
+
+#: libwget/ssl_gnutls.c:241 libwget/ssl_wolfssl.c:221
+#, c-format
+msgid "Unknown config key %d (or value must not be an object)\n"
+msgstr ""
+"Unbekannter Konfigurationsschlüssel %d (oder der Wert darf kein Objekt "
+"sein)\n"
+
+#: libwget/ssl_gnutls.c:294 libwget/ssl_wolfssl.c:267
+#, c-format
+msgid "Unknown config key %d (or value must not be an integer)\n"
+msgstr ""
+"Unbekannter Konfigurationsschlüssel %d (oder der Wert darf keine Ganzzahl "
+"sein)\n"
+
+#: libwget/ssl_gnutls.c:341
+#, c-format
+msgid "Certificate info [%u]:\n"
+msgstr "Zertifikatinformation [%u]:\n"
+
+#: libwget/ssl_gnutls.c:344
+#, c-format
+msgid "  Valid since: %s"
+msgstr "  Gültig seit: %s"
+
+#: libwget/ssl_gnutls.c:347
+#, c-format
+msgid "  Expires: %s"
+msgstr "  Läuft ab: %s"
+
+#: libwget/ssl_gnutls.c:354
+#, c-format
+msgid "  Fingerprint: %s\n"
+msgstr "  Fingerabdruck: %s\n"
+
+#: libwget/ssl_gnutls.c:362
+#, c-format
+msgid "  Serial number: %s\n"
+msgstr "  Seriennummer: %s\n"
+
+#: libwget/ssl_gnutls.c:367
+#, c-format
+msgid "  Public key: %s, %s (%u bits)\n"
+msgstr "  Öffentlicher Schlüssel: %s, %s (%u Bits)\n"
+
+#: libwget/ssl_gnutls.c:372
+#, c-format
+msgid "  Version: #%d\n"
+msgstr "  Version: #%d\n"
+
+#: libwget/ssl_gnutls.c:376
+#, fuzzy, c-format
+msgid "  DN: %s\n"
+msgstr "DN der Ausgabestelle: %s\n"
+
+#: libwget/ssl_gnutls.c:380
+#, c-format
+msgid "  Issuer's DN: %s\n"
+msgstr "DN der Ausgabestelle: %s\n"
+
+#: libwget/ssl_gnutls.c:384
+#, c-format
+msgid "  Issuer's OID: %s\n"
+msgstr "OID der Ausgabestelle: %s\n"
+
+#: libwget/ssl_gnutls.c:388
+#, c-format
+msgid "  Issuer's UID: %s\n"
+msgstr "UID der Ausgabestelle: %s\n"
+
+#: libwget/ssl_gnutls.c:400
+#, c-format
+msgid "  Unknown certificate type %d\n"
+msgstr "  Unbekannter Zertifikattyp %d\n"
+
+#: libwget/ssl_gnutls.c:417 libwget/ssl_gnutls.c:489 libwget/ssl_gnutls.c:518
+msgid "----\n"
+msgstr "----\n"
+
+#: libwget/ssl_gnutls.c:425
+msgid "TLS/IA session\n"
+msgstr "TLS/IA-Sitzung\n"
+
+#: libwget/ssl_gnutls.c:430
+#, c-format
+msgid "SRP session with username %s\n"
+msgstr "SRP-Sitzung mit Benutzername %s\n"
+
+#: libwget/ssl_gnutls.c:438
+#, c-format
+msgid "PSK authentication. PSK hint '%s'\n"
+msgstr "PSK-Authentifizierung. PSK-Hint »%s«\n"
+
+#: libwget/ssl_gnutls.c:443
+#, c-format
+msgid "PSK authentication. Connected as '%s'\n"
+msgstr "PSK-Authentifizierung. Verbunden als »%s«\n"
+
+#: libwget/ssl_gnutls.c:455
+msgid "Anonymous authentication.\n"
+msgstr "Anonyme Authentifizierung.\n"
+
+#: libwget/ssl_gnutls.c:483
+msgid "Transport authentication failure\n"
+msgstr "Fehler bei der Transport-Authentifizierung\n"
+
+#: libwget/ssl_gnutls.c:485
+#, c-format
+msgid "Unsupported credential type %d.\n"
+msgstr "Nicht unterstützter Anmeldedaten-Typ %d.\n"
+
+#: libwget/ssl_gnutls.c:492
+#, c-format
+msgid "Ephemeral DH using prime of %d bits\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:495
+#, c-format
+msgid "Ephemeral ECDH using curve %s\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:500
+#, c-format
+msgid "Key Exchange: %s\n"
+msgstr "Schlüsselaustausch: %s\n"
+
+#: libwget/ssl_gnutls.c:504
+#, c-format
+msgid "Protocol: %s\n"
+msgstr "Protokoll: %s\n"
+
+#: libwget/ssl_gnutls.c:508
+#, c-format
+msgid "Certificate Type: %s\n"
+msgstr "Zertifikattyp: %s\n"
+
+#: libwget/ssl_gnutls.c:512
+#, c-format
+msgid "Cipher: %s\n"
+msgstr "Chiffre: %s\n"
+
+#: libwget/ssl_gnutls.c:516
+#, c-format
+msgid "MAC: %s\n"
+msgstr "MAC: %s\n"
+
+#: libwget/ssl_gnutls.c:866
+#, c-format
+msgid "Failed to import pubkey: %s\n"
+msgstr "Öffentlicher Schlüssel konnte nicht importiert werden: %s\n"
+
+#: libwget/ssl_gnutls.c:874 libwget/ssl_gnutls.c:886 libwget/ssl_gnutls.c:894
+#, c-format
+msgid "Failed to export pubkey: %s\n"
+msgstr "Öffentlicher Schlüssel konnte nicht exportiert werden: %s\n"
+
+#: libwget/ssl_gnutls.c:934
+msgid "ERROR"
+msgstr "FEHLER"
+
+#: libwget/ssl_gnutls.c:934
+msgid "WARNING"
+msgstr "WARNUNG"
+
+#: libwget/ssl_gnutls.c:953
+#, c-format
+msgid "%s: Certificate verification error\n"
+msgstr "%s: Fehler bei der Zertifikatverifizierung\n"
+
+#: libwget/ssl_gnutls.c:993
+#, c-format
+msgid "%s: The certificate is not trusted.\n"
+msgstr "%s: Dem Zertifikat wird nicht vertraut.\n"
+
+#: libwget/ssl_gnutls.c:995
+#, c-format
+msgid "%s: The certificate has been revoked.\n"
+msgstr "%s: Das Zertifikat wurde zurückgezogen.\n"
+
+#: libwget/ssl_gnutls.c:997
+#, fuzzy, c-format
+msgid "%s: The certificate doesn't have a known issuer.\n"
+msgstr "%s: Der Aussteller des Zertifikats ist unbekannt.\n"
+
+#: libwget/ssl_gnutls.c:999
+#, c-format
+msgid "%s: The certificate signer was not a CA.\n"
+msgstr ""
+"%s: Das Zertifikat wurde nicht durch eine Zertifizierungsstelle signiert.\n"
+
+#: libwget/ssl_gnutls.c:1001
+#, c-format
+msgid "%s: The certificate was signed using an insecure algorithm.\n"
+msgstr "%s: Das Zertifikat wurde mit einem unsicheren Algorithmus signiert.\n"
+
+#: libwget/ssl_gnutls.c:1003
+#, c-format
+msgid "%s: The certificate is not yet activated.\n"
+msgstr "%s: Das Zertifikat wurde noch nicht aktiviert.\n"
+
+#: libwget/ssl_gnutls.c:1005
+#, c-format
+msgid "%s: The certificate has expired.\n"
+msgstr "%s: Das Zertifikat ist abgelaufen.\n"
+
+#: libwget/ssl_gnutls.c:1008
+#, c-format
+msgid "%s: The certificate signature is invalid.\n"
+msgstr "%s: Die Signatur des Zertifikats ist ungültig.\n"
+
+#: libwget/ssl_gnutls.c:1010
+#, c-format
+msgid "%s: The certificate's owner does not match hostname '%s'.\n"
+msgstr "%s: Der Eigentümer des Zertifikats passt nicht zum Hostnamen »%s«.\n"
+
+#: libwget/ssl_gnutls.c:1022
+#, c-format
+msgid "%s: The certificate could not be verified (0x%X).\n"
+msgstr "%s: Das Zertifikat konnte nicht verifiziert werden (0x%X).\n"
+
+#: libwget/ssl_gnutls.c:1033
+#, c-format
+msgid "%s: Certificate must be X.509\n"
+msgstr "%s: Das Zertifikat muss X.509 sein\n"
+
+#: libwget/ssl_gnutls.c:1038
+#, c-format
+msgid "%s: Error initializing X.509 certificate\n"
+msgstr "%s: Fehler beim Initialisieren des X.509-Zertifikats\n"
+
+#: libwget/ssl_gnutls.c:1044
+#, c-format
+msgid "%s: No certificate was found!\n"
+msgstr "%s: Es wurde kein Zertifikat gefunden!\n"
+
+#: libwget/ssl_gnutls.c:1049
+#, c-format
+msgid "%s: Failed to parse certificate: %s\n"
+msgstr "%s: Das Zertifikat konnte nicht ausgewertet werden: %s\n"
+
+#: libwget/ssl_gnutls.c:1072
+msgid "WARNING: The certificate's (stapled) OCSP status is invalid\n"
+msgstr "WARNUNG: Der (angefügte) OCSP-Status des Zertifikats ist ungültig\n"
+
+#: libwget/ssl_gnutls.c:1075
+msgid "WARNING: The certificate's (stapled) OCSP status has not been sent\n"
+msgstr ""
+"WARNUNG: Der (angefügte) OCSP-Status des Zertifikats wurde nicht gesendet\n"
+
+#: libwget/ssl_gnutls.c:1087
+#, c-format
+msgid "%s: Failed to parse certificate[%u]: %s\n"
+msgstr "%s: Das Zertifikat[%u] konnte nicht ausgewertet werden: %s\n"
+
+#: libwget/ssl_gnutls.c:1173
+#, c-format
+msgid "%s: Pubkey pinning mismatch!\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1229
+msgid "GnuTLS requires the key and the cert to be of the same type.\n"
+msgstr "GnuTLS erfordert Schlüssel und Zertifikat des gleichen Typs.\n"
+
+#: libwget/ssl_gnutls.c:1233
+msgid "No certificates or keys were found\n"
+msgstr "Es wurden weder Zertifikate noch Schlüssel gefunden\n"
+
+#: libwget/ssl_gnutls.c:1238
+#, c-format
+msgid "No CAs were found in '%s'\n"
+msgstr "Keine Zertifizierungsstellen (CAs) in »%s« gefunden\n"
+
+#: libwget/ssl_gnutls.c:1319
+#, c-format
+msgid "Failed to opendir %s\n"
+msgstr "Verzeichnis %s konnte nicht geöffnet werden\n"
+
+#: libwget/ssl_gnutls.c:1326
+#, c-format
+msgid "Failed to load CRL '%s': (%d)\n"
+msgstr "CRL »%s« konnte nicht geladen werden: (%d)\n"
+
+#: libwget/ssl_gnutls.c:1368
+#, c-format
+msgid "GnuTLS: Unsupported priority string '%s': %s\n"
+msgstr "GnuTLS: Nicht unterstützte Prioritätszeichenkette »%s«: %s\n"
+
+#: libwget/ssl_gnutls.c:1372
+#, c-format
+msgid "GnuTLS: Unsupported default priority 'NULL': %s\n"
+msgstr "GnuTLS: Nicht unterstützte Vorgabepriorität »NULL«: %s\n"
+
+#: libwget/ssl_gnutls.c:1612 libwget/ssl_gnutls.c:1618
+msgid ""
+"TLS False Start requested but libwget built with insufficient GnuTLS "
+"version\n"
+msgstr ""
+
+#: libwget/ssl_gnutls.c:1623
+#, c-format
+msgid "GnuTLS: Failed to set priorities: %s\n"
+msgstr "GnuTLS: Prioritäten konnten nicht gesetzt werden: %s\n"
+
+#: libwget/ssl_gnutls.c:1653
+msgid "WARNING: OCSP is not available in this version of GnuTLS.\n"
+msgstr "WARNUNG: OCSP ist in dieser Version von GnuTLS nicht verfügbar.\n"
+
+#: libwget/ssl_gnutls.c:1720
+#, c-format
+msgid "GnuTLS: Failed to set session data: %s\n"
+msgstr "GnuTLS: Sitzungsdaten konnten nicht gesetzt werden: %s\n"
+
+#: libwget/ssl_wolfssl.c:590
+msgid "Missing TLS method\n"
+msgstr ""
+
+#: libwget/ssl_wolfssl.c:596
+#, fuzzy
+msgid "Failed to create WOLFSSL_CTX\n"
+msgstr "Erzeugen von »%s« ist fehlgeschlagen (%d)\n"
+
+#: libwget/ssl_wolfssl.c:611
+#, fuzzy, c-format
+msgid "WolfSSL: Failed to set ciphers '%s'\n"
+msgstr "GnuTLS: Prioritäten konnten nicht gesetzt werden: %s\n"
+
+#: libwget/ssl_wolfssl.c:619
+#, c-format
+msgid "Failed to load %s, please check the file.\n"
+msgstr ""
+
+#: libwget/ssl_wolfssl.c:859
+#, fuzzy
+msgid "Failed to create WolfSSL session\n"
+msgstr "TLS-Sitzungsdaten konnten nicht gelesen werden\n"
+
+#: libwget/ssl_wolfssl.c:992
+#, fuzzy, c-format
+msgid "failed to connect TLS (%d): %s\n"
+msgstr "Verbindung ist fehlgeschlagen (%d)\n"
+
+#: libwget/ssl_openssl.c:231 libwget/ssl_openssl.c:271
+#: libwget/ssl_openssl.c:345
+#, fuzzy, c-format
+msgid ""
+"Unknown configuration key %d (maybe this config value should be of another "
+"type?)\n"
+msgstr ""
+"Unbekannter Konfigurationsschlüssel %d (oder der Wert darf kein Objekt "
+"sein)\n"
+
+#: libwget/ssl_openssl.c:394
+msgid ""
+"OpenSSL: TLS 1.3 is not supported by your OpenSSL version. Will use TLS 1.2 "
+"instead.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:404
+#, fuzzy, c-format
+msgid "OpenSSL: Invalid priority string '%s'\n"
+msgstr "GnuTLS: Nicht unterstützte Prioritätszeichenkette »%s«: %s\n"
+
+#: libwget/ssl_openssl.c:466
+#, c-format
+msgid ""
+"OpenSSL: Could not load certificates from default paths. Falling back to "
+"'%s'."
+msgstr ""
+
+#: libwget/ssl_openssl.c:471
+#, c-format
+msgid "OpenSSL: No certificates could be loaded from directory '%s'\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:475
+#, c-format
+msgid "OpenSSL: Could not open directory '%s'. No certificates were loaded.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:581
+msgid "Got a stapled OCSP response, but could not parse it. Aborting.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:587
+msgid "Could not get server's cert stack\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:598
+msgid "Could not verify stapled OCSP response. Aborting.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:763
+msgid "Unsuccessful OCSP response\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:771
+msgid "Could not verify OCSP certificate chain\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:777
+#, fuzzy
+msgid "Could not parse OCSP single response\n"
+msgstr "OCSP-Zeile konnte nicht ausgewertet werden: »%s«\n"
+
+#: libwget/ssl_openssl.c:783
+msgid "Could not obtain OCSP response status\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:788
+#, fuzzy
+msgid "Certificate revoked by OCSP\n"
+msgstr "Zertifikattyp: %s\n"
+
+#: libwget/ssl_openssl.c:795
+msgid "Could not get 'thisUpd' from OCSP response. Cannot check time.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:802
+msgid "OCSP response is too old. Ignoring.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:850
+msgid "Could not obtain OCSP_BASICRESPONSE\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:855
+msgid "OCSP nonce does not match\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:974
+#, c-format
+msgid "Could not compute certificate fingerprint for cert %u\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1066
+msgid "Could not retrieve certificate store. Will skip HPKP checks.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1072
+msgid "Could not retrieve saved verification status flags.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1085
+msgid "Public key pinning mismatch.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1096
+#, fuzzy
+msgid "Certificate revoked by OCSP.\n"
+msgstr "%s: Zertifikat[%u] von »%s« wurde zurückgezogen (über OCSP)\n"
+
+#: libwget/ssl_openssl.c:1117
+msgid "Certificate check disabled. Peer's certificate will NOT be checked.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1123
+msgid "OpenSSL: Could not obtain cert store\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1136
+#, fuzzy, c-format
+msgid "Could not load CRL from '%s' (%d)\n"
+msgstr "CRL »%s« konnte nicht geladen werden: (%d)\n"
+
+#: libwget/ssl_openssl.c:1150
+#, c-format
+msgid "Could not load CA certificate from file '%s'\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1206
+msgid "Could not initialize OpenSSL\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1257
+msgid "OpenSSL: Could not parse cached session data.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1265
+#, fuzzy
+msgid "OpenSSL: Could not set session data.\n"
+msgstr "GnuTLS: Sitzungsdaten konnten nicht gesetzt werden: %s\n"
+
+#: libwget/ssl_openssl.c:1491
+msgid ""
+"Host name check disabled. Server certificate's subject name will not be "
+"checked.\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1500
+msgid "Could not set 'status_request' extension\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1506
+msgid "SNI could not be sent"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1510
+msgid "ALPN offering could not be sent"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1518
+#, fuzzy
+msgid "Could not get cached TLS session"
+msgstr "TLS-Sitzungsdaten konnten nicht gelesen werden\n"
+
+#: libwget/ssl_openssl.c:1540
+#, c-format
+msgid "Could not complete TLS handshake: %s\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1696
+#, c-format
+msgid "TLS read error: %s\n"
+msgstr ""
+
+#: libwget/ssl_openssl.c:1731
+#, c-format
+msgid "TLS write error: %s\n"
+msgstr ""
+
+#: libwget/tls_session.c:355
+msgid "Failed to read TLS session data\n"
+msgstr "TLS-Sitzungsdaten konnten nicht gelesen werden\n"
+
+#: libwget/tls_session.c:403
+#, c-format
+msgid "Failed to write TLS session file '%s'\n"
+msgstr "TLs-Sitzungsdatei »%s« konnte nicht geschrieben werden\n"
+
+#: src/bar.c:95
+#, fuzzy
+msgid "Cannot create progress bar thread. Disabling progress bar.\n"
+msgstr ""
+"Fortschrittsbalken-Thread kann nicht erzeugt werden. Die Fortschrittsanzeige "
+"wird deaktiviert.\n"
+
+#: src/dl.c:41
+#, c-format
+msgid "Piling up error '%s' over error '%s'"
+msgstr "Fehler »%s« wird über Fehler »%s« gestapelt"
+
+#: src/gpgme.c:60
+msgid "GPGME Failure\n"
+msgstr "GPGME-Fehlschlag\n"
+
+#: src/gpgme.c:64
+#, fuzzy, c-format
+msgid "%s: Invalid signature\n"
+msgstr "%s: Unbehandelter Fehlschlag\n"
+
+#: src/gpgme.c:67
+#, c-format
+msgid "%s: Key %s expired\n"
+msgstr "%s: Schlüssel %s ist abgelaufen\n"
+
+#: src/gpgme.c:70
+#, c-format
+msgid "%s: Expired signature\n"
+msgstr ""
+
+#: src/gpgme.c:73
+#, c-format
+msgid "%s: Key %s missing\n"
+msgstr "%s: Schlüssel %s fehlt\n"
+
+#: src/gpgme.c:76
+#, c-format
+msgid "%s: Unhandled failure\n"
+msgstr "%s: Unbehandelter Fehlschlag\n"
+
+#: src/gpgme.c:117
+msgid "Invalid signature, signature file must have a sig extension\n"
+msgstr "Ungültige Signatur, die Signaturdatei muss die Endung .sig haben\n"
+
+#: src/gpgme.c:156
+msgid "Failed to init gpgme context\n"
+msgstr "gpgme-Kontext konnte nicht initialisiert werden\n"
+
+#: src/gpgme.c:171
+msgid "Couldn't specify gnupg homedir\n"
+msgstr "gnupg-Homeverzeichnis konnte nicht angegeben werden\n"
+
+#: src/gpgme.c:177
+#, c-format
+msgid "Couldn't canonicalize %s. (Does the path exist?)\n"
+msgstr "%s konnte nicht kanonisiert werden (existiert der Pfad?)\n"
+
+#: src/gpgme.c:186
+msgid "Error during verification\n"
+msgstr "Fehler während der Verifizierung\n"
+
+#: src/gpgme.c:194
+msgid "GPGME verify failed!\n"
+msgstr "GPGME-Verifizierung fehlgeschlagen!\n"
+
+#: src/gpgme.c:273
+#, c-format
+msgid "Unsupported protocol type for content: %s\n"
+msgstr "Protokolltyp wird für den Inhalt nicht unterstützt: %s\n"
+
+#: src/gpgme.c:281
+msgid "Couldn't correct signature file!\n"
+msgstr "Signaturdatei konnte nicht korrigiert werden!\n"
+
+#: src/gpgme.c:290
+#, c-format
+msgid "Failed to read file to verify sig: %s\n"
+msgstr "Datei konnte zum Verifizieren der Signatur nicht gelesen werden: %s\n"
+
+#: src/host.c:391 src/wget.c:937
+#, c-format
+msgid "URL '%s' not followed (disallowed by robots.txt)\n"
+msgstr "Der URL »%s« wird nicht gefolgt (gemäß robots.txt nicht erlaubt)\n"
+
+#: src/job.c:186
+#, c-format
+msgid ""
+"Failed to truncate %s\n"
+" from %llu to %llu bytes\n"
+msgstr ""
+"%s konnte nicht von\n"
+" %llu auf %llu Bytes gekürzt werden\n"
+
+#: src/job.c:205
+#, c-format
+msgid "Checksum OK for '%s'\n"
+msgstr "Prüfsumme OK für »%s«\n"
+
+#: src/job.c:212
+msgid "Failed to build checksum, assuming file to be OK\n"
+msgstr ""
+"Prüfsumme konnte nicht erstellt werden, es wird angenommen, dass die Datei "
+"in Ordnung ist\n"
+
+#: src/job.c:217
+#, c-format
+msgid "Bad checksum for '%s'\n"
+msgstr "Falsche Prüfsumme für »%s«\n"
+
+#: src/job.c:235
+#, c-format
+msgid "Piece %d/%d not OK - requeuing\n"
+msgstr "Teil %d/%d nicht OK - wird erneut in die Warteschlange gestellt\n"
+
+#: src/options.c:287
+#, c-format
+msgid "Value out of range (0-65535): %s\n"
+msgstr "Wert außerhalb des zulässigen Bereichs (0-65535): %s\n"
+
+#: src/options.c:351
+#, c-format
+msgid "Invalid byte specifier: %s\n"
+msgstr "Ungültige Byte-Angabe: %s\n"
+
+#: src/options.c:423
+#, c-format
+msgid "Ignoring invalid header: %s\n"
+msgstr "Ungültiger Header wird ignoriert: %s\n"
+
+#: src/options.c:432
+#, c-format
+msgid "No value in header (ignoring): %s\n"
+msgstr "Kein Wert im Header (wird ignoriert): %s\n"
+
+#: src/options.c:674
+#, c-format
+msgid "Invalid boolean value '%s'\n"
+msgstr "Ungültiger logischer Wert »%s«\n"
+
+#: src/options.c:716
+#, c-format
+msgid "Invalid time specifier in '%s'\n"
+msgstr "Ungültige Zeitangabe in »%s«\n"
+
+#: src/options.c:746
+#, c-format
+msgid "Unknown cert type '%s'\n"
+msgstr "Unbekannter Zertifikattyp »%s«\n"
+
+#: src/options.c:763
+#, c-format
+msgid "Unsupported regex type '%s'\n"
+msgstr "Nicht unterstützter Typ »%s« des regulären Ausdrucks\n"
+
+#: src/options.c:773
+#, fuzzy
+msgid "Empty progress type\n"
+msgstr "Unbekannter Fortschrittsanzeigetyp »%s«\n"
+
+#: src/options.c:782
+#, c-format
+msgid "Unknown progress type '%s'\n"
+msgstr "Unbekannter Fortschrittsanzeigetyp »%s«\n"
+
+#: src/options.c:807
+#, c-format
+msgid "Unknown restrict-file-name type '%s'\n"
+msgstr "Unbekannter Namenseinschränkungstyp »%s«\n"
+
+#: src/options.c:839
+#, c-format
+msgid "Unknown option '-n%c'\n"
+msgstr "Unbekannte Option »-n%c«\n"
+
+#: src/options.c:859
+#, c-format
+msgid "Unknown address family '%s'\n"
+msgstr "Unbekannte Adressfamilie »%s«\n"
+
+#: src/options.c:886
+#, c-format
+msgid "Unknown stats format '%s'\n"
+msgstr ""
+
+#: src/options.c:916 src/options.c:934
+#, c-format
+msgid "Plugin '%s' failed to load: %s\n"
+msgstr "Plugin »%s« konnte nicht geladen werden: %s\n"
+
+#: src/options.c:995 src/options.c:1015
+msgid "Missing required type specifier\n"
+msgstr "Erforderliche Typangabe fehlt\n"
+
+#: src/options.c:999 src/options.c:1019
+#, c-format
+msgid "Invalid type specifier: %s\n"
+msgstr "Ungültige Typangabe: %s\n"
+
+#: src/options.c:1032
+msgid "no-verify-sig cannot take additional arguments\n"
+msgstr ""
+
+#: src/options.c:1042
+#, fuzzy, c-format
+msgid "Invalid option specifier: %s\n"
+msgstr "Ungültige Byte-Angabe: %s\n"
+
+#: src/options.c:1086
+#, c-format
+msgid "Compression type %s not supported\n"
+msgstr "Kompressionstyp %s wird nicht unterstützt\n"
+
+#: src/options.c:1089
+#, c-format
+msgid "Duplicate type %s"
+msgstr "Doppelter Typ %s"
+
+#: src/options.c:1119
+#, c-format
+msgid "Lib for type %s not built"
+msgstr "Bibliothek für Typ %s nicht erstellt"
+
+#: src/options.c:1151
+#, c-format
+msgid "Disallowed Value for --no-download-attr: %s\n"
+msgstr ""
+
+#: src/options.c:1160
+#, c-format
+msgid "Invalid value for --download-attr: %s\n"
+msgstr ""
+
+#: src/options.c:2505 src/options.c:2540
+#, c-format
+msgid "Unknown option '%s'\n"
+msgstr "Unbekannte Option »%s«\n"
+
+#: src/options.c:2557
+#, c-format
+msgid "Option 'no-%s' doesn't allow an argument\n"
+msgstr "Die Option »no-%s« erlaubt kein Argument\n"
+
+#: src/options.c:2561
+#, c-format
+msgid "Option '%s' doesn't allow an argument\n"
+msgstr "Die Option »%s« erlaubt kein Argument\n"
+
+#: src/options.c:2572
+#, c-format
+msgid "Missing argument for option '%s'\n"
+msgstr "Der Option »%s« fehlt ein Argument.\n"
+
+#: src/options.c:2638
+#, c-format
+msgid "Failed to parse: '%s'\n"
+msgstr "Konnte nicht ausgewertet werden: »%s«\n"
+
+#: src/options.c:2700
+#, c-format
+msgid "Config file recursion detected in %s\n"
+msgstr "Konfigurationsschleife in %s entdeckt\n"
+
+#: src/options.c:2727
+#, c-format
+msgid "Failed to open %s (%d): %s\n"
+msgstr "%s konnte nicht geöffnet werden (%d): %s\n"
+
+#: src/options.c:2791
+#, c-format
+msgid "Failed to parse last line in '%s'\n"
+msgstr "Letzte Zeile in »%s« konnte nicht ausgewertet werden\n"
+
+#: src/options.c:2871
+#, c-format
+msgid "Missing argument(s) for option '-%c'\n"
+msgstr "Fehlende Argumente für Option »-%c«\n"
+
+#: src/options.c:2891
+#, c-format
+msgid "Unknown option '-%c'\n"
+msgstr "Unbekannte Option »-%c«\n"
+
+#: src/options.c:2922
+#, c-format
+msgid "Password for user \"%s\": "
+msgstr "Passwort für Benutzer »%s«: "
+
+#: src/options.c:2924
+msgid "Password: "
+msgstr "Passwort: "
+
+#: src/options.c:2945
+msgid "Cannot create pipe"
+msgstr "Pipe kann nicht erstellt werden"
+
+#: src/options.c:2951
+#, c-format
+msgid "Error initializing spawn file actions for use-askpass: %d"
+msgstr ""
+"Fehler beim Initialisieren der Dateierzeugungsaktionen für use-askpass: %d"
+
+#: src/options.c:2962
+#, c-format
+msgid "Error setting spawn file actions for use-askpass: %d"
+msgstr "Fehler beim Setzen der Dateierzeugungsaktionen für use-askpass: %d"
+
+#: src/options.c:2969
+#, c-format
+msgid "Error spawning %s: %d"
+msgstr "Fehler beim Erzeugen von %s: %d"
+
+#: src/options.c:2986
+#, c-format
+msgid "Error reading response from command \"%s %s\": %s\n"
+msgstr "Fehler beim Lesen der Antwort auf den Befehl »%s %s«: %s\n"
+
+#: src/options.c:3051
+#, fuzzy, c-format
+msgid "Failed to open %s"
+msgstr "%s konnte nicht geöffnet werden\n"
+
+#: src/options.c:3101
+#, c-format
+msgid "~/.wget2rc is deprecated. Please move it to %s/wget2rc\n"
+msgstr ""
+
+#: src/options.c:3419
+#, c-format
+msgid "Failed to set http proxies %s\n"
+msgstr "HTTP-Proxies %s konnten nicht gesetzt werden\n"
+
+#: src/options.c:3423
+#, c-format
+msgid "Failed to set https proxies %s\n"
+msgstr "HTTPS-Proxies %s konnten nicht gesetzt werden\n"
+
+#: src/options.c:3427
+#, c-format
+msgid "Failed to set proxy exceptions %s\n"
+msgstr "Proxy-Ausnahmen %s konnten nicht gesetzt werden\n"
+
+#: src/options.c:3453
+#, fuzzy, c-format
+msgid "Failed to load %s (%d)"
+msgstr "»%s« konnte nicht gesperrt werden (%d)\n"
+
+#: src/options.c:3513
+msgid ""
+"Specifying both --start-pos and --continue is not recommended; --continue "
+"will be disabled"
+msgstr ""
+
+#: src/options.c:3519
+msgid "WARNING: timestamping does nothing in combination with -O"
+msgstr ""
+
+#: src/options.c:3523
+msgid "Can't timestamp and not clobber old files at the same time"
+msgstr ""
+
+#: src/options.c:3527
+msgid "WARNING: timestamping does nothing in combination with spider"
+msgstr ""
+
+#: src/options.c:3531
+msgid ""
+"WARNING: timestamping and chunk-size only work together without If-Modified-"
+"Since"
+msgstr ""
+
+#: src/options.c:3570
+#, c-format
+msgid "Failed to init networking (%d)"
+msgstr "Netzwerk konnte nicht initialisiert werden (%d)"
+
+#: src/options.c:3575
+#, fuzzy, c-format
+msgid "Failed to init DNS (%d)"
+msgstr "Binden ist fehlgeschlagen (%d)\n"
+
+#: src/options.c:3593 src/options.c:3604 src/options.c:3615 src/options.c:3626
+#: src/options.c:3637
+#, fuzzy, c-format
+msgid "Failed to open '%s' (%d)"
+msgstr "Offenes »%s« konnte nicht gelesen werden (%d)\n"
+
+#: src/options.c:3884
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare())\n"
+msgstr "%s: Option »%s« nicht nach »%s« (mittels opt_compare())\n"
+
+#: src/options.c:3893
+#, c-format
+msgid "%s: Option not in order '%s' after '%s' (using opt_compare_config())\n"
+msgstr "%s: Option »%s« nicht nach »%s« (mittels opt_compare_config())\n"
+
+#: src/options.c:3903
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare())\n"
+msgstr "%s: Option »%s« konnte nicht gefunden werden (mittels opt_compare())\n"
+
+#: src/options.c:3913 src/options.c:3937
+#, c-format
+msgid "%s: Failed to find option '%s' (using opt_compare_config())\n"
+msgstr ""
+"%s: Option »%s« konnte nicht gefunden werden (mittels opt_compare_config())\n"
+
+#: src/options.c:3962
+#, c-format
+msgid "%s: Failed to parse bool short option #%zu (=%d)\n"
+msgstr "%s: Logische Kurzoption #%zu (=%d) konnte nicht ausgewertet werden\n"
+
+#: src/options.c:3988 src/options.c:3994
+#, c-format
+msgid "%s: Failed to parse bool long option #%zu (%d)\n"
+msgstr "%s: Logische Langoption #%zu (%d) konnte nicht ausgewertet werden\n"
+
+#: src/options.c:4037
+#, c-format
+msgid "%s: Failed to parse timeout short option #%zu (=%d)\n"
+msgstr ""
+"%s: Zeitüberschreitungs-Kurzoption #%zu (=%d) konnte nicht ausgewertet "
+"werden\n"
+
+#: src/options.c:4068
+#, c-format
+msgid "%s: Failed to parse timeout long option #%zu (%d)\n"
+msgstr ""
+"%s: Zeitüberschreitungs-Langoption #%zu (%d) konnte nicht ausgewertet "
+"werden\n"
+
+#: src/options.c:4103
+#, c-format
+msgid "%s: Extra headers found in option #%zu\n"
+msgstr "%s: Zusätzliche Header in Option #%zu gefunden\n"
+
+#: src/options.c:4108
+#, c-format
+msgid "%s: Failed to parse header option #%zu\n"
+msgstr "%s: Header-Option #%zu konnte nicht ausgewertet werden\n"
+
+#: src/options.c:4131
+#, c-format
+msgid "%s: Accepted illegal header option #%zu\n"
+msgstr "%s: Unzulässige Header-Option #%zu wurde akzeptiert\n"
+
+#: src/options.c:4159 src/options.c:4178
+#, c-format
+msgid "%s: Failed to parse string short option #%zu (=%s)\n"
+msgstr ""
+"%s: Zeichenketten-Kurzoption #%zu (=%s) konnte nicht ausgewertet werden\n"
+
+#: src/plugin.c:397
+#, c-format
+msgid "Plugin '%s' failed to load: %s"
+msgstr "Plugin »%s« konnte nicht geladen werden: %s"
+
+#: src/plugin.c:505
+#, c-format
+msgid "Options for %s:\n"
+msgstr "Optionen für %s:\n"
+
+#: src/utils.c:50
+#, c-format
+msgid "Internal error: Unexpected relative path: '%s'\n"
+msgstr "Interner Fehler: Unerwarteter relativer Pfad: »%s«\n"
+
+#: src/utils.c:74 src/utils.c:81
+#, c-format
+msgid "Failed to make directory '%s' (errno=%d)\n"
+msgstr "Verzeichnis »%s« konnte nicht erstellt werden (errno=%d)\n"
+
+#: src/utils.c:79
+#, c-format
+msgid "Failed to rename '%s' (errno=%d)\n"
+msgstr "Verzeichnis »%s« konnte nicht umbenannt werden (errno=%d)\n"
+
+#: src/wget.c:592
+#, c-format
+msgid "HSTS in effect for %s:%hu\n"
+msgstr "HSTS ist für %s:%hu wirksam\n"
+
+#: src/wget.c:610
+#, c-format
+msgid "Failed to parse URI '%s'\n"
+msgstr "URI »%s« konnte nicht ausgewertet werden\n"
+
+#: src/wget.c:628
+#, c-format
+msgid "URI scheme not supported: '%s'\n"
+msgstr "URI-Schema wird nicht unterstützt: »%s«\n"
+
+#: src/wget.c:771
+#, c-format
+msgid "Adding URL: %s\n"
+msgstr "URL wird hinzugefügt: %s\n"
+
+#: src/wget.c:787 src/wget.c:1148
+#, c-format
+msgid "Cannot resolve URI '%s'\n"
+msgstr "URI »%s« kann nicht aufgelöst werden\n"
+
+#: src/wget.c:809
+#, fuzzy, c-format
+msgid "URL '%s' not followed (unsupported scheme)\n"
+msgstr "Der URL »%s« wird nicht gefolgt (Schema »%s« wird nicht unterstützt)\n"
+
+#: src/wget.c:819
+#, c-format
+msgid "URL '%s' not followed (https-only requested)\n"
+msgstr "Der URL »%s« wird nicht gefolgt (ausschließlich HTTPS angefragt)\n"
+
+#: src/wget.c:859
+msgid "missing ip/host/domain"
+msgstr "IP-Adresss/Host/Domain fehlt"
+
+#: src/wget.c:862
+msgid "no host-spanning requested"
+msgstr ""
+
+#: src/wget.c:864
+msgid "domain explicitly excluded"
+msgstr "Domain wurde ausdrücklich ausgeschlossen"
+
+#: src/wget.c:868
+#, c-format
+msgid "URL '%s' not followed (%s)\n"
+msgstr "Der URL »%s« wird nicht gefolgt (%s)\n"
+
+#: src/wget.c:891
+#, c-format
+msgid "URL '%s' not followed (parent ascending not allowed)\n"
+msgstr ""
+
+#: src/wget.c:909
+#, fuzzy, c-format
+msgid "URL '%s' not requested (file already exists)\n"
+msgstr "Der URL »%.*s« wird nicht gefolgt (bereits bekannt)\n"
+
+#: src/wget.c:944
+#, c-format
+msgid "Failed to get '%s' from hosts\n"
+msgstr "»%s« konnte nicht von den Hosts geholt werden\n"
+
+#: src/wget.c:1069 src/wget.c:1074 src/wget.c:1101 src/wget.c:1105
+#, c-format
+msgid "  %.*s -> %s\n"
+msgstr ""
+
+#: src/wget.c:1070 src/wget.c:1102
+#, c-format
+msgid "       -> %s\n"
+msgstr ""
+
+#: src/wget.c:1125
+#, c-format
+msgid "convert %s %s %s\n"
+msgstr ""
+
+#: src/wget.c:1128
+#, c-format
+msgid "%s not found (%d)\n"
+msgstr "%s nicht gefunden (%d)\n"
+
+#: src/wget.c:1173
+#, c-format
+msgid "Failed to rename %s to %s (%d)"
+msgstr "%s konnte nicht zu %s umbenannt werden (%d)"
+
+#: src/wget.c:1177
+#, c-format
+msgid "Failed to write open %s (%d)"
+msgstr "Offenes %s konnte nicht geschrieben werden (%d)"
+
+#: src/wget.c:1308 src/wget.c:1397
+#, c-format
+msgid "Failed to start downloader, error %d\n"
+msgstr "Downloader konnte nicht gestartet werden, Fehler %d\n"
+
+#: src/wget.c:1331
+#, c-format
+msgid "Failed to open input file %s\n"
+msgstr "Eingabedatei %s konnte nicht geöffnet werden\n"
+
+#: src/wget.c:1336
+msgid "Nothing to do - goodbye\n"
+msgstr "Nichts zu tun - Auf Wiedersehen\n"
+
+#: src/wget.c:1354
+msgid "Wget2 built without thread support. Disabling progress report\n"
+msgstr ""
+"Wget2 wurde ohne Thread-Unterstützung erstellt. Die Fortschrittsanzeige wird "
+"deaktiviert\n"
+
+#: src/wget.c:1404
+#, c-format
+msgid "Quota of %lld bytes reached - stopping.\n"
+msgstr "Kontingent von %lld Bytes wurde erreicht - wird gestoppt.\n"
+
+#: src/wget.c:1424
+#, c-format
+msgid "Failed to wait for downloader #%d (%d %d)\n"
+msgstr "Warten auf Downloader #%d ist fehlgeschlagen (%d %d)\n"
+
+#: src/wget.c:1429
+#, c-format
+msgid "Downloaded: %d files, %s bytes, %d redirects, %d errors\n"
+msgstr "Heruntergeladen: %d Dateien, %s Bytes, %d Umleitungen, %d Fehler\n"
+
+#: src/wget.c:1455
+msgid ""
+"--convert-links and --convert-file-only cannot be used together, error\n"
+msgstr ""
+
+#: src/wget.c:1551
+#, fuzzy, c-format
+msgid "Failed to connect: %s\n"
+msgstr "Verbindung ist fehlgeschlagen (%d)\n"
+
+#: src/wget.c:1775
+msgid "The file is already fully retrieved; nothing to do.\n"
+msgstr ""
+"Die Datei wurde bereits vollständig heruntergeladen; es ist nichts zu tun.\n"
+
+#: src/wget.c:1822
+#, c-format
+msgid "File '%s' not modified on server. Omitting download"
+msgstr ""
+
+#: src/wget.c:1859
+#, c-format
+msgid "Not scanning '%s' (known ETag)\n"
+msgstr ""
+
+#: src/wget.c:1906
+#, c-format
+msgid "The sizes do not match (local %lld, remote %zu) -- retrieving"
+msgstr ""
+
+#: src/wget.c:2049
+#, c-format
+msgid "File length %llu - remove job\n"
+msgstr "Dateilänge %llu - Auftrag wird entfernt\n"
+
+#: src/wget.c:2051
+msgid "No download mirrors found - remove job\n"
+msgstr "Keine Download-Spiegelserver gefunden - Auftrag wird entfernt\n"
+
+#: src/wget.c:2164
+msgid "Couldn't determine base file to delete for failed verification\n"
+msgstr ""
+"Die wegen fehlgeschlagener Verifizierung zu löschende Basisdatei konnte "
+"nicht ermittelt werden\n"
+
+#: src/wget.c:2168
+#, c-format
+msgid "Signature for file %s successfully verified\n"
+msgstr "Signatur für Datei %s wurde erfolgreich verifiziert\n"
+
+#: src/wget.c:2184
+msgid "Should not have remaining extensions!\n"
+msgstr ""
+
+#: src/wget.c:2198
+msgid "File name for signature checking not assigned to job!\n"
+msgstr "Dem Auftrag wurde kein Dateiname zur Signaturüberprüfung zugewiesen!\n"
+
+#: src/wget.c:2200
+#, fuzzy
+msgid "Cannot check the signature on a signature!\n"
+msgstr "Signaturdatei konnte nicht korrigiert werden!\n"
+
+#: src/wget.c:2408
+#, c-format
+msgid "Unhandled action %d\n"
+msgstr "Unbehandelte Aktion %d\n"
+
+#: src/wget.c:2516
+#, c-format
+msgid "URL '%.*s' not followed (conversion failed)\n"
+msgstr "Der URL »%.*s« wird nicht gefolgt (Umwandlung fehlgeschlagen)\n"
+
+#: src/wget.c:2524
+#, c-format
+msgid "Cannot resolve relative URI %.*s\n"
+msgstr "Relative URI %.*s kann nicht aufgelöst werden\n"
+
+#: src/wget.c:2546
+msgid "set by user"
+msgstr "durch Benutzer gesetzt"
+
+#: src/wget.c:2551 src/wget.c:2559 src/wget.c:2567
+msgid "set by BOM"
+msgstr "durch BOM gesetzt"
+
+#: src/wget.c:2573
+msgid "set by server response"
+msgstr "durch Serverantwort gesetzt"
+
+#: src/wget.c:2582
+#, c-format
+msgid "Convert non-ASCII encoding '%s' (%s) to UTF-8\n"
+msgstr "Nicht-ASCII-Kodierung »%s« (%s) in UTF-8 umwandeln\n"
+
+#: src/wget.c:2586
+#, c-format
+msgid "Link conversion disabled for '%s'\n"
+msgstr "Link-Umwandlung wird für »%s« deaktiviert\n"
+
+#: src/wget.c:2589
+#, fuzzy, c-format
+msgid "Filename conversion disabled for '%s'\n"
+msgstr "Link-Umwandlung wird für »%s« deaktiviert\n"
+
+#: src/wget.c:2593
+#, c-format
+msgid "Failed to convert non-ASCII encoding '%s' (%s) to UTF-8, skip parsing\n"
+msgstr ""
+"Umwandlung der Nicht-ASCII-Kodierung »%s« (%s) in UTF-8 ist fehlgeschlagen, "
+"Auswertung wird übersprungen\n"
+
+#: src/wget.c:2606
+msgid "set by document"
+msgstr "durch Dokument gesetzt"
+
+#: src/wget.c:2609
+msgid "default, encoding not specified"
+msgstr "Vorgabe, Kodierung nicht angegeben"
+
+#: src/wget.c:2613
+#, c-format
+msgid "URI content encoding = '%s' (%s)\n"
+msgstr "Kodierung der URI-Inhalts = »%s« (%s)\n"
+
+#: src/wget.c:2621
+#, c-format
+msgid "BASE '%.*s' not usable (missing absolute base URI)\n"
+msgstr "BASE »%.*s« ist nicht verwendbar (absolute Basis-URI fehlt)\n"
+
+#: src/wget.c:2628
+#, c-format
+msgid "Cannot resolve BASE URI %.*s\n"
+msgstr "BASE-URI %.*s kann nicht aufgelöst werden\n"
+
+#: src/wget.c:2640
+#, c-format
+msgid "URL '%.*s' not followed (action/formaction attribute)\n"
+msgstr "Der URL »%.*s« wird nicht gefolgt (action/formaction-Attribut)\n"
+
+#: src/wget.c:2654
+#, c-format
+msgid "URL '%.*s' not followed (page requisites + level)\n"
+msgstr ""
+
+#: src/wget.c:2665 src/wget.c:2997
+#, c-format
+msgid "URL '%.*s' not followed (missing base URI)\n"
+msgstr "Der URL »%.*s« wird nicht gefollgt (Basis-URI fehlt)\n"
+
+#: src/wget.c:2729 src/wget.c:2860
+#, c-format
+msgid "found %d url(s) (base=%s)\n"
+msgstr "%d URL(s) gefunden (Basis=%s)\n"
+
+#: src/wget.c:2737 src/wget.c:2833 src/wget.c:2867
+#, c-format
+msgid "URL '%.*s' not followed (not matching sitemap location)\n"
+msgstr ""
+
+#: src/wget.c:2744 src/wget.c:2761 src/wget.c:2874
+#, c-format
+msgid "URL '%.*s' not followed (already known)\n"
+msgstr "Der URL »%.*s« wird nicht gefolgt (bereits bekannt)\n"
+
+#: src/wget.c:2752
+#, c-format
+msgid "found %d sitemap url(s) (base=%s)\n"
+msgstr ""
+
+#: src/wget.c:2794
+#, c-format
+msgid "Can't scan '%s' because no libz support enabled at compile time\n"
+msgstr ""
+"»%s« kann nicht eingelesen werden, weil die Unterstützung für Libz während "
+"der Kompilierung nicht verfügbar war\n"
+
+#: src/wget.c:2931
+#, c-format
+msgid "Invalid file length %llu\n"
+msgstr "Ungültige Dateilänge %llu\n"
+
+#: src/wget.c:2934
+msgid "No download mirrors found\n"
+msgstr "Keine Download-Spiegelserver gefunden\n"
+
+#: src/wget.c:2983 src/wget.c:3011 src/wget.c:3030
+#, c-format
+msgid "URI content encoding = '%s'\n"
+msgstr "Kodierung des URI-Inhalts = »%s«\n"
+
+#: src/wget.c:3103
+#, fuzzy, c-format
+msgid "Failed to set file date (%d)\n"
+msgstr "Dateidatum konnte nicht gesetzt werden: %s\n"
+
+#: src/wget.c:3250
+#, c-format
+msgid "Failed to write to STDOUT (%zu, errno=%d)\n"
+msgstr "Schreiben in die Standardausgabe ist fehlgeschlagen (%zu, errno=%d)\n"
+
+#: src/wget.c:3349
+#, c-format
+msgid "Failed to rename %s to %s (errno=%d)\n"
+msgstr "%s konnte nicht in %s umbenannt werden (errno=%d)\n"
+
+#: src/wget.c:3372 src/wget.c:3378
+#, fuzzy, c-format
+msgid "Failed to load partial content from '%s' (errno=%d)\n"
+msgstr "Teilinhalt von »%s« konnte nicht geladen werden (errno=%d): %s\n"
+
+#: src/wget.c:3387
+#, fuzzy, c-format
+msgid "Failed to unlink '%s' (errno=%d)\n"
+msgstr "»%s« konnte nicht geöffnet werden (errno=%d): %s\n"
+
+#: src/wget.c:3405
+#, c-format
+msgid "Saving ']8;;file://%s%s\\%s]8;;\\'\n"
+msgstr ""
+
+#: src/wget.c:3409
+#, c-format
+msgid "Saving '%s'\n"
+msgstr "»%s« wird gespeichert\n"
+
+#: src/wget.c:3414
+#, c-format
+msgid "Failed to write file %s (%zd, errno=%d)\n"
+msgstr "Datei %s konnte nicht geschrieben werden (%zd, errno=%d)\n"
+
+#: src/wget.c:3422
+#, c-format
+msgid "File '%s' already there; not retrieving.\n"
+msgstr "Datei »%s« gibt es bereits; wird nicht geholt.\n"
+
+#: src/wget.c:3428
+#, c-format
+msgid "Directory / file name clash - not saving '%s'\n"
+msgstr "Verzeichnis-/Dateinamenkonflikt - »%s« wird nicht gespeichert\n"
+
+#: src/wget.c:3430
+#, fuzzy, c-format
+msgid "Failed to open '%s' (%d)\n"
+msgstr "Offenes »%s« konnte nicht gelesen werden (%d)\n"
+
+#: src/wget.c:3442
+#, c-format
+msgid "Failed to save extended attribute %s\n"
+msgstr "Erweitertes Attribut %s konnte nicht gespeichert werden\n"
+
+#: src/wget.c:3628
+#, c-format
+msgid ""
+"# got header %zu bytes:\n"
+"%s\n"
+msgstr ""
+
+#: src/wget.c:3702
+#, fuzzy, c-format
+msgid "Failed to open .netrc file '%s' (%d): %s\n"
+msgstr ".netrc-Datei »%s« konnte nicht geöffnet werden (%d)\n"
+
+#: src/wget.c:4034
+#, c-format
+msgid "Failed to fsync errno=%d\n"
+msgstr "fsync ist fehlgeschlagen, errno=%d\n"
+
+#: src/wget.c:4342
+#, c-format
+msgid "Continuing in background, pid %lu.\n"
+msgstr ""
+
+#: src/wget.c:4344 src/wget.c:4410
+#, c-format
+msgid "Output will be written to %s.\n"
+msgstr ""
+
+#: src/wget.c:4370
+msgid "fake_fork_child() failed\n"
+msgstr ""
+
+#: src/wget.c:4378
+msgid "fake_fork() failed\n"
+msgstr ""
+
+#: src/wget.c:4404
+#, fuzzy, c-format
+msgid "Failed to fork (%d)\n"
+msgstr "»%s« konnte nicht geforkt werden\n"
+
+#: src/wget.c:4408
+#, c-format
+msgid "Continuing in background, pid %d.\n"
+msgstr ""
+
+#: src/wget.c:4418
+msgid "Failed to redirect stdin to /dev/null.\n"
+msgstr ""
+
+#: src/wget.c:4420
+msgid "Failed to redirect stdout to /dev/null.\n"
+msgstr ""
+
+#: src/wget.c:4422
+#, fuzzy
+msgid "Failed to redirect stderr to /dev/null.\n"
+msgstr "Verzeichnis »%s« konnte nicht erstellt werden (errno=%d)\n"
+
+#~ msgid "Failed to open '%s' (errno=%d): %s\n"
+#~ msgstr "»%s« konnte nicht geöffnet werden (errno=%d): %s\n"
+
+#, fuzzy
+#~ msgid "Failed to fork (errno=%d): %s\n"
+#~ msgstr "»%s« konnte nicht geöffnet werden (errno=%d): %s\n"
+
+#~ msgid "%s: Hash type '%s' not supported by linked crypto engine\n"
+#~ msgstr ""
+#~ "%s: Prüfsummentyp »%s« wird von der verlinkten Verschlüsselungs-Engine "
+#~ "nicht unterstützt\n"
+
+#~ msgid "Fetched cookies from '%s'\n"
+#~ msgstr "Cookies von »%s« werden geholt\n"
+
+#~ msgid "No cookies to save. Table is empty.\n"
+#~ msgstr "Keine Cookies zum Speichern. Die Tabelle ist leer.\n"
+
+#~ msgid "u8_tolower(%s) failed (%d)\n"
+#~ msgstr "u8_tolower(%s) fehlgeschlagen (%d)\n"
+
+#~ msgid "Fetched HSTS data from '%s'\n"
+#~ msgstr "HSTS-Daten wurden von »%s« geholt\n"
+
+#~ msgid "No HSTS entries to save. Table is empty.\n"
+#~ msgstr "Keine HSTS-Einträge zum Speichern. Die Tabelle ist leer.\n"
+
+#~ msgid "Fetched OCSP hosts from '%s'\n"
+#~ msgstr "OCSP-Hosts wurden von »%s« geholt\n"
+
+#~ msgid "Fetched OCSP fingerprints from '%s'\n"
+#~ msgstr "OCSP-Fingerabdrücke werden von »%s« geholt\n"
+
+#~ msgid "Saved OCSP hosts to '%s'\n"
+#~ msgstr "OCSP-Hosts wurden in »%s« gespeichert\n"
+
+#~ msgid "Saved OCSP fingerprints to '%s'\n"
+#~ msgstr "OCSP-Fingerabdrücke wurden in »%s« gespeichert\n"
+
+#~ msgid "Fetched TLS session data from '%s'\n"
+#~ msgstr "TLS-Sitzungsdaten wurden von »%s« geholt\n"
+
+#~ msgid "No TLS session entries to save. Table is empty.\n"
+#~ msgstr "Keine TLS-Sitzungseinträge zum Speichern. Die Tabelle ist leer.\n"
