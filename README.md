@@ -1,10 +1,10 @@
-![gnu-wget3-icon](https://github.com/ovsky/wget3-winx64/blob/main/icon-256.png?raw=true)
+![gnu-wget3-icon](https://raw.githubusercontent.com/ovsky/wget3-winx64/main/icon-256.png)
 
 # 🚀 GNU WGET3 for Windows (Modern Build)
 
 ## What is this?
 
-A **high-performance Windows build** of GNU Wget3 — the legendary non-interactive file downloader reimagined for modern Windows systems. This fork combines the power of libwget with native Windows API integration for blazing-fast, resumable downloads over HTTP, HTTPS, and FTP protocols.
+A **high-performance Windows build** of GNU Wget3 — the legendary non-interactive file downloader reimagined for modern Windows systems. This fork combines the power of libwget with native Windows optimization, delivering faster recursive website downloads, HTTP/2 streaming, and enterprise-grade security features.
 
 ---
 
@@ -46,7 +46,7 @@ A **high-performance Windows build** of GNU Wget3 — the legendary non-interact
 └── configure, Makefile     Autotools build system with Windows support
 ```
 
-**How it works**: The libwget library provides the core downloading engine with parsers for HTML, CSS, XML, and RSS/Atom feeds. The wget2 CLI wraps this with Windows-friendly command-line interface and configuration file support. Build system uses autotools/CMake to compile for native Windows x64 binaries.
+**How it works**: The libwget library provides the core downloading engine with parsers for HTML, CSS, XML, and RSS/Atom feeds. The wget2 CLI wraps this with Windows-friendly command-line interface, handling everything from DNS caching to HSTS preload lists. When you invoke `wget https://example.com/file.zip`, it routes through libwget's socket layer (with TLS negotiation), processes the HTTP/2 response, and streams decompressed chunks to disk. For recursive downloads, the HTML/CSS parsers extract links, deduplicate them, and queue parallel downloads across configurable threads.
 
 ---
 
