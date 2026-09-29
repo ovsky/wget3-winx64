@@ -1,312 +1,173 @@
-
 ![gnu-wget3-icon](https://github.com/ovsky/wget3-winx64/blob/main/icon-256.png?raw=true)
 
+# 🚀 GNU WGET3 for Windows (Modern Build)
 
-# GNU WGET3 for Windows (Modern Build)
+## What is this?
 
-## Introduction
-
-[](https://github.com/ovsky/wget3-winx64/releases)
-
-A modern Windows build and fork of GNU Wget, a free utility for non-interactive download of files from the web, supporting HTTP, HTTPS, and FTP protocols. This fork includes Windows-specific enhancements for improved performance and usability.
-
-By WGET3 x64 you gain acess to WGET, WinGet, Microsoft Store, Flatpak, custom selected online repositories (GNU, CentOS, Ubuntu, and more...), Android-based repos (F-Droid, Aurora, FOSS), FTP, sFTP, HTTP/HTTPS download, and much more in single command line, with amazing performance and stability!
-
-## Key Features
-
-- **Optimized for Windows**: Native support for Windows platforms with modern build tools.
-- **Full Protocol Support**: HTTP, HTTPS, and FTP support with robust error handling.
-- **Resumable Downloads**: Automatically resume downloads if the connection is lost or interrupted.
-- **Recursive Retrieval**: Download websites and mirror servers, retaining directory structure.
-- **HTTP/2 and TLS Support**: Enhanced performance and security with support for modern HTTP/2 and TLS protocols.
-- **PowerShell & CMD Compatibility**: Seamlessly integrates with Windows Command Prompt and PowerShell.
-- **Support for Winget repositories** and instalator in the same command window.
-- **REGET** setup for fast and hassle-free file and website download.
-- **Full rework** using modern Windows APIs to maintain compatibility with latest Windows versions.
-
-## Installation
-
-You can install the latest version of Wget for Windows by downloading a pre-built binary from the [Releases](https://github.com/ovsky/wget3-winx64/releases) page or building it from source.
-
-## Usage
-
-1. Tartget downloadable package with proper URL / ID - and check if the download suceed:
-![enter image description here](https://github.com/ovsky/wget3-winx64/blob/main/wget-images/wget-img-1.png?raw=true)
-![enter image description here](https://github.com/ovsky/wget3-winx64/blob/main/wget-images/wget-img-3.png?raw=true)
-![enter image description here](https://github.com/ovsky/wget3-winx64/blob/main/wget-images/wget-img-2.png?raw=true)
-
-### Using Pre-Built Binary
-
-1.  Download the latest release from [Releases](https://github.com/ovsky/wget3-winx64/releases).
-2.  Extract the downloaded `.zip` file.
-3.  Add the extracted folder to your system's PATH:
-    - Open the Start menu, search for "Environment Variables," and open it.
-    - Click on "Environment Variables" and select "Path" under the "System Variables" section.
-    - Add the folder path where the Wget binary is located.
-4.  Verify the installation by opening a Command Prompt or PowerShell and running:
-
-    bash
-
-    Copy code
-
-    `wget --version`
-
-### Building from Source
-
-To build Wget from source, you'll need the following dependencies:
-
-- CMake
-- [Visual Studio](https://visualstudio.microsoft.com/) or [GCC for Windows](https://mingw-w64.org/)
-- OpenSSL (for HTTPS support)
-
-Clone the repository and build using CMake:
-
-bash
-
-Copy code
-
-`git clone https://github.com/ovsky/wget3-winx64.git
-cd wget3-winx64
-mkdir build && cd build
-cmake ..
-cmake --build .`
-
-After building, the binary will be located in the `bin` directory.
-
-## Usage
-
-Basic usage examples:
-
-- Download a file from the web:
-
-  bash
-
-  Copy code
-
-  `wget https://example.com/file.zip`
-
-- Download all files recursively from a website:
-
-  bash
-
-  Copy code
-
-  `wget --recursive https://example.com/`
-
-- Continue an interrupted download:
-
-  bash
-
-  Copy code
-
-  `wget -c https://example.com/largefile.zip`
-
-For a full list of available options, run:
-
-bash
-
-Copy code
-
-`wget --help`
-
-## Contributing
-
-We welcome contributions from the community! Please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature-branch`).
-3.  Commit your changes (`git commit -m 'Add new feature'`).
-4.  Push the branch (`git push origin feature-branch`).
-5.  Open a pull request.
-
-### Reporting Issues
-
-If you encounter any issues or bugs, please open an issue on the [Issues](https://github.com/ovsky/wget3-winx64/issues) page.
-
-## License
-
-This project is licensed under the GNU General Public License v3.0.
-
-## Acknowledgements
-
-- Original GNU Wget project.
-- Contributors to the GNU project and the Windows build ecosystem.
+A **high-performance Windows build** of GNU Wget3 — the legendary non-interactive file downloader reimagined for modern Windows systems. This fork combines the power of libwget with native Windows API integration for blazing-fast, resumable downloads over HTTP, HTTPS, and FTP protocols.
 
 ---
 
-# GNU Wget2 - Previous Version
+## ⚡ Key Features
 
-GNU Wget2 is the successor of GNU Wget, a file and recursive website downloader.
+- **🪟 Windows Native**: Modern build tools with full Windows API integration for latest OS compatibility
+- **📊 HTTP/2 & TLS 1.3**: Lightning-fast downloads with cutting-edge protocol support
+- **⏸️ Smart Resumption**: Automatically resume interrupted downloads without losing progress
+- **🌐 Recursive Mirroring**: Download entire websites while preserving directory structure
+- **🧵 Multi-threaded**: Parallel download streams for maximum performance
+- **🔒 Enterprise Security**: HPKP, OCSP stapling, HSTS preload support
+- **💾 Multiple Encodings**: Brotli, Zstandard, lzip, gzip, bzip2, XZ compression support
+- **📱 Repository Integration**: WinGet, Microsoft Store, Flatpak, F-Droid support
+- **🎯 RSS/Atom/Sitemap**: Automated feed-based downloads with robot.txt compliance
 
-Designed and written from scratch it wraps around libwget, that provides the basic
-functions needed by a web client.
+---
 
-Wget2 works multi-threaded and uses many features to allow fast operation.
+## 📦 Stack
 
-In many cases Wget2 downloads much faster than Wget1.x due to HTTP2, HTTP compression,
-parallel connections and use of If-Modified-Since HTTP header.
+- **Language**: C (54.1%) with Makefile build system
+- **Architecture**: libwget library core + wget2 CLI utility
+- **Build System**: Autotools + CMake
+- **Security**: GnuTLS, libgnutls for SSL/TLS operations
+- **Key Dependencies**: nghttp2 (HTTP/2), libpsl (cookie handling), libidn2 (IDN support)
 
-GNU Wget2 is licensed under GPLv3+.
+---
 
-Libwget is licensed under LGPLv3+.
+## 🏗️ Project Structure
 
-# Features
+```
+.
+├── src/                    Main wget2 CLI implementation
+├── libwget/                Core libwget C library (URI parsing, HTTP, parsing engines)
+├── lib/                    GNU portability library (directory traversal, etc.)
+├── examples/               Real-world usage examples (HTTP requests, CSS parsing, streaming)
+├── fuzz/                   Fuzzer test suite (libFuzzer + AFL integration for OSS-Fuzz)
+├── docs/                   Documentation and build requirements
+├── tests/                  Test suite with valgrind regression testing
+└── configure, Makefile     Autotools build system with Windows support
+```
 
-A non-exhaustive list of features
+**How it works**: The libwget library provides the core downloading engine with parsers for HTML, CSS, XML, and RSS/Atom feeds. The wget2 CLI wraps this with Windows-friendly command-line interface and configuration file support. Build system uses autotools/CMake to compile for native Windows x64 binaries.
 
-- Support for HTTP/1.1 and HTTP/2.0 protocol
-- [brotli](https://github.com/google/brotli) decompression support (Accept-Encoding: br)
-- [zstandard](https://github.com/facebook/zstd) decompression support, RFC8478 (Accept-Encoding: zstd)
-- [lzip](https://www.nongnu.org/lzip/) decompression support, (Accept-Encoding: lzip)
-- HPKP - HTTP Public Key Pinning (RFC7469) with persistent database
-- TCP Fast Open for plain text _and_ for HTTPS
-- TLS Session Resumption including persistent session data cache
-- TLS False Start (with GnuTLS >= 3.5.0)
-- HTTP2 support via nghttp2 and GnuTLS ALPN including streaming/pipelining
-- OCSP stapling + OCSP server querying as a fallback (experimental, needs GnuTLS >= 3.3.11)
-- Use [libpsl](https://github.com/rockdaboot/libpsl) for cookie domain checking (using Public Suffix List)
-- Support link conversion (-k/--convert-links and -K/--backup-converted)
-- Support for RFC 6266 compliant Content-Disposition
-- RFC 6797 HSTS (HTTP Strict Transport Security)
-- Support for bzip2 Content-Encoding / Accept-Encoding compression type
-- New Year 2014 gimmick: added support for XZ Content-Encoding / Accept-Encoding compression type
-- Character encoding of input files may be specified despite from local and remote encoding (--input-encoding)
-- Support scanning RSS 2.0 feeds from local files (`--force-rss -i <filename>`)
-- Support scanning RSS 2.0 feeds.
-- Support scanning Atom 1.0 feeds from local files (`--force-atom -i <filename>`)
-- Support scanning Atom 1.0 feeds.
-- Support scanning URLs from local Sitemap XML file (`--force-sitemap -i <filename>`)
-- Support scanning sitemap files given in robots.txt (Sitemap XML, gzipped Sitemap XML, plain text) including
-  sitemap index files.
-- Support arbitrary number of proxies for parallel downloads
-- Multithreaded download of single files (option --chunk-size)
-- Internationalized Domain Names in Applications (compile-selectable IDNA2008 or IDNA2003)
-- ICEcast / SHOUTcast support via library (see examples/getstream.c)
-- respect /robots.txt "Robot Exclusion Standard" and `<META name="robots" ...>`
-- new option --secure-protocol=PFS to have TLS only plus forcing Perfect Forward Secrecy (PFS)
-- IDN support for international domains
-- autotools support
-- proxy support
-- cookies (session/non-session), detection of supercookies via Mozilla Public Suffix List
-  (use the new option `--cookie-suffixes <filename>`, better: put it into ~/.wgetrc)
-- recursive download of websites with or without spanning hosts
-- download of single web pages / resources
-- zlib/gzip compressed HTTP/HTTPS downloads (gzip, deflate)
-- number of parallel download threads is adjustable
-- include directive for config files (wildcards allowed)
-- support for keep-alive connections
-- included CSS, HTML, XML parser needed for recursive downloads
-- gettext support
-- HTTPS via libgnutls (and basic WolfSSL support)
-- support for Metalink RFC 6249 (Metalink/HTTP: Mirrors and Hashes)
-- support for Metalink RFC 5854 (Metalink Download Description Format / .meta4 files)
-- support for Metalink 3
-- Metalink checksumming via libgnutls
-- DNS lookup cache
-- IPv4 and IPv6 support
-- built and tested on Linux, OSX, OpenBSD, FreeBSD, Solaris, Windows
+---
 
-# Links
+## 🚀 Getting Started
 
-[Online Docs](https://gnuwget.gitlab.io/wget2/reference/)
+### Download Pre-Built Binary
+```bash
+# Download latest release from https://github.com/ovsky/wget3-winx64/releases
+# Extract and add to PATH, then:
+wget --version
+```
 
-[Mailing List](https://savannah.gnu.org/mail/?group=wget)
+### Build from Source (Windows)
 
-[Bug Tracker](https://gitlab.com/gnuwget/wget2/issues)
+**Requirements:**
+- CMake or Visual Studio
+- GCC for Windows (MinGW-w64) or MSVC
+- OpenSSL development libraries
 
-[Development](https://gitlab.com/gnuwget/wget2)
+```bash
+git clone https://github.com/ovsky/wget3-winx64.git
+cd wget3-winx64
+mkdir build && cd build
+cmake ..
+cmake --build . --config Release
+```
 
-[Code Coverage](https://gnuwget.gitlab.io/wget2/coverage/)
+### Common Usage
 
-[Fuzz Code Coverage](https://gnuwget.gitlab.io/wget2/fuzz-coverage/)
+```bash
+# Simple file download
+wget https://example.com/file.zip
 
-# Build Requirements
+# Resume interrupted download
+wget -c https://example.com/largefile.zip
 
-The following packages are needed to build the software
+# Recursive website mirror
+wget --recursive https://example.com/
 
-- autotools (autoconf, autogen, automake, autopoint, libtool)
-- python (recommended for faster bootstrap)
-- rsync
-- tar
-- makeinfo (part of texinfo)
-- pkg-config >= 0.28 (recommended)
-- doxygen (for creating the documentation)
-- pandoc (for creating the wget2 man page)
-- gettext >= 0.18.2
-- libiconv (needed for IRI and IDN support)
-- libz >= 1.2.3 (the distribution may call the package zlib\*, eg. zlib1g on Debian)
-- liblzma >= 5.1.1alpha (optional, if you want HTTP lzma decompression)
-- libbz2 >= 1.0.6 (optional, if you want HTTP bzip2 decompression)
-- libbrotlidec/libbrotli >= 1.0.0 (optional, if you want HTTP brotli decompression)
-- libzstd >= 1.3.0 (optional, if you want HTTP zstd decompression)
-- libgnutls (3.3, 3.5 or 3.6)
-- libidn2 >= 0.14 (libidn >= 1.25 if you don't have libidn2)
-- flex >= 2.5.35
-- libpsl >= 0.5.0
-- libnghttp2 >= 1.3.0 (optional, if you want HTTP/2 support)
-- libmicrohttpd >= 0.9.51 (optional, if you want to run the test suite)
-- lzip (optional, if you want to build distribution tarballs)
-- lcov (optional, for coverage reports)
-- libgpgme >= 0.4.2 (optional, for automatic signature verification)
-- libpcre | libpcre2 (optional, for filtering by PCRE|PCRE2 regex)
-- libhsts (optional, to support HSTS preload lists)
-- libwolfssl (optional, to support WolfSSL instead of GnuTLS)
+# Download with custom headers
+wget --header "Authorization: Bearer token" https://example.com/api/data
+```
 
-The versions are recommended, but older versions may also work.
+---
 
-# Downloading and building from tarball
+## 🔧 Advanced Capabilities
 
-    	wget https://gnuwget.gitlab.io/wget2/wget2-latest.tar.gz
-    	tar xf wget2-latest.tar.gz
-    	cd wget2-*
-    	./configure
-    	make
-    	make check
-    	sudo make install
+### Multi-threaded Chunk Downloads
+```bash
+wget --chunk-size=1M https://example.com/largefile.zip
+```
 
-# Building from git
+### Feed-Based Downloads
+```bash
+wget --force-rss -i feed.xml          # Download URLs from RSS feed
+wget --force-atom -i feed.xml         # Download URLs from Atom feed
+wget --force-sitemap -i sitemap.xml   # Download URLs from sitemap
+```
 
-Download project and prepare sources with
+### Security Features
+```bash
+wget --secure-protocol=PFS https://example.com    # Perfect Forward Secrecy only
+wget --check-certificate=off https://example.com  # Disable cert checking (dev only)
+```
 
-    	git clone https://gitlab.com/gnuwget/wget2.git
-    	cd wget2
-    	./bootstrap
-    	# on shell failure try 'bash ./bootstrap'
+---
 
-Build Wget2 with
+## 📚 Try asking
 
-    	./configure
-    	make
+- How does libwget's HTTP/2 multiplexing work with parallel connections?
+- Can I use wget3 to mirror a website with authentication cookies?
+- What compression algorithms does wget3 support for downloads?
 
-In Haiku build Wget2 with
+---
 
-        setarch x86
-        ./configure --prefix=/boot/home/config/non-packaged
-        rm /boot/home/config/non-packaged/wget2 && mv /boot/home/config/non-packaged/wget2_noinstall /boot/home/config/non-packaged/wget2
+## 🤝 Contributing
 
-Test the functionality
+We welcome contributions! Here's how:
 
-    	make check
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-thing`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to your fork (`git push origin feature/amazing-thing`)
+5. **Open** a Pull Request
 
-Install Wget2 and libwget
+### Issues & Bug Reports
+Found a bug? [Open an issue](https://github.com/ovsky/wget3-winx64/issues) with:
+- Steps to reproduce
+- Expected vs actual behavior
+- Windows version and build output
 
-    	sudo make install (or su -c "make install")
+### Fuzzing & Security
+Help us fuzz with libFuzzer:
+```bash
+export CC=clang
+export CFLAGS="-O1 -fno-omit-frame-pointer -fsanitize=address"
+./configure --enable-fuzzing
+make -j$(nproc)
+```
 
-# License
+---
 
-Copyright (C) 2015-2021 Free Software Foundation, Inc.
+## 📄 Licensing
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License, or
-(at your option) any later version.
+- **wget2 & CLI**: GNU General Public License v3.0 or later (GPLv3+)
+- **libwget library**: GNU Lesser General Public License v3.0 or later (LGPLv3+)
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+---
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301
-USA.
+## 🙏 Acknowledgments
+
+- [GNU Wget Project](https://www.gnu.org/software/wget/) - Original vision and implementation
+- [GNU Wget2](https://gitlab.com/gnuwget/wget2) - Modern successor architecture
+- libwget contributors and the broader GNU ecosystem
+
+---
+
+<div align="center">
+
+**[Download](https://github.com/ovsky/wget3-winx64/releases)** | **[Report Issue](https://github.com/ovsky/wget3-winx64/issues)** | **[Documentation](https://gnuwget.gitlab.io/wget2/reference/)**
+
+Made with ❤️ for Windows power users and developers
+
+</div>
